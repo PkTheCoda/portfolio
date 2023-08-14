@@ -13,7 +13,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-black">
+    <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -38,13 +38,13 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md leading-6 text-white font-outfit">
+              <a key={item.name} href={item.href} className="text-md leading-6 text-black font-outfit">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-md leading-6 text-white font-outfit">
+            <a href="#" className="text-md leading-6 text-black font-outfit">
               Contact Me <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -112,21 +112,21 @@ export default function Navbar() {
         </div>
         <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-5xl tracking-tight font-bold text-gray-100 sm:text-9xl font-outfit">
+            <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit">
               Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span>
             </h1>
-            <p className="mt-6 text-xl sm:text-3xl leading-8 text-white font-outfit">
-              I'm a highschooler with a <span className='full-gradient'>passion for web development.</span>
+            <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
+              I'm a highschooler with a <span className='main-gradient font-bold'>passion for web development.</span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-md text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 font-outfit"
+                className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
               >
-                Get started
+                About Me
               </a>
-              <a href="#" className="text-md leading-6 text-white font-outfit">
-                Learn more <span aria-hidden="true">→</span>
+              <a href="#" className="text-xl leading-6 text-black font-outfit">
+                My Work <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function Navbar() {
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#bd6e43] from-30% to-[#aec913] via-[#c59110] opacity-30 sm:left-[calc(40%+36rem)] sm:bottom-[10rem] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#c7449b] from-50% to-[#efa717] to-40% via-[#c51010] opacity-30 sm:left-[calc(40%+36rem)] sm:bottom-[20rem] sm:w-[80.1875rem] sm:h-[60rem]"
             style={{
               clipPath:
                 'polygon(28.29% 33.22%, 37.29% 26.17%, 48.49% 23.83%, 60.42% 26.17%, 66.84% 29.32%, 70.23% 35.62%, 72.52% 47%, 71.96% 53.49%, 70.23% 61.27%, 63% 64.64%, 51.44% 69.65%, 39.01% 67.54%, 28.29% 57.52%, 23.56% 43.63%)',
