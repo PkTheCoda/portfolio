@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className="container mx-auto max-w-[95rem]">
         <h2 className="text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit">A Bit <span className="main-gradient">About Me</span></h2>
         <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-8">
-          <div className="lg:w-1/3 relative hover:-rotate-6">
+          <div className="lg:w-1/3 relative">
             <img
               src={mePicture}
               alt="Profile"
