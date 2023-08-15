@@ -36,7 +36,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="my-16 h-[8rem] w-full flex items-center justify-center relative flex-col">
+        <div className="mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
             <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing </div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white">
                 <div className="flex gap-4">
