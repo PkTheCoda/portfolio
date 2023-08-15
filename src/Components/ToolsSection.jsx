@@ -123,11 +123,11 @@ export default function ToolsSection() {
       </div>
       <div className="my-10 flex items-center justify-center flex-col mx-10">
         <h3 className="text-3xl mb-6 text-center font-outfit">My Current Project Starterpack:</h3>
-        <div className="flex justify-around gap-y-4 flex-wrap space-x-4 bg-gradient-to-tl from-pink-500 via-red-500 to-yellow-500 py-10 px-20 w-full rounded-lg">
+        <div className="flex justify-around gap-y-4 flex-wrap space-x-4 bg-gradient-to-tl from-pink-500 via-red-500 to-yellow-500 py-10 px-4 md:px-20 w-full rounded-lg">
           {projectStarterPack.map((tool, index) => (
             <div
               key={index}
-              className="bg-white shadow-md shadow-yellow-500/50 p-6 rounded-lg text-center"
+              className="bg-white shadow-md shadow-yellow-500/50 p-6 rounded-lg text-center w-40"
             >
               <img
                 src={tool.image}

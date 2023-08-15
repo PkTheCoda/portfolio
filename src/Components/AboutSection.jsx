@@ -5,8 +5,8 @@ import mePicture from '../Images/mepicture.jpg'
 export default function AboutMe() {
   return (
     <section className="py-16 bg-white relative">
-      <div className="container mx-auto max-w-[95rem]">
-        <h2 className="text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit">A Bit <span className="main-gradient">About Me</span></h2>
+      <div className="container mx-auto max-w-[95rem] h-max">
+        <h2 className="text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit z-10">A Bit <span className="main-gradient">About Me</span></h2>
         <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-8">
           <div className="lg:w-1/3 relative">
             <img
@@ -36,10 +36,10 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
+        <div className="my-40 md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
             <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white">
-                <div className="flex gap-4">
+                <div className="flex-col flex gap-4 md:flex-row">
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Coding and Web Development</p>
