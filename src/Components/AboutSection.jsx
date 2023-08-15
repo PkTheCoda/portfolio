@@ -37,26 +37,26 @@ export default function AboutMe() {
         </div>
 
         <div className="mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
-            <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing </div>
+            <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white">
                 <div className="flex gap-4">
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Coding and Web Development</p>
                         <p className="text-sm">Passionate about building digital experiences.</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Playing Volleyball</p>
                         <p className="text-sm">Enjoy staying active and competing in sports.</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Hanging out with Friends</p>
                         <p className="text-sm">Nothing is more fun than hanging out with friends!</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Listening to Music</p>
                         <p className="text-sm">Exploring different genres and artists.</p>
                     </div>
@@ -69,11 +69,11 @@ export default function AboutMe() {
             <FaVolleyballBall className='text-4xl text-orange-700'/>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-red-600/50 absolute top-0 right-10 px-10 py-8 rounded-lg rotate-6'>
-            <FaTableTennis className='text-4xl text-orange-700'/>
+        <div className='bg-white shadow-[0_0_15px_-1px] shadow-blue-600/50 absolute top-0 right-10 px-10 py-8 rounded-lg rotate-6'>
+            <FaTableTennis className='text-4xl text-blue-700'/>
         </div>
 
-        <div className="bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute bottom-0 left-10 px-10 py-8 rounded-lg rotate-6">
+        <div className="bg-white shadow-[0_0_15px_-1px] shadow-green-600/50 absolute bottom-0 left-10 px-10 py-8 rounded-lg rotate-6">
             <FaMusic className="text-4xl text-green-500" />
         </div>
 
