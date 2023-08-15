@@ -39,7 +39,7 @@ export default function AboutMe() {
         <div className="my-40 md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
             <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white">
-                <div className="flex-col flex gap-4 md:flex-row">
+                <div className="flex-col flex gap-4 md:flex-row font-outfit">
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Coding and Web Development</p>
