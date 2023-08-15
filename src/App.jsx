@@ -6,6 +6,7 @@ import Navbar from './Components/Header'
 import ButtonGradient from './Components/ButtonGradient'
 import AboutMe from './Components/AboutSection'
 import ToolsSection from './Components/ToolsSection'
+import { Projects } from './Components/Projects'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <AboutMe />
       <ToolsSection />
+      <Projects />
     </>
   )
 }
