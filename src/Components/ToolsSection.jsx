@@ -119,8 +119,8 @@ export default function ToolsSection() {
     <>
     
       <div className="h-max my-20 relative">
-        <div className="text-center text-4xl md:text-7xl font-outfit font-bold text-gray-800 flex items-center justify-center">
-          My <span className="main-gradient" id="tools">Toolbox </span> 
+        <div className="text-center text-4xl md:text-7xl font-outfit font-bold text-gray-800 flex  justify-center">
+          <div>My <div className="main-gradient" id="tools">Toolbox</div> </div>
         </div>
       </div>
 
