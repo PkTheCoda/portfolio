@@ -27,7 +27,7 @@
 
 .boxgrad:before {
   content: "";
-  z-index: 999;
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -49,7 +49,7 @@
 */
 .boxgrad::after {
   content: "";
-  z-index: 999;
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;

@@ -9,7 +9,8 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        outfit: ['Outfit']
+        outfit: ['Outfit'],
+        inter: ['Inter']
       }
     },
   },
