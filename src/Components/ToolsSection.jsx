@@ -130,7 +130,7 @@ export default function ToolsSection() {
           {projectStarterPack.map((tool, index) => (
             <div
               key={index}
-              className="bg-white relative boxgrad z-[30] p-6 rounded-lg text-center w-max"
+              className="bg-white relative boxgradlight z-[30] p-6 rounded-lg text-center w-max"
             >
               <img
                 src={tool.image}
