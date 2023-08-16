@@ -1,8 +1,21 @@
 import React from "react";
+
 import talem1 from '../Images/talem1.png'
 import talem2 from '../Images/talem2.png'
 import talem3 from '../Images/talem3.png'
-import { Carousel, IconButton } from "@material-tailwind/react";
+
+import ltw1 from '../Images/ltw1.png'
+import ltw2 from '../Images/ltw2.png'
+import ltw3 from '../Images/ltw3.png'
+
+import ue1 from '../Images/ue1.png'
+import ue2 from '../Images/ue2.png'
+import ue3 from '../Images/ue3.png'
+
+import MoreProjectsBox from "./MoreProjectsBox";
+
+import { Carousel, IconButton, Tooltip, Typography } from "@material-tailwind/react";
+import { ArrowTopRightOnSquareIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
  
 function CarouselCustomNavigation(props) {
   return (
@@ -89,6 +102,44 @@ function CarouselCustomNavigation(props) {
   );
 }
 
+function TooltipCustomStyles(props) {
+    return (
+      <Tooltip
+        placement="bottom"
+        className="border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10"
+        content={
+          <div className="w-80">
+            <Typography color="blue-gray" className="font-inter font-bold">
+              {props.title}
+            </Typography>
+            <Typography
+              variant="small"
+              color="blue-gray"
+              className="font-normal font-inter opacity-80"
+            >
+              {props.description}
+            </Typography>
+          </div>
+        }
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+          className="h-5 w-5 cursor-pointer text-blue-gray-500 mt-1.5 mr-1"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+          />
+        </svg>
+      </Tooltip>
+    );
+  }
+
 const talemBuiltWith = [
     {
       name: "HTML",
@@ -97,6 +148,10 @@ const talemBuiltWith = [
     {
       name: "CSS",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
+    {
+        name: "JavaScript",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
       name: "ReactJS",
@@ -118,70 +173,262 @@ const talemBuiltWith = [
       name: "Radix UI",
       link: "https://static-00.iconduck.com/assets.00/brand-radix-ui-icon-1536x2048-78tvytqz.png", // Replace with actual image link
     },
+];
+  
+const learnthewebBuiltWith = [
+    {
+      name: "Wordpress",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+    },
+    {
+      name: "HTML",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    },
+    {
+      name: "CSS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
+    {
+        name: "JavaScript",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+      name: "PHP",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    },
+];
+
+const urbanescapeBuiltWith = [
+    {
+      name: "HTML",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    },
+    {
+      name: "CSS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
+    {
+      name: "JS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+      name: "ReactJS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      name: "React Router",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", // Use React icon for React Router
+    },
+    {
+      name: "Firebase",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    },
   ];
   
 
 export function Projects() {
   return (
+    <>
+        {/* Project #1 */}
+        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10">
+        <div className="text-4xl md:text-7xl font-bold text-center font-outfit main-gradient py-4 mb-10">Projects I've Built:</div>
 
-    <div className="rounded-xl flex flex-col my-20 mx-10 relative">
-      <div className="text-7xl font-bold text-center font-outfit main-gradient py-4 mb-10">Projects I've Built:</div>
-      <div className="flex flex-col gap-y-1 mb-4 mx-20">
-        <h2 className="text-5xl font-bold font-outfit"><span className="text-blue-500 drop-shadow-2xl text-base">01</span>Talem - Extracurriculars</h2>
-        <h4 className="text-gray-700 text-2xl font-outfit">Extracurricular/Internship Finder</h4>
-      </div>
 
-      <div className="rounded-xl flex items-center justify-center flex-col mx-20 relative">
-  
-        <div className="flex flex-col w-full justify-around">
-          <CarouselCustomNavigation 
-              image1={talem1}
-              image2={talem2}
-              image3={talem3}
-          />
-  
-          <div className="w-full lg:w-full mt-4 lg:px-8 flex justify-between items-center py-4 gap-x-10 ">
-            <div className="w-1/2 p-4 bg-white relative boxgrad rounded-xl">
-              <div className="font-outfit text-4xl">Summary:</div>
-              <div className="font-outfit text-gray-700 text-xl mt-2">
-                Talem is a state-of-the-art website that allows high schoolers to find the perfect extracurriculars and internships for them.
-                Talem has a massive database of internships and extracurriculars and allows users to filter through them with over 15 different filtering options.
-                The website has a fully integrated backend and beautiful frontend made with TailwindCSS.
-              </div>
+        <div className="rounded-xl flex items-center flex-col relative">
+        <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+            <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">01</span>Talem - Extracurriculars</h2>
+            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                <TooltipCustomStyles 
+                    title="About Talem"
+                    description="Talem was an app created by Pranav to help highschoolers find the right extracurriculars and internships fast."
+                />
+                Extracurricular/Internship Finder
+            </h4>
+        </div>
+    
+            <div className="flex flex-col w-4/5 justify-around">
+            <CarouselCustomNavigation 
+                image1={talem1}
+                image2={talem2}
+                image3={talem3}
+            />
+    
+            <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="font-outfit text-gray-700 text-xl mt-2">
+                        Talem is an advanced platform enabling high school students to discover tailored extracurriculars and internships. 
+                        With a vast database and over 15 filtering options, users can easily navigate opportunities. 
+                        The website boasts a seamless integration of backend and frontend, designed using TailwindCSS.
+                    </div>
+                </div>
+    
+                <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {talemBuiltWith.map((technology, index) => (
+                            <a
+                            key={index}
+                            href={technology.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                            >
+                            <img
+                                src={technology.link}
+                                alt={technology.name}
+                                className="w-6 h-6 mr-2"
+                            />
+                            {technology.name}
+                            </a>
+                        ))}
+                    </div>
+
+                </div>
             </div>
-  
-            <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-1/2">
-              <div className="font-outfit text-4xl ">Technologies Used:</div>
-              <div className="flex flex-wrap gap-2 mt-2">
-                {talemBuiltWith.map((technology, index) => (
-                    <a
-                    key={index}
-                    href={technology.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
-                    >
-                    <img
-                        src={technology.link}
-                        alt={technology.name}
-                        className="w-6 h-6 mr-2"
+            
+            <div className="flex justify-center space-x-4 mt-4">
+                <a href="https://talem.vercel.app/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
+                <a href="https://github.com/PkTheCoda/talem-app" target="_blank" className="project-button">View Code <CodeBracketIcon className="h-8 w-8 ml-2" /></a>
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        {/* Project #2 */}
+        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+
+
+            <div className="rounded-xl flex items-center flex-col relative">
+            <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+                <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02</span> learntheweb.org</h2>
+                <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                    <TooltipCustomStyles 
+                        title="About Learntheweb"
+                        description="Learntheweb was created by Pranav when he realized how lacking basic computer science education was throughout the standardized school system."
                     />
-                    {technology.name}
-                    </a>
-                ))}
-              </div>
-
+                    Online Programming Nonprofit
+                </h4>
             </div>
-          </div>
-          
-          <div className="flex justify-center space-x-4">
-              <a className="p-2 bg-red-500 text-2xl text-white font-outfit rounded-xl px-4 shadow-lg shadow-red-500/50 transition transform hover:scale-105 cursor-pointer">View Code</a>
-              <a className="p-2 bg-red-500 text-2xl text-white font-outfit rounded-xl px-4 shadow-lg shadow-red-500/50 transition transform hover:scale-105 cursor-pointer">Visit Live</a>
+        
+                <div className="flex flex-col w-4/5 justify-around">
+                <CarouselCustomNavigation 
+                    image1={ltw1}
+                    image2={ltw2}
+                    image3={ltw3}
+                />
+        
+                <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                    <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="font-outfit text-gray-700 text-xl mt-2">
+                        learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
+                        ages and backgrounds. Learntheweb uses features like content-rich lessons, live workshops, and interactive 
+                        projects to help you better understand how to program! The website is built with a wordpress front-end, along 
+                        with PHP and CSS
+                    </div>
+                    </div>
+        
+                    <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {learnthewebBuiltWith.map((technology, index) => (
+                            <a
+                            key={index}
+                            href={technology.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                            >
+                            <img
+                                src={technology.link}
+                                alt={technology.name}
+                                className="w-6 h-6 mr-2"
+                            />
+                            {technology.name}
+                            </a>
+                        ))}
+                    </div>
+
+                    </div>
+                </div>
+                
+                <div className="flex justify-center space-x-4 mt-4">
+                    <a href="https://learntheweb.org/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
+                </div>
+
+                </div>
+            </div>
         </div>
 
+         {/* Project #3 */}
+        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+
+            <div className="rounded-xl flex items-center flex-col relative">
+                <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+                    <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> Urban Escape</h2>
+                    <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                        <TooltipCustomStyles 
+                            title="About Urban Escape"
+                            description="Urban Escape was Pranav's attempt at mimicking a mock ecommerce platform. The entire site will later be rebuilt with filters, payment backend, and much more!"
+                        />
+                        Mock Ecommerce Platform
+                    </h4>
+                </div>
+
+                    <div className="flex flex-col w-4/5 justify-around">
+                    <CarouselCustomNavigation 
+                        image1={ue1}
+                        image2={ue2}
+                        image3={ue3}
+                    />
+
+                    <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                        <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                        <div className="font-outfit text-4xl">Summary:</div>
+                        <div className="font-outfit text-gray-700 text-xl mt-2">
+                            Urban Escape is a mock front-end furniture store built primarily with React, React Router, and CSS. 
+                            The website uses Firebase as a back-end allowing users to sign in and save their preferences/data. 
+                            The store allows users to browse, add, and remove items from their cart.
+                        </div>
+                        </div>
+
+                        <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                        <div className="font-outfit text-4xl ">Technologies Used:</div>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            {urbanescapeBuiltWith.map((technology, index) => (
+                                <a
+                                key={index}
+                                href={technology.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                                >
+                                <img
+                                    src={technology.link}
+                                    alt={technology.name}
+                                    className="w-6 h-6 mr-2"
+                                />
+                                {technology.name}
+                                </a>
+                            ))}
+                        </div>
+
+                        </div>
+                    </div>
+                    
+                    <div className="flex justify-center space-x-4 mt-4">
+                        <a href="https://ecommerce-app-git-master-pkthecoda.vercel.app/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
+                        <a href="https://github.com/PkTheCoda/ecommerce-app" target="_blank" className="project-button">View Code <CodeBracketIcon className="h-8 w-8 ml-2" /></a>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <MoreProjectsBox />
+
+    </>
   );
 }
 

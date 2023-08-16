@@ -16,6 +16,8 @@ function App() {
       <AboutMe />
       <ToolsSection />
       <Projects />
+
+
     </>
   )
 }

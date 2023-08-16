@@ -6,16 +6,16 @@ export default function AboutMe() {
   return (
     <section className="py-16 bg-white relative">
       <div className="container mx-auto max-w-[95rem] h-max">
-        <h2 className="text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit z-10">A Bit <span className="main-gradient">About Me</span></h2>
+        <h2 className="text-4xl md:text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit z-10">A Bit <span className="main-gradient">About Me</span></h2>
         <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-8">
-          <div className="lg:w-1/3 relative">
+          <div className="lg:w-1/3 lg:px-0 px-10">
             <img
               src={mePicture}
               alt="Profile"
-              className="rounded-lg w-44 h-44 mx-auto lg:w-full lg:h-full shadow-red-500/50 shadow-lg"
+              className="rounded-lg w-full h-auto lg:mx mx-auto lg:h-full shadow-red-500/50 shadow-lg"
             />
           </div>
-          <div className="lg:w-2/3">
+          <div className="lg:w-2/3 lg:mx-0 mx-4 mt-10">
             <p className="text-2xl font-outfit text-gray-600">
               <span className="bold-grad-text">Hi there!</span> I'm Pranav, a rising junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
               <br />
@@ -37,7 +37,7 @@ export default function AboutMe() {
         </div>
 
         <div className="my-40 md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
-            <div className='text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
+            <div className='text-3xl md:text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white">
                 <div className="flex-col flex gap-4 md:flex-row font-outfit">
 
@@ -65,20 +65,20 @@ export default function AboutMe() {
             </div>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute top-0 px-10 py-8 rounded-lg -rotate-6'>
-            <FaVolleyballBall className='text-4xl text-orange-700'/>
+        <div className='bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute top-0 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
+            <FaVolleyballBall className='text-xl md:text-4xl text-orange-700'/>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-blue-600/50 absolute top-0 right-10 px-10 py-8 rounded-lg rotate-6'>
-            <FaTableTennis className='text-4xl text-blue-700'/>
+        <div className='bg-white shadow-[0_0_15px_-1px] shadow-blue-600/50 absolute top-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6'>
+            <FaTableTennis className='text-xl md:text-4xl text-blue-700'/>
         </div>
 
-        <div className="bg-white shadow-[0_0_15px_-1px] shadow-green-600/50 absolute bottom-0 left-10 px-10 py-8 rounded-lg rotate-6">
-            <FaMusic className="text-4xl text-green-500" />
+        <div className="bg-white shadow-[0_0_15px_-1px] shadow-green-600/50 absolute bottom-0 left-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6">
+            <FaMusic className="text-xl md:text-4xl text-green-500" />
         </div>
 
-        <div className="bg-white shadow-[0_0_15px_-1px] shadow-purple-600/50 absolute bottom-0 right-10 px-10 py-8 rounded-lg -rotate-6">
-            <FaCamera className="text-4xl text-purple-500" />
+        <div className="bg-white shadow-[0_0_15px_-1px] shadow-purple-600/50 absolute bottom-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6">
+            <FaCamera className="text-xl md:text-4xl text-purple-500" />
         </div>
 
       </div>
