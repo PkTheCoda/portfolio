@@ -17,8 +17,8 @@ function MoreProjectsBox() {
             </p>
 
             <div className="flex justify-center space-x-4 mt-4">
-                <a href="https://ecommerce-app-git-master-pkthecoda.vercel.app/" target="_blank" className="project-button text-lg bg-cyan-500 shadow-cyan-500/50">Visit Github <ArrowTopRightOnSquareIcon className="h-6 w-6 ml-2"/></a>
-                <a href="https://github.com/PkTheCoda/ecommerce-app" target="_blank" className="project-button text-lg bg-cyan-500 shadow-cyan-500/50">Email Me! <AtSymbolIcon className="h-6 w-6 ml-2" /></a>
+                <a href="https://github.com/PkTheCoda" target="_blank" className="project-button text-lg bg-cyan-500 shadow-cyan-500/50">Visit Github <ArrowTopRightOnSquareIcon className="h-6 w-6 ml-2"/></a>
+                <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="project-button text-lg bg-cyan-500 shadow-cyan-500/50">Email Me! <AtSymbolIcon className="h-6 w-6 ml-2" /></a>
             </div>
         </div>
 
