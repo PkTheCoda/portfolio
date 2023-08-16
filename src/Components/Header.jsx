@@ -117,12 +117,12 @@ export default function Navbar() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="#about"
                   className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
                 >
                   About Me
                 </a>
-                <a href="#" className="text-xl leading-6 text-black font-outfit">
+                <a href="#work" className="text-xl leading-6 text-black font-outfit">
                   My Work <span aria-hidden="true">→</span>
                 </a>
               </div>

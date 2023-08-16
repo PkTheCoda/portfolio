@@ -10,13 +10,13 @@ function App() {
 
   return (
     <>
+
       <Navbar />
       <AboutMe />
       <ToolsSection />
       <Projects />
       <ContactSection />
       <Analytics />
-
 
     </>
   )
