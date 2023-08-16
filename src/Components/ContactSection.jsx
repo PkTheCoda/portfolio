@@ -41,8 +41,11 @@ function ContactSection() {
       </div>
 
       <footer className="bg-gray-200 mt-16 py-8 text-center">
-        <p className="text-gray-600">
-          © 2023 Pranav Konjeti. All rights reserved.
+        <p className="text-gray-600 font-inter">
+          Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-blue-500 underline">Pranav Konjeti</a> using <span className="text-orange-700">React, Tailwind, Material Tailwind</span> <br />
+          This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-blue-500 underline">old one</a>. Advice is greatly appreciated!
+          
+
         </p>
         <div className="mt-4 flex justify-center gap-4">
           <a
@@ -50,19 +53,19 @@ function ContactSection() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-gray-600 text-xl hover:text-gray-800" />
+            <FaGithub className="text-gray-600 text-2xl hover:text-gray-800" />
           </a>
           <a
             href="https://www.linkedin.com/in/pranav-konjeti"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-gray-600 text-xl hover:text-gray-800" />
+            <FaLinkedin className="text-gray-600 text-2xl hover:text-gray-800" />
           </a>
           <a
             href="mailto:pranavkonjeti@gmail.com"
           >
-            <FaEnvelope className="text-gray-600 text-xl hover:text-gray-800" />
+            <FaEnvelope className="text-gray-600 text-2xl hover:text-gray-800" />
           </a>
         </div>
       </footer>
