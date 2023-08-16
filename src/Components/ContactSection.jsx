@@ -6,7 +6,7 @@ function ContactSection() {
     <section className="bg-gray-100 pt-16 mt-16">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4 font-outfit">Get in Touch</h2>
-        <p className="text-lg text-gray-600 mb-8 font-inter px-60">
+        <p className="text-lg text-gray-600 mb-8 font-inter px-20lg:px-60">
           I'm always open to any questions or queries! Whether you want to work on a project together, talk about
           why chocolate is 100% better than vanilla, or just say hi!
         </p>
