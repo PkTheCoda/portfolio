@@ -92,8 +92,8 @@ const miscellaneous = [
 function Column({ title, tools }) {
     return (
         <>
-            <div className="border p-4 rounded-lg shadow-md flex flex-col flex-wrap gap-4 items-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-400 to-[#FB7185]">
-                <div className="text-4xl m-4 text-center bg-white shadow-lg rounded-lg w-max p-2 font-inter font-bold text-black">{title}:</div>
+            <div className="border py-4 rounded-lg shadow-md flex flex-col flex-wrap gap-4 items-center justify-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-400 to-[#FB7185]">
+                <div className="text-2xl md:text-4xl m-4 text-center bg-white shadow-lg rounded-lg w-max p-2 font-inter font-bold text-black">{title}:</div>
                 <div className="flex flex-wrap gap-4 justify-center">
                     {tools.map((tool, index) => (
                         <div
@@ -146,7 +146,7 @@ export default function ToolsSection() {
 
 
       <h3 className="text-3xl mb-6 text-center font-outfit flex justify-center">
-        <div className="p-4 bg-red-500 w-max text-white rounded-md shadow-lg">All Technologies:</div>
+        <div className="p-4 bg-red-500 w-max text-white rounded-md shadow-lg shadow-red-500/50">All Technologies:</div>
       </h3>
       <div className="flex flex-col lg:grid lg:grid-cols-3 gap-8 mx-10">
           <Column title="Languages" tools={languages} />
