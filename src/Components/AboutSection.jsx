@@ -4,7 +4,7 @@ import mePicture from '../Images/mepicture.jpg'
 
 export default function AboutMe() {
   return (
-    <section className="py-16 bg-white relative">
+    <section className="py-16 bg-white relative" id="about">
       <div className="container mx-auto max-w-[95rem] h-max">
         <h2 className="text-4xl md:text-7xl font-semibold text-gray-800 mb-14 text-center font-outfit z-10">A Bit <span className="main-gradient">About Me</span></h2>
         <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-8">

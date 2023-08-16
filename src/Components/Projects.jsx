@@ -231,7 +231,7 @@ export function Projects() {
     <>
         {/* Project #1 */}
         <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10">
-        <div className="text-4xl md:text-7xl font-bold text-center font-outfit main-gradient py-4 mb-10">Projects I've Built:</div>
+        <div className="text-4xl md:text-7xl font-bold text-center font-outfit main-gradient py-4 mb-10" id="work">Projects I've Built:</div>
 
 
         <div className="rounded-xl flex items-center flex-col relative">

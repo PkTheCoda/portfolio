@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../Images/pklogo.png'
 
 const navigation = [
-  { name: 'About', href: '#' },
-  { name: 'Portfolio', href: '#' },
-  { name: 'Developments', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About', href: '#about' },
+  { name: 'My Work', href: '#work' },
+  { name: 'Skills/Tools', href: '#tools' },
 ]
 
 export default function Navbar() {
@@ -19,11 +19,7 @@ export default function Navbar() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <div className='font-outfit font-bold'>Pranav Konjeti</div>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -44,7 +40,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-md leading-6 text-black font-outfit">
+            <a href="mailto:pranavkonjeti@gmail.com" className="text-md leading-6 text-black font-outfit">
               Contact Me <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
