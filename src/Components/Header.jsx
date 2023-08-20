@@ -60,7 +60,11 @@ export default function Navbar() {
               ))}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="mailto:pranavkonjeti@gmail.com" className="text-md leading-6 text-black font-outfit">
+              <a 
+                href="#contact" 
+                className="text-md leading-6 text-black font-outfit"
+                onClick={(event) => handleNavigationClick(event, "#contact")}
+              >
                 Contact Me <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
