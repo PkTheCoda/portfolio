@@ -8,12 +8,11 @@ function MoreProjectsBox() {
             <h2 className="text-3xl font-bold mb-4 font-outfit">. . . And many more</h2>
 
             <p className="text-lg font-outfit">
-                What you see above are not the only project's I've built! Infact, I'm currently working on a 
-                startup project which aims to make school life easier for highschoolers. If you'd like to know 
-                more information about that, please email me!
-                <br />
-                <br />
-                For the full list of my projects, you can visit my Github!
+                What you see above are not the only project's I've built! I've made many more throughout the past year
+                from games like Tic-Tac-Toe to fullstack projects with a fully-functional backend. I'm currently developing a platform connecting businesses with 
+                tasks and highschool/college students who can complete them – think of it as a job-matching app for local gigs. 
+                Check out my Github or drop me an email to learn more!
+
             </p>
 
             <div className="flex justify-center space-x-4 mt-4">
