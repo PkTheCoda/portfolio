@@ -13,6 +13,15 @@ const navigation = [
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  const handleNavigationClick = (event, href) => {
+    event.preventDefault();
+    const target = document.querySelector(href);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+    setMobileMenuOpen(false); 
+  };
+
   return (
     <>
       <div className="bg-white">
@@ -40,7 +49,12 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="text-md leading-6 text-black font-outfit transition transform hover:scale-110">
+                <a 
+                  key={item.name} 
+                  href={item.href} 
+                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
+                  onClick={(event) => handleNavigationClick(event, item.href)}
+                >
                   {item.name}
                 </a>
               ))}
@@ -80,6 +94,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
+                        onClick={(event) => handleNavigationClick(event, item.href)}
                       >
                         {item.name}
                       </a>
@@ -123,10 +138,15 @@ export default function Navbar() {
                 <a
                   href="#about"
                   className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
+                  onClick={(event) => handleNavigationClick(event, "#about")}
                 >
                   About Me
                 </a>
-                <a href="#work" className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105">
+                <a 
+                  href="#work" 
+                  className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
+                  onClick={(event) => handleNavigationClick(event, "#work")}
+                >
                   My Work <span aria-hidden="true">→</span>
                 </a>
               </div>
