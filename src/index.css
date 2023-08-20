@@ -100,5 +100,6 @@
   border-radius: inherit;
 }
       
-        
-      
+.text-shadow-white {
+  text-shadow: 0px 0px 10px white;
+}

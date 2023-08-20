@@ -12,7 +12,7 @@ export default function AboutMe() {
             <img
               src={mePicture}
               alt="Profile"
-              className="rounded-lg w-full h-auto lg:mx mx-auto lg:h-full shadow-red-500/50 shadow-lg"
+              className="rounded-lg lg:ml-2 w-full h-auto lg:mx mx-auto lg:h-full shadow-red-500/50 shadow-lg"
             />
           </div>
           <div className="lg:w-2/3 lg:mx-0 mx-4 mt-10">
@@ -43,29 +43,29 @@ export default function AboutMe() {
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Coding and Web Development</p>
-                        <p className="text-sm">Passionate about building digital experiences.</p>
+                        <p className="text-sm">This is kind of obvious. I love to make websites!</p>
                     </div>
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Playing Volleyball</p>
-                        <p className="text-sm">Enjoy staying active and competing in sports.</p>
+                        <p className="text-sm">I play varsity volleyball for my school team!</p>
                     </div>
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Hanging out with Friends</p>
-                        <p className="text-sm">Nothing is more fun than hanging out with friends!</p>
+                        <p className="text-sm">Yes believe it or not I have friends 🙄</p>
                     </div>
 
                     <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Listening to Music</p>
-                        <p className="text-sm">Exploring different genres and artists.</p>
+                        <p className="text-sm">The best way to escape reality!</p>
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute top-0 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
+        <div className='bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute top-0 px-4 ml-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
             <FaVolleyballBall className='text-xl md:text-4xl text-orange-700'/>
         </div>
 

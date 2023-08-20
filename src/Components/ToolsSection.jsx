@@ -92,8 +92,8 @@ const miscellaneous = [
 function Column({ title, tools }) {
     return (
         <>
-            <div className="border py-4 rounded-lg shadow-md flex flex-col flex-wrap gap-4 items-center justify-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-400 to-[#FB7185]">
-                <div className="text-2xl md:text-4xl m-4 text-center bg-white shadow-lg rounded-lg w-max p-2 font-inter font-bold text-black">{title}:</div>
+            <div className="border py-4 rounded-lg shadow-md flex flex-col flex-wrap gap-4 items-center justify-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-400 to-[#FB7185] font-outfit">
+                <div className="text-2xl md:text-4xl m-4 text-center w-max p-2 font-outfit text-white text-shadow-white">{title}:</div>
                 <div className="flex flex-wrap gap-4 justify-center">
                     {tools.map((tool, index) => (
                         <div
