@@ -5,6 +5,7 @@ import ToolsSection from './Components/ToolsSection'
 import { Projects } from './Components/Projects'
 import ContactSection from './Components/ContactSection'
 import { Analytics } from '@vercel/analytics/react';
+import WavyLine from './Components/WavyLine'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <ToolsSection />
       <Projects />
+      <WavyLine />
       <ContactSection />
       <Analytics />
 
