@@ -40,8 +40,8 @@ function ContactSection() {
         </div>
       </div>
 
-      <footer className="bg-[#FFA726] mt-16 py-8 text-center">
-        <p className="text-white font-inter">
+      <footer className="bg-[#efa237] mt-16 py-8 text-center">
+        <p className="text-white text-lg font-outfit">
           Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-purple-500 underline">Pranav Konjeti</a> using <span className="text-purple-500">React, Tailwind, Material Tailwind</span> <br />
           This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-purple-500 underline">old one</a>. Advice is greatly appreciated!
           
