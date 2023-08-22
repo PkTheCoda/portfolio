@@ -2,7 +2,7 @@ import React from 'react';
 
 const WavyLine = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="block w-full mt-16">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="block w-full">
       <path
         fill="#FFA726"
         fillOpacity="1"
