@@ -41,7 +41,7 @@ function ContactSection() {
             href="https://ko-fi.com/pranavk"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-800 text-white px-6 py-3 rounded-md text-lg font-outfit flex items-center gap-2 transition transform hover:scale-110"
+            className="bg-purple-500 text-white px-6 py-3 rounded-md text-lg font-outfit flex items-center gap-2 transition transform hover:scale-110"
           >
             <FaCoffee />
             Donate!
