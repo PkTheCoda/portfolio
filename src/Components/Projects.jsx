@@ -12,6 +12,9 @@ import ue1 from '../Images/ue1.png'
 import ue2 from '../Images/ue2.png'
 import ue3 from '../Images/ue3.png'
 
+import stella1 from '../Images/stellapic1.png'
+import stella2 from '../Images/stellapic2.png'
+
 import MoreProjectsBox from "./MoreProjectsBox";
 
 import { Carousel, IconButton, Tooltip, Typography } from "@material-tailwind/react";
@@ -88,16 +91,22 @@ function CarouselCustomNavigation(props) {
         alt="image 1"
         className="h-full w-full object-cover"
       />
-      <img
-        src={props.image2}
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src={props.image3}
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
+
+      {props.image2 && 
+        <img
+          src={props.image2}
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+      }
+
+      {props.image3 && 
+        <img
+          src={props.image3}
+          alt="image 3"
+          className="h-full w-full object-cover"
+        />
+      }
     </Carousel>
   );
 }
@@ -174,6 +183,45 @@ const talemBuiltWith = [
       link: "https://static-00.iconduck.com/assets.00/brand-radix-ui-icon-1536x2048-78tvytqz.png", // Replace with actual image link
     },
 ];
+
+const stellaBuiltWith = [
+  {
+    name: "HTML",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "JavaScript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "ReactJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "PrismaDB",
+    link: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
+  },
+  {
+    name: "TailwindCSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+  },
+  {
+    name: "Daisy UI",
+    link: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png", 
+  },
+  {
+    name: "NextJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+  },
+  {
+    name: "PostgreSQL",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+  }
+];
   
 const learnthewebBuiltWith = [
     {
@@ -223,7 +271,7 @@ const urbanescapeBuiltWith = [
       name: "Firebase",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
     },
-  ];
+];
   
 
 export function Projects() {
@@ -302,7 +350,71 @@ export function Projects() {
 
             <div className="rounded-xl flex items-center flex-col relative">
             <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02</span> learntheweb.org</h2>
+                <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02 </span> Stella - <span className="text-gradient-full">Volunteering made Easy</span></h2>
+                <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                    <TooltipCustomStyles 
+                        title="About Learntheweb"
+                        description="Stella is a SaaS that aims to connect students with volunteer opportunities in their area. It's currently a work in progress. Contact Pranav for more information."
+                    />
+                    SaaS App - Currently a Work In Progress
+                </h4>
+            </div>
+        
+                <div className="flex flex-col w-4/5 justify-around">
+                <CarouselCustomNavigation 
+                    image1={stella1}
+                    image2={stella2}
+                />
+        
+                <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                    <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="font-outfit text-gray-700 text-xl mt-2">
+                        Stella™ is an up and coming SaaS that focuses on connecting students with available businesses for 
+                        volunteering opportunities. It's currently a Work-In-Progress, but will be finished and shipped in the 
+                        coming weeks! The website is built with a React frontend coupled with PrismaDB and PostgreSQL for the backend.
+                    </div>
+                    </div>
+        
+                    <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {stellaBuiltWith.map((technology, index) => (
+                            <a
+                            key={index}
+                            href={technology.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                            >
+                            <img
+                                src={technology.link}
+                                alt={technology.name}
+                                className="w-6 h-6 mr-2"
+                            />
+                            {technology.name}
+                            </a>
+                        ))}
+                    </div>
+
+                    </div>
+                </div>
+                
+                <div className="flex justify-center space-x-4 mt-4 cursor-auto">
+                    <button className="project-button">Coming Soon</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        {/* Project #3 */}
+        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+
+
+            <div className="rounded-xl flex items-center flex-col relative">
+            <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+                <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> learntheweb.org</h2>
                 <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
                     <TooltipCustomStyles 
                         title="About Learntheweb"
@@ -362,12 +474,12 @@ export function Projects() {
             </div>
         </div>
 
-         {/* Project #3 */}
+        {/* Project #4 */}
         <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
 
             <div className="rounded-xl flex items-center flex-col relative">
                 <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                    <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> Urban Escape</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">04</span> Urban Escape</h2>
                     <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
                         <TooltipCustomStyles 
                             title="About Urban Escape"
@@ -426,6 +538,7 @@ export function Projects() {
                 </div>
             </div>
         </div>
+
         <MoreProjectsBox />
 
     </>
