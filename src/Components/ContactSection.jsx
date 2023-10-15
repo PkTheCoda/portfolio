@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaCoffee} from "react-icons/fa";
 
 function ContactSection() {
   return (
@@ -37,6 +37,15 @@ function ContactSection() {
           >
             <FaLinkedin />
             LinkedIn
+          </a>
+          <a
+            href="https://ko-fi.com/pranavk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-500 text-white px-6 py-3 rounded-md text-lg font-outfit flex items-center gap-2 transition transform hover:scale-110"
+          >
+            <FaCoffee />
+            Donate!
           </a>
         </div>
       </div>
