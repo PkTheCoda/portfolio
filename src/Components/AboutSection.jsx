@@ -41,22 +41,22 @@ export default function AboutMe() {
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr mx-4 from-pink-500 via-red-500 to-yellow-500 text-white">
                 <div className="flex-col flex gap-4 md:flex-row font-outfit">
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
-                        <p className="font-semibold">Coding and Web Development</p>
-                        <p className="text-sm">This is kind of obvious. I love to make websites!</p>
+                    <div className="bg-white p-4 tracking-wide rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                        <p className="font-semibold">Freelancing</p>
+                        <p className="text-sm">I freelance websites for a bit of money!</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Playing Volleyball</p>
                         <p className="text-sm">I play varsity volleyball for my school team!</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Hanging out with Friends</p>
-                        <p className="text-sm">Yes believe it or not I have friends 🙄</p>
+                        <p className="text-sm">Yes, I have friends. Shocker 🙄</p>
                     </div>
 
-                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Listening to Music</p>
                         <p className="text-sm">The best way to escape reality!</p>
                     </div>
