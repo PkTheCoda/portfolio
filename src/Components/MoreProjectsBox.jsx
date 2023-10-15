@@ -4,7 +4,7 @@ import { ArrowTopRightOnSquareIcon, AtSymbolIcon } from '@heroicons/react/24/out
 function MoreProjectsBox() {
   return (
     <div className="flex justify-center">
-        <div className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-300 via-blue-500 to-purple-600 text-white p-8 rounded-lg shadow-md w-full mx-4 md:mx-0 md:w-3/5">
+        <div className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-300 via-blue-500 to-purple-600 text-white p-8 rounded-lg shadow-md w-full mx-4 lg:mx-0 lg:w-3/5">
             <h2 className="text-3xl font-bold mb-4 font-outfit">. . . And many more</h2>
 
             <p className="text-lg font-outfit">
