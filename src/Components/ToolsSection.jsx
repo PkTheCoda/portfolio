@@ -68,48 +68,98 @@ const technologies = [
 
 const miscellaneous = [
     {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
+      text: "HTML",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", 
+      text: "Vanilla CSS",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
+      text: "JavaScript ",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        text: "Java",
+        color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
+      text: "ReactJS",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", 
+      text: "NodeJS",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", 
+      text: "Bootstrap",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg", 
+      text: "Redux",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      text: "TailwindCSS",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", 
       text: "Git",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg", 
       text: "Webpack",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg", 
       text: "Firebase",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", 
         text: "npm",
+        color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
-        text: "Wordpress"
-    }
+        text: "Wordpress",
+        color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
+    },
+    
 ];
 
 function Column({ title, tools }) {
     return (
         <>
-            <div className="border py-4 rounded-lg shadow-md flex flex-col flex-wrap gap-4 items-center justify-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-400 to-[#FB7185] font-outfit">
-                <div className="text-2xl md:text-4xl m-4 text-center w-max p-2 font-outfit text-white text-shadow-white">{title}:</div>
-                <div className="flex flex-wrap gap-4 justify-center">
-                    {tools.map((tool, index) => (
-                        <div
-                            key={index}
-                            className="bg-white shadow-md p-6 rounded-lg text-center"
-                        >
-                            <img
-                            src={tool.image}
-                            alt={tool.text}
-                            className="w-[8rem] h-20 mx-auto mb-4"
-                            />
-                            <p className="text-lg font-semibold">{tool.text}</p>
-                        </div>
-                    ))}
+          <div className="flex flex-wrap justify-center gap-6 lg:gap-10 ">
+            {tools.map((tool, index) => (
+                <div className="flex flex-wrap items-center justify-center">
+                  <div
+                      key={index}
+                      className={`${tool.color} p-10 rounded-lg text-center`}
+                  >
+                      <img
+                      src={tool.image}
+                      alt={tool.text}
+                      className="w-[8rem] h-20 mx-auto mb-4"
+                      />
+                      <p className="text-lg font-semibold font-outfit">{tool.text}</p>
+                  </div>
                 </div>
-            </div>
+            ))}
+          </div>
         </>
     );
   }
@@ -146,11 +196,9 @@ export default function ToolsSection() {
 
 
       <h3 className="text-3xl mb-6 text-center font-outfit flex justify-center">
-        <div className="p-4 bg-red-500 w-max text-white rounded-md shadow-lg shadow-red-500/50">All Technologies:</div>
+        <div className="text-2xl md:text-3xl text-center font-outfit font-bold">All Technologies I've worked with:</div>
       </h3>
-      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-8 mx-10">
-          <Column title="Languages" tools={languages} />
-          <Column title="Technologies" tools={technologies} />
+      <div className="flex mx-2 lg:mx-10">
           <Column title="Miscellaneous" tools={miscellaneous} />
       </div>
 

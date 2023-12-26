@@ -20,7 +20,7 @@ export default function AboutMe() {
               <span className="bold-grad-text">Hi there!</span> I'm Pranav, a rising junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
               <br />
               <br />
-              I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. Some of my web-apps have helped hundreds upon hundreds of people -- <span className="text-gradient-full font-bold">and that's what matters the most.</span>
+              I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. Some of my web-apps have helped hundreds upon hundreds of people -- <span className="text-gradient-full font-bold">which is the end-goal.</span>
             </p>
             <div className="flex mt-6 space-x-4 items-center justify-center gap-x-2">
               <a href="https://www.linkedin.com/in/pranav-konjeti/" target='_blank' className="contact-buttons-about">
