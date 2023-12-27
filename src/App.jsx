@@ -1,24 +1,26 @@
 import './App.css'
-import Navbar from './Components/Header'
-import AboutMe from './Components/AboutSection'
-import ToolsSection from './Components/ToolsSection'
-import { Projects } from './Components/Projects'
-import ContactSection from './Components/ContactSection'
-import { Analytics } from '@vercel/analytics/react';
-import WavyLine from './Components/WavyLine'
+import React from 'react';
+import Homepage from './Homepage'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hire from './Hire';
 
 function App() {
 
   return (
     <>
+      <BrowserRouter>
+        <Routes>
+          <Route 
+            index 
+            element={<Homepage />}
+          />
 
-      <Navbar />
-      <AboutMe />
-      <ToolsSection />
-      <Projects />
-      <WavyLine />
-      <ContactSection />
-      <Analytics />
+        <Route 
+            path="/hire"
+            element={<Hire />}
+          />
+        </Routes>
+      </BrowserRouter>
 
     </>
   )
