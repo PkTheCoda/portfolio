@@ -133,7 +133,7 @@ export default function Navbar() {
           <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
               <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit">
-                Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span>
+                Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
                 I'm a highschooler with a <span className='main-gradient font-bold'>passion for web development.</span>

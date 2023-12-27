@@ -37,26 +37,26 @@ export default function AboutMe() {
         </div>
 
         <div className="my-40 md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
-            <div className='text-3xl md:text-5xl font-outfit my-4 p-4 font-bold main-gradient'>Stuff I like doing: </div>
+            <div className='text-3xl md:text-5xl font-outfit my-4 p-4 font-bold text-yellow-800'>Some Hobbies of mine:</div>
             <div className="flex gap-4 p-4 rounded-lg shadow-md bg-gradient-to-tr mx-4 from-pink-500 via-red-500 to-yellow-500 text-white">
                 <div className="flex-col flex gap-4 md:flex-row font-outfit">
 
-                    <div className="bg-white p-4 tracking-wide rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Freelancing</p>
                         <p className="text-sm">I freelance websites for a bit of money!</p>
                     </div>
 
-                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Playing Volleyball</p>
                         <p className="text-sm">I play varsity volleyball for my school team!</p>
                     </div>
 
-                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Hanging out with Friends</p>
                         <p className="text-sm">Yes, I have friends. Shocker 🙄</p>
                     </div>
 
-                    <div className="bg-white p-4 tracking-wide  rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
+                    <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
                         <p className="font-semibold">Listening to Music</p>
                         <p className="text-sm">The best way to escape reality!</p>
                     </div>
@@ -65,19 +65,19 @@ export default function AboutMe() {
             </div>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-orange-600/50 absolute top-0 px-4 ml-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
+        <div className='bg-white shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-orange-600/50 absolute top-0 px-4 ml-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
             <FaVolleyballBall className='text-xl md:text-4xl text-orange-700'/>
         </div>
 
-        <div className='bg-white shadow-[0_0_15px_-1px] shadow-blue-600/50 absolute top-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6'>
+        <div className='bg-white shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-blue-600/50 absolute top-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6'>
             <FaTableTennis className='text-xl md:text-4xl text-blue-700'/>
         </div>
 
-        <div className="bg-white shadow-[0_0_15px_-1px] shadow-green-600/50 absolute bottom-0 left-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6">
+        <div className="bg-white shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-green-600/50 absolute bottom-0 left-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6">
             <FaMusic className="text-xl md:text-4xl text-green-500" />
         </div>
 
-        <div className="bg-white shadow-[0_0_15px_-1px] shadow-purple-600/50 absolute bottom-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6">
+        <div className="bg-white shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-purple-600/50 absolute bottom-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6">
             <FaCamera className="text-xl md:text-4xl text-purple-500" />
         </div>
 

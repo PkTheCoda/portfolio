@@ -196,7 +196,7 @@ export default function ToolsSection() {
 
 
       <h3 className="text-3xl mb-6 text-center font-outfit flex justify-center">
-        <div className="text-2xl md:text-3xl text-center font-outfit font-bold">All Technologies I've worked with:</div>
+        <div className="text-2xl md:text-3xl text-center font-outfit font-bold">All The Technologies I've worked with:</div>
       </h3>
       <div className="flex mx-2 lg:mx-10">
           <Column title="Miscellaneous" tools={miscellaneous} />

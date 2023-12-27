@@ -9,8 +9,8 @@ function MoreProjectsBox() {
 
             <p className="text-lg font-outfit">
                 What you see above are not the only project's I've built! I've made many more throughout the past year
-                from games like Tic-Tac-Toe to fullstack projects with a fully-functional backend. I'm currently developing a platform connecting businesses with 
-                tasks and highschool/college students who can complete them – think of it as a job-matching app for local gigs. 
+                from games like Tic-Tac-Toe to fullstack projects with a fully-functional backend. I'm currently working on a website
+                to help students with AP Exams. Think of it like Khan-Academy, but targetted towards Highschoolers and AP classes.  
                 Check out my Github or drop me an email to learn more!
 
             </p>
