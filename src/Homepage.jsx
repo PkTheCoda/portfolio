@@ -1,4 +1,4 @@
-import Navbar from './Components/Header'
+import HeroMain from './Components/HeroMain'
 import AboutMe from './Components/AboutSection'
 import ToolsSection from './Components/ToolsSection'
 import { Projects } from './Components/Projects'
@@ -10,7 +10,7 @@ function Homepage() {
 
   return (
     <>
-      <Navbar />
+    <HeroMain />
       <AboutMe />
       <ToolsSection />
       <Projects />

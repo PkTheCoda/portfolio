@@ -1,4 +1,5 @@
 import './App.css'
+import Navbar from './Components/Header'
 import React from 'react';
 import Homepage from './Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route 

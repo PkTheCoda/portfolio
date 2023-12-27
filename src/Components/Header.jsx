@@ -24,8 +24,8 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-white">
-        <header className="absolute inset-x-0 top-0 z-50">
+      <div className="bg-white/40 z-50 sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
+        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xl w-full z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
@@ -116,59 +116,6 @@ export default function Navbar() {
             </Dialog.Panel>
           </Dialog>
         </header>
-
-        <div className="relative isolate px-6 pt-14 lg:px-8">
-          <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#de8c52] from-30% to-[#4133d8] via-[#d21d23] opacity-30 sm:left-[calc(50%-30rem)] sm:bottom-[-20rem] sm:w-[81.1875rem]"
-              style={{
-                clipPath:
-                  'polygon(28.22% 33.13%, 37.2% 26.09%, 48.37% 23.76%, 60.27% 26.09%, 66.68% 29.23%, 70.05% 35.52%, 72.34% 46.86%, 71.78% 53.33%, 70.05% 61.09%, 62.84% 64.45%, 51.31% 69.45%, 38.91% 67.34%, 28.22% 57.35%, 23.5% 43.51%)',
-              }}
-            />
-          </div>
-          <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
-            <div className="text-center">
-              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit">
-                Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
-              </h1>
-              <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler with a <span className='main-gradient font-bold'>passion for web development.</span>
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#about"
-                  className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
-                  onClick={(event) => handleNavigationClick(event, "#about")}
-                >
-                  About Me
-                </a>
-                <a 
-                  href="#work" 
-                  className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
-                  onClick={(event) => handleNavigationClick(event, "#work")}
-                >
-                  My Work <span aria-hidden="true">→</span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#c7449b] from-50% to-[#efa717] to-40% via-[#c51010] opacity-30 sm:left-[calc(40%+36rem)] sm:bottom-[20rem] sm:w-[80.1875rem] sm:h-[60rem]"
-              style={{
-                clipPath:
-                  'polygon(28.29% 33.22%, 37.29% 26.17%, 48.49% 23.83%, 60.42% 26.17%, 66.84% 29.32%, 70.23% 35.62%, 72.52% 47%, 71.96% 53.49%, 70.23% 61.27%, 63% 64.64%, 51.44% 69.65%, 39.01% 67.54%, 28.29% 57.52%, 23.56% 43.63%)',
-              }}
-            />
-          </div>
-        </div>
       </div>
     </>
   )
