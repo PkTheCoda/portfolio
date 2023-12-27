@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../Images/pklogo.png'
 import pranavtextlogo from '../Images/pranavlogotext.png'
+import { TypeAnimation } from 'react-type-animation';
 
 const navigation = [
   { name: 'About', href: '#about' },
@@ -41,12 +42,34 @@ export default function HireHeader() {
           </div>
           <div className="mx-auto max-w-5xl pb-32 sm:pb-48 lg:pb-56 lg:pt-16 sm:pt-8">
             <div className="text-center">
-              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit">
-                Let me make you 
-                    <span className='main-gradient block'>Pranav Konjeti</span> 
+              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit leading-normal z-40">
+                Let's create
               </h1>
+              <div className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-700 inline text-transparent bg-clip-text text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit my-10 leading-normal z-40'>
+                <TypeAnimation
+                        sequence={[
+                            'Intuitive User Interfaces', // Types 'One'
+                            1500, // Waits 1.5s
+                            'Seamless User Experiences', // Deletes 'One' and types 'Two'
+                            1500, // Waits 1.5s
+                            'Pixel-Perfect Designs', // Types 'Three' without deleting 'Two'
+                            1500,
+                            'Mobile-Friendly Layouts',
+                            1500,
+                            'Interactive Web Solutions',
+                            1500,
+                            () => {
+                            console.log('Sequence completed');
+                            },
+                        ]}
+                        wrapper="span"
+                        cursor={true}
+                        repeat={Infinity}
+                        style={{}}
+                    />
+                </div>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler with a <span className='main-gradient font-bold'>passion for web development.</span>
+                Let's turn your dreams <span className='main-gradient font-bold'>into realities, together.</span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -54,14 +77,14 @@ export default function HireHeader() {
                   className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
                   onClick={(event) => handleNavigationClick(event, "#about")}
                 >
-                  About Me
+                 More Info
                 </a>
                 <a 
                   href="#work" 
                   className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
                   onClick={(event) => handleNavigationClick(event, "#work")}
                 >
-                  My Work <span aria-hidden="true">→</span>
+                  Book Me<span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

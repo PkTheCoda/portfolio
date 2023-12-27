@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-white/40 z-50 sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
-        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xl w-full z-50">
+        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
