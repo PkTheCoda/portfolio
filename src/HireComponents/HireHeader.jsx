@@ -1,14 +1,10 @@
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../Images/pklogo.png'
-import pranavtextlogo from '../Images/pranavlogotext.png'
 import { TypeAnimation } from 'react-type-animation';
 
 const navigation = [
-  { name: 'About', href: '#about' },
-  { name: 'My Work', href: '#work' },
-  { name: 'Skills/Tools', href: '#tools' },
+  { name: 'How it Works', href: '#about' },
+  { name: 'General Pricing', href: '#work' },
+  { name: 'Features', href: '#tools' },
 ]
 
 export default function HireHeader() {
@@ -40,9 +36,9 @@ export default function HireHeader() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-5xl pb-32 sm:pb-48 lg:pb-56 lg:pt-16 sm:pt-8">
+          <div className="mx-auto max-w-7xl pb-32 sm:pb-48 lg:pb-56 lg:pt-16 sm:pt-8">
             <div className="text-center">
-              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit leading-normal z-40">
+              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit leading-normal z-40">
                 Let's create
               </h1>
               <div className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-700 inline text-transparent bg-clip-text text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit my-10 leading-normal z-40'>

@@ -1,4 +1,4 @@
-import HireHeader from "./Components/HireHeader"
+import HireHeader from "./HireComponents/HireHeader"
 
 
 export default function Hire() {
