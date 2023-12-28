@@ -24,33 +24,35 @@ export default function HireTimeline() {
                             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                             <div class="order-1 w-5/12"></div>
                             <div class="order-1 w-5/12 px-1 py-4 text-right">
-                                <p class="mb-3 text-base text-orange-700">1-6 May, 2021</p>
-                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Registration</h4>
+                                <p class="mb-3 text-base text-orange-700">0 Days</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Discovery Call</h4>
                                 <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
-                                Pick your favourite events and register in that event by filling the form corresponding to that
-                                event. Its that easy :
+                                This first phase is all about understanding your needs and establishing a foundation for the project. Is the website for a company,
+                                a business, a nonprofit, or something else? What functionality do we need? Login/signup? A scheduling system? We'll discuss all of that
+                                here.
                                 </p>
                             </div>
                             </div>
                             <div class="mb-8 flex justify-between items-center w-full">
                             <div class="order-1 w-5/12"></div>
-                            <div class="order-1  w-5/12 px-1 py-4 text-left">
-                                <p class="mb-3 text-base text-orange-700">6-9 May, 2021</p>
-                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Participation</h4>
+                            <div class="order-1 w-5/12 px-1 py-4 text-left">
+                                <p class="mb-3 text-base text-orange-700">1-2 Days</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Planning and Strategy</h4>
                                 <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
-                                Participate online. The links for your registered events will be sent to you via email and whatsapp
-                                groups. Use those links and show your talent.
+                                After our initial discussion, I'll create a detailed plan/contract outlining the structure, features, timeline, and 
+                                budget for your website. We'll review and refine this plan together to make sure we're aligned and ready to 
+                                move on with the project.
                                 </p>
                             </div>
                             </div>
                             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
                             <div class="order-1 w-5/12"></div>
                             <div class="order-1 w-5/12 px-1 py-4 text-right">
-                                <p class="mb-3 text-base text-orange-700"> 10 May, 2021</p>
-                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Result Declaration</h4>
+                                <p class="mb-3 text-base text-orange-700">7-10 Days</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl">UI/UX Design</h4>
                                 <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
-                                The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be
-                                announced on the whatsapp groups and will be mailed to you.
+                                Once the plan is approved, I'll design wireframes and mockups for your review. 
+                                Your feedback is crucial in finalizing the visual elements and overall design of the website.
                                 </p>
                             </div>
                             </div>
@@ -59,16 +61,30 @@ export default function HireTimeline() {
                             <div class="order-1 w-5/12"></div>
 
                             <div class="order-1 w-5/12 px-1 py-4">
-                                <p class="mb-3 text-base text-orange-700">12 May, 2021</p>
-                                <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">Prize Distribution</h4>
+                                <p class="mb-3 text-base text-orange-700">10-20 Days</p>
+                                <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">Development</h4>
                                 <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
-                                The winners will be contacted by our team for their addresses and the winning goodies will be sent at
-                                their addresses.
+                                With the design confirmed, I'll start building the website's frontend and backend (if applicable), 
+                                making sure the site is responsive and functional. We'll have regular check-ins to provide feedback and 
+                                track my progress!
+                                </p>
+                            </div>
+                            </div>
+
+                            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
+                            <div class="order-1 w-5/12"></div>
+                            <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                <p class="mb-3 text-base text-orange-700">20 Days Onwards</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl">UI/UX Design</h4>
+                                <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
+                                Once everything is perfect, we'll launch the website! Post-launch, I'll continue to provide support, 
+                                making sure the website remains secure, up-to-date, and aligned with any changes you need! Any major changes,
+                                however, will require additional payments.
                                 </p>
                             </div>
                             </div>
                         </div>
-                    <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+                    <img class="mx-auto -mt-60 md:-mt-10" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
                     </div>
                 </div>
                 </div>
