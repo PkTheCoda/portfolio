@@ -1,6 +1,7 @@
 import HireHeader from "./HireComponents/HireHeader"
 import HireFirst from "./HireComponents/HireFirst"
 import HireTimeline from "./HireComponents/HireTimeline"
+import HireFeatures from "./HireComponents/HireFeatures"
 
 
 export default function Hire() {
@@ -9,7 +10,7 @@ export default function Hire() {
             <HireHeader />
             <HireFirst />
             <HireTimeline />
-            <div className="bg-red-100">hi</div>
+            <HireFeatures />
         </>
     )
 }

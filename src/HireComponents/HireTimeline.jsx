@@ -15,7 +15,7 @@ export default function HireTimeline() {
                     Explore Now</a>
                 </div>
                 <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
-                    <div class="container mx-auto w-full h-full">
+                    <div class="container mx-auto w-full h-full font-outfit">
                         <div class="relative wrap overflow-hidden p-10 h-full">
                             <div class="border-2-2 border-yellow-555 absolute h-full rounded-[1%] border-2 border-solid border-[#FFC100] right-2/4"
                             ></div>
