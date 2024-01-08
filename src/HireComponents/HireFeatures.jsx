@@ -16,7 +16,7 @@ const HireFeatures = () => {
                     <div className='text-4xl lg:text-5xl font-semibold text-gray-900'>Your Website deserves to be at the top 👑</div>
                     <div className="text-gray-700 text-2xl tracking-wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quis quae explicabo nesciunt perspiciatis, illo nemo soluta voluptatibus commodi ab nobis eligendi quo ea nam esse ipsa accusamus. Aut, itaque.</div>
                 </div>
-                <div className='w-full justify-end flex'>
+                <div className='w-full lg:w-1/2 justify-end flex'>
                     <img src={hiregrid1} alt="" className="w-full relative -bottom-10 -right-10" />
                 </div>
             </div>
