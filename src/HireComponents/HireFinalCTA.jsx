@@ -3,7 +3,7 @@ export default function HireFinalCTA() {
       <>
         <div className="relative px-5 lg:px-10 xl:px-40 flex justify-center mb-20">
           {/* Add the shadow blob */}
-          <div className="hidden lg:blockflex gap-x-20 absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 blur-3xl">
+          <div className="hidden lg:block flex gap-x-20 absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 blur-3xl">
           <div
               className="relative aspect-[1155/678] w-[40rem] bg-gradient-to-tr from-[#de8c52] from-30% to-[#4133d8] via-[#d21d23] opacity-50 "
               style={{
