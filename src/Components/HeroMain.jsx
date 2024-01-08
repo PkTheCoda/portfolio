@@ -31,11 +31,12 @@ export default function HeroMain() {
                   About Me
                 </a>
                 <a 
-                  href="#work" 
+                  href="/hire" 
+                  target="_blank"
                   className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
                   onClick={(event) => handleNavigationClick(event, "#work")}
                 >
-                  My Work <span aria-hidden="true">→</span>
+                  Hire Me <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
