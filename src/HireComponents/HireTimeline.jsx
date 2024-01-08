@@ -3,8 +3,8 @@ export default function HireTimeline() {
         <>
         <section>
             <div class="bg-white text-black py-8">
-                <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
-                <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8 font-outfit">
+                <div class="container mx-auto flex flex-col items-start lg:flex-row my-12 md:my-24">
+                <div class="flex flex-col w-full lg:sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8 font-outfit">
                     <p class="text-orange-700 uppercase">The Timeline</p>
                     <p class="text-3xl md:text-4xl leading-normal font-semibold mb-2">Here's how I make you <span className="main-gradient">your dream website.</span></p>
                     <p class="text-sm md:text-base text-black mb-4">
@@ -14,7 +14,7 @@ export default function HireTimeline() {
                     class="bg-transparent mr-auto transition transform duration-300 hover:bg-orange-300 text-orange-700 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-orange-300 hover:border-transparent">
                     Explore Now</a>
                 </div>
-                <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+                <div class="ml-0 lg:ml-12 w-full lg:w-2/3 sticky">
                     <div class="container mx-auto w-full h-full font-outfit">
                         <div class="relative wrap overflow-hidden p-10 h-full">
                             <div class="border-2-2 border-yellow-555 absolute h-full rounded-[1%] border-2 border-solid border-[#FFC100] right-2/4"
@@ -75,7 +75,7 @@ export default function HireTimeline() {
                             <div class="order-1 w-5/12"></div>
                             <div class="order-1 w-5/12 px-1 py-4 text-right">
                                 <p class="mb-3 text-base text-orange-700">20 Days Onwards</p>
-                                <h4 class="mb-3 font-bold text-lg md:text-2xl">UI/UX Design</h4>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl">Final Edits + Launch</h4>
                                 <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
                                 Once everything is perfect, we'll launch the website! Post-launch, I'll continue to provide support, 
                                 making sure the website remains secure, up-to-date, and aligned with any changes you need! Any major changes,
@@ -84,7 +84,7 @@ export default function HireTimeline() {
                             </div>
                             </div>
                         </div>
-                    <img class="mx-auto -mt-60 md:-mt-10" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+                    <img class="hidden lg:block mx-auto -mt-60 md:-mt-10" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
                     </div>
                 </div>
                 </div>
