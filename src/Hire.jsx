@@ -2,6 +2,7 @@ import HireHeader from "./HireComponents/HireHeader"
 import HireFirst from "./HireComponents/HireFirst"
 import HireTimeline from "./HireComponents/HireTimeline"
 import HireFeatures from "./HireComponents/HireFeatures"
+import HireFinalCTA from "./HireComponents/HireFinalCTA"
 
 
 export default function Hire() {
@@ -11,6 +12,7 @@ export default function Hire() {
             <HireFirst />
             <HireTimeline />
             <HireFeatures />
+            <HireFinalCTA />
         </>
     )
 }

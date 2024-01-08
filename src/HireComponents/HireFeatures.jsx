@@ -6,7 +6,7 @@ import hiregrid4 from '../Images/hiregrid4.svg'
 
 const HireFeatures = () => {
     return (
-      <div className='flex flex-col gap-y-8 px-60 pb-60'>
+      <div className='flex flex-col gap-y-8 px-60 pb-20'>
           <div className="text-7xl font-semibold font-outfit">
               <span className="main-gradient">Everything you need</span> from a website.
           </div>
