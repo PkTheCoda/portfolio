@@ -8,8 +8,7 @@ function ContactSection() {
         <h2 className="text-4xl font-bold mb-4 font-outfit text-white">Get in Touch</h2>
         <p className="text-lg text-white mb-8 font-inter px-10 lg:px-60">
           I'm always open to any questions or queries! Whether you want to work on a project together, debate the 
-          superiority of cats over dogs, or just say hi - let's make this conversation as delightful as a puppy in a 
-          field of squeaky toys!
+          superiority of cats over dogs, or just say hi - let's make this conversation awesome!
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
