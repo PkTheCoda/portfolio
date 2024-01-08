@@ -8,7 +8,7 @@ export default function HireTimeline() {
                     <p class="text-orange-700 uppercase">The Timeline</p>
                     <p class="text-3xl md:text-4xl leading-normal font-semibold mb-2">Here's how I make you <span className="main-gradient">your dream website.</span></p>
                     <p class="text-sm md:text-base text-black mb-4">
-                    The process is quite long, so I've dummed it down to the most core steps we'll take in our journey of making you your dream website! 
+                    The process is quite long, so I've summed it down to the most core steps we'll take in our journey of making you your dream website! 
                     </p>
                     <a href="#"
                     class="bg-transparent mr-auto transition transform duration-300 hover:bg-orange-300 text-orange-700 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-orange-300 hover:border-transparent">
