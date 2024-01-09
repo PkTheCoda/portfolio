@@ -5,6 +5,7 @@ import logo from '../Images/pklogo.png'
 import pranavtextlogo from '../Images/pranavlogotext.png'
 
 const navigation = [
+  { name: 'Home', href: '/' },
   { name: 'About', href: '#about' },
   { name: 'My Work', href: '#work' },
   { name: 'Skills/Tools', href: '#tools' },
@@ -28,7 +29,7 @@ export default function Navbar() {
         <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-50">
           <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
                     className="h-8 w-auto"
@@ -61,11 +62,11 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
-                href="#contact" 
+                href="/hire" 
+                target='_blank'
                 className="text-md leading-6 text-black font-outfit"
-                onClick={(event) => handleNavigationClick(event, "#contact")}
               >
-                Contact Me <span aria-hidden="true">&rarr;</span>
+                Hire Me <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
@@ -106,9 +107,10 @@ export default function Navbar() {
                   </div>
                   <div className="py-6">
                     <a
-                      href="#"
+                      href="/hire"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
+                      Hire Me 
                     </a>
                   </div>
                 </div>
