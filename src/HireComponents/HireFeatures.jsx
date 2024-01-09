@@ -49,7 +49,7 @@ const HireFeatures = () => {
                         <div className='text-4xl lg:text-6xl font-semibold text-gray-900'>Instant Response Time</div>
                         <div className="text-gray-700 text-xl tracking-wide">
                             What type of web-developer ghosts a client after a website is done? Definitely not me. If you have any questions 
-                            or want to add something new to your website/fix something, you can be certain I'll respond in no time. 
+                            or want to add something new to your website/fix something, you can be certain I'll respond in no time at no extra cost! <i>(Unless it's something massive which we'll talk over!)</i>
                         </div>
                     </div>
                     <img src={hiregrid3} alt="" className="w-full rounded-xl px-10" />

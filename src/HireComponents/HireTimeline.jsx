@@ -10,9 +10,6 @@ export default function HireTimeline() {
                     <p class="text-sm md:text-base text-black mb-4">
                     The process is quite long, so I've summed it down to the most core steps we'll take in our journey of making you your dream website! 
                     </p>
-                    <a href="#"
-                    class="bg-transparent mr-auto transition transform duration-300 hover:bg-orange-300 text-orange-700 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-orange-300 hover:border-transparent">
-                    Explore Now</a>
                 </div>
                 <div class="ml-0 lg:ml-12 w-full lg:w-2/3 sticky">
                     <div class="container mx-auto w-full h-full font-outfit">
