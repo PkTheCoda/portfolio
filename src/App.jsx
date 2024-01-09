@@ -4,6 +4,7 @@ import React from 'react';
 import Homepage from './Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Hire from './Hire';
+import TallyFormEmbed from './TallyForm';
 
 function App() {
 
@@ -21,7 +22,18 @@ function App() {
             path="/hire"
             element={<Hire />}
           />
+
+          <Route 
+            path="/form"
+            element={<TallyFormEmbed />}
+          />
+
+          
         </Routes>
+
+        
+
+        
       </BrowserRouter>
 
     </>

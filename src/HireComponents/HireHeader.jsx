@@ -69,16 +69,16 @@ export default function HireHeader() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#about"
+                  href="#features"
                   className="rounded-md bg-red-500 px-3.5 py-2.5 text-xl text-white shadow-xl shadow-red-300/50 font-outfit w-40 h-15 flex items-center justify-center transform transition hover:scale-105"
-                  onClick={(event) => handleNavigationClick(event, "#about")}
+                  onClick={(event) => handleNavigationClick(event, "#features")}
                 >
                  More Info
                 </a>
                 <a 
-                  href="#work" 
+                  href="https://tally.so/r/wLpGWy" 
+                  target='_blank'
                   className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
-                  onClick={(event) => handleNavigationClick(event, "#work")}
                 >
                   Book Me<span aria-hidden="true">→</span>
                 </a>

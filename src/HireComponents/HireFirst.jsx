@@ -4,12 +4,12 @@ import hireIcons from '../Images/hireIcons.svg'
 export default function HireFirst() {
   return (
     <div className="pb-16 flex items-center justify-center">
-      <div className="container mx-auto flex lg:flex-row flex-col items-center justify-center px-2 justify-center lg:px-20">
+      <div className="container mx-auto flex lg:flex-row flex-col items-center justify-center px-2 lg:px-20">
         {/* Left Side */}
         <div className="w-full lg:w-1/2 lg:pr-8 flex flex-col justify-center font-outfit text-center lg:text-start">
           <h2 className="text-4xl font-bold text-gray-800 mb-4 font-outfit">I tackle web-development a bit differently...</h2>
           <p className="text-lg text-gray-600 mb-4">
-            To me, a good website is more than one that "looks nice". It has to have the perfect color scheme, the perfect graphic designs, the perfect fonts, ratios, etc.
+            To me, a good website is more than one that "looks nice". It has to have the perfect color scheme, the perfect fonts, be accessible to users, load fast, etc..
           </p>
           <p className="text-lg text-gray-600 mb-4">
             In a sense, I'm essentially a perfectionist - one of the few qualities that might suck in real life, but translates well into web-development. 

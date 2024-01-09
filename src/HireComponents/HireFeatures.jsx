@@ -6,16 +6,19 @@ import hiregrid4 from '../Images/hiregrid4.svg'
 
 const HireFeatures = () => {
     return (
-      <div className='flex flex-col gap-y-8 px-5 xl:px-20 pb-20'>
+      <div id="features" className='flex flex-col gap-y-8 px-5 xl:px-20 pb-20'>
           <div className="text-4xl lg:text-5xl xl:text-7xl font-semibold font-outfit">
               <span className="main-gradient">Everything you need</span> from a website.
           </div>
   
             <div className="w-full font-outfit flex lg:flex-row flex-col bg-[#fbeee6] rounded-xl overflow-hidden"> {/* Add overflow-hidden here */}
                 <div className="w-full lg:w-1/2 flex flex-col gap-y-8 justify-center px-10 py-5">
-                    <div className='text-4xl lg:text-5xl font-semibold text-gray-900'>Your Website deserves to be at the top 👑</div>
+                    <div className='text-4xl lg:text-6xl font-semibold text-gray-900'>Your Website deserves to be at the top 👑</div>
                     <div className="text-gray-700 text-xl tracking-wide">
-                        When it comes to SEO, we don't play around. While the designing and development is handled by me, the actual content and text on the site will be created from an expert copywriter with SEO in mind. 
+                        We're all about giving your website the royal treatment 👑! While the designing and development are skillfully handled by me, 
+                        ensuring a visually stunning and responsive digital presence, the actual content and text on the site will be 
+                        created by an expert copywriter with SEO in mind. We believe in mixing style with strategy to boost your online swagger 
+                        and get those clicks rolling in!
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 justify-end flex'>
@@ -55,7 +58,7 @@ const HireFeatures = () => {
 
             <div className="w-full font-outfit flex flex-col lg:flex-row bg-[#fbeee6] rounded-xl overflow-hidden"> {/* Add overflow-hidden here */}
                 <div className="w-full lg:w-1/2 flex flex-col gap-y-8 justify-center px-10 py-5">
-                    <div className='text-4xl lg:text-5xl font-semibold text-gray-900'>Responsive down to the corner 🔬</div>
+                    <div className='text-4xl lg:text-6xl font-semibold text-gray-900'>Responsive down to the corner 🔬</div>
                     <div className="text-gray-700 text-xl tracking-wide">
                         Responsiveness is required for a great website to run properly. You can be certain that your website will be rendered properly regardless of what device a user loads it up on.
                         Try increasing/decreasing the size of your screen on this page; we'll do the exact same to your site as well!  
