@@ -10,10 +10,10 @@ export default function AboutMe() {
 
 
             <div class="relative">
-                    <div class="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                    <div class="lg:mx-auto lg:grid lg:max-w-8xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
                         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
 
-                            <div>
+                            <div className='pl-0 lg:pl-40'>
                                 <div>
                                     <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
                                         <IoChatboxEllipses className='h-8 w-8 text-orange-900'/>
