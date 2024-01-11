@@ -28,7 +28,7 @@
   }
 
   .projects-font {
-    @apply text-3xl font-poppins font-semibold tracking-tight
+    @apply text-3xl font-poppins font-medium text-gray-700 tracking-tight
   }
 
   .project-button {
