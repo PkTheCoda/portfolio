@@ -6,28 +6,12 @@ import mePicture from '../Images/mepicture.jpg'
 export default function AboutMe() {
   return (
     <>
-
-
         <div class="relative overflow-hidden bg-orange-400 pt-16 space-y-24 my-10">
-          {/* <div className='bg-white lg:block hidden shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-orange-600/50 absolute top-4 px-4 ml-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6'>
-              <FaVolleyballBall className='text-xl md:text-4xl text-orange-700'/>
-          </div>
 
-          <div className='bg-white lg:block hidden shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-blue-600/50 absolute -top-20 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6'>
-              <FaTableTennis className='text-xl md:text-4xl text-blue-700'/>
-          </div>
-
-          <div className="bg-white lg:block hidden shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-green-600/50 absolute bottom-0 left-10 px-4 md:px-10 py-4 md:py-8 rounded-lg rotate-6">
-              <FaMusic className="text-xl md:text-4xl text-green-500" />
-          </div>
-
-          <div className="bg-white lg:block hidden shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] shadow-purple-600/50 absolute bottom-0 right-10 px-4 md:px-10 py-4 md:py-8 rounded-lg -rotate-6">
-              <FaCamera className="text-xl md:text-4xl text-purple-500" />
-          </div> */}
 
             <div class="relative">
-                    <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-                        <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                    <div class="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                        <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
 
                             <div>
                                 <div>
@@ -61,15 +45,16 @@ export default function AboutMe() {
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-12 sm:mt-16 lg:mt-0">
-                            <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                                <img loading="lazy" width="647" height="486"
-                                    class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                        <div class="w-full flex items-center justify-center">
+                            <div class="p-4 lg:p-0">
+                                <img loading="lazy"
+                                    class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
                                     src={mePicture}/>
                             </div>
                         </div>
                         
                     </div>
+                    
                     <div className="md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
                       
 
