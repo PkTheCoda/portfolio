@@ -140,15 +140,15 @@ const miscellaneous = [
     
 ];
 
-function Column({ title, tools }) {
+function Column({tools }) {
     return (
         <>
           <div className="flex flex-wrap justify-center gap-6 lg:gap-10 ">
             {tools.map((tool, index) => (
-                <div className="flex flex-wrap items-center justify-center">
+                <div className="flex transition transform duration-300 hover:scale-105 flex-wrap p-1 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 rounded-xl items-center justify-center">
                   <div
                       key={index}
-                      className={`${tool.color} p-10 rounded-lg text-center`}
+                      className={`bg-white border p-10 rounded-lg text-center`}
                   >
                       <img
                       src={tool.image}
@@ -169,14 +169,14 @@ export default function ToolsSection() {
     <>
     
       <div className="h-max my-20 relative">
-        <div className="text-center text-4xl md:text-7xl font-outfit font-bold text-gray-800 flex  justify-center">
+        <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-bold text-gray-800 flex  justify-center">
           <div>My <div className="main-gradient" id="tools">Toolbox</div> </div>
         </div>
       </div>
 
-      <div className="my-10 flex items-center justify-center flex-col mx-10">
-        <h3 className="text-2xl md:text-3xl text-center font-outfit font-bold">My <span className="text-orange-600 underline">Current</span> Project Starterpack:</h3>
-        <div className="flex justify-around gap-y-4 flex-wrap space-x-4  py-10 px-4 md:px-20 w-full rounded-lg">
+      <div className="my-10 flex items-center justify-center flex-col mx-2 lg:mx-10">
+        <h3 className="text-3xl md:text-4xl text-center font-outfit font-bold">My <span className="text-orange-600 underline">Current</span> Project Starterpack:</h3>
+        <div className="flex justify-around gap-4 flex-wrap  py-10 px-4 md:px-20 w-full rounded-lg">
           {projectStarterPack.map((tool, index) => (
             <div
               key={index}
@@ -195,9 +195,11 @@ export default function ToolsSection() {
 
 
 
-      <h3 className="text-3xl mb-6 text-center font-outfit flex justify-center">
-        <div className="text-2xl md:text-3xl text-center font-outfit font-bold">All The Technologies I've worked with:</div>
-      </h3>
+      <h3 class="flex items-center w-full p-20">
+        <span class="flex-grow bg-orange-300 rounded h-1"></span>
+        <button class="mx-3 text-md font-medium text-2xl font-outfit tracking-tight md:text-3xl lg:text-6xl rounded-full">My Skills/Technologies</button>
+        <span class="flex-grow bg-orange-300 rounded h-1"></span>
+    </h3>
       <div className="flex mx-2 lg:mx-10">
           <Column title="Miscellaneous" tools={miscellaneous} />
       </div>

@@ -475,7 +475,7 @@ export function Projects() {
         </div>
 
         {/* Project #4 */}
-        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+        {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
 
             <div className="rounded-xl flex items-center flex-col relative">
                 <div className="flex flex-col gap-y-1 mb-4 w-4/5">
@@ -537,7 +537,7 @@ export function Projects() {
 
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <MoreProjectsBox />
 
