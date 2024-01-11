@@ -13,7 +13,7 @@ export default function AboutMe() {
                     <div class="lg:mx-auto lg:grid lg:max-w-8xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
                         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
 
-                            <div className='pl-0 lg:pl-40'>
+                            <div className='pl-0 lg:pl-10 xl:pl-40'>
                                 <div>
                                     <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
                                         <IoChatboxEllipses className='h-8 w-8 text-orange-900'/>
@@ -46,7 +46,7 @@ export default function AboutMe() {
                             </div>
                         </div>
                         <div class="w-full flex items-center justify-center">
-                            <div class="p-4 lg:p-0">
+                            <div class="p-8 lg:p-0">
                                 <img loading="lazy"
                                     class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
                                     src={mePicture}/>
