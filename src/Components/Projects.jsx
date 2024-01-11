@@ -303,7 +303,7 @@ export function Projects() {
     
             <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
                 <div className="projects-shadow">
-                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="projects-font">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         Talem is an advanced platform enabling high school students to discover tailored extracurriculars and internships. 
                         With a vast database and over 15 filtering options, users can easily navigate opportunities. 
@@ -312,7 +312,7 @@ export function Projects() {
                 </div>
     
                 <div className="projects-shadow">
-                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="projects-font">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {talemBuiltWith.map((technology, index) => (
                             <a
@@ -368,7 +368,7 @@ export function Projects() {
         
                 <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
                     <div className="projects-shadow">
-                    <div className="text-3xl font-poppins font-semibold tracking-tight">Summary:</div>
+                    <div className="projects-font">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         Stella™ is an up and coming SaaS that focuses on connecting students with available businesses for 
                         volunteering opportunities. It's currently a Work-In-Progress, but will be finished and shipped in the 
@@ -377,7 +377,7 @@ export function Projects() {
                     </div>
         
                     <div className="projects-shadow">
-                    <div className="font-poppins font-semibold tracking-tight text-3xl ">Technologies Used:</div>
+                    <div className="projects-font">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {stellaBuiltWith.map((technology, index) => (
                             <a
@@ -433,7 +433,7 @@ export function Projects() {
         
                 <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
                     <div className="projects-shadow">
-                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="projects-font">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
                         ages and backgrounds. Learntheweb uses features like content-rich lessons, live workshops, and interactive 
@@ -443,7 +443,7 @@ export function Projects() {
                     </div>
         
                     <div className="projects-shadow">
-                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="projects-font">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {learnthewebBuiltWith.map((technology, index) => (
                             <a
