@@ -16,7 +16,6 @@ function Homepage() {
       <Projects />
       <WavyLine />
       <ContactSection />
-      <Analytics />
     </>
   )
 }

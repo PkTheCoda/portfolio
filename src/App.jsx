@@ -5,6 +5,7 @@ import Homepage from './Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Hire from './Hire';
 import TallyFormEmbed from './TallyForm';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
 
         
       </BrowserRouter>
+      <Analytics />
 
     </>
   )
