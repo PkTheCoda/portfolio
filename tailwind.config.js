@@ -10,7 +10,8 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         outfit: ['Outfit'],
-        inter: ['Inter']
+        inter: ['Inter'],
+        poppins: ['Poppins']
       }
     },
   },

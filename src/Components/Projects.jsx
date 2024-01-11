@@ -23,7 +23,7 @@ import { ArrowTopRightOnSquareIcon, CodeBracketIcon } from '@heroicons/react/24/
 function CarouselCustomNavigation(props) {
   return (
     <Carousel
-      className="rounded-md w-full h-max shadow-lg"
+      className="rounded-md w-full h-max shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]"
       prevArrow={({ handlePrev }) => (
         <IconButton
           variant="text"
@@ -302,7 +302,7 @@ export function Projects() {
             />
     
             <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                <div className="projects-shadow">
                     <div className="font-outfit text-4xl">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         Talem is an advanced platform enabling high school students to discover tailored extracurriculars and internships. 
@@ -311,7 +311,7 @@ export function Projects() {
                     </div>
                 </div>
     
-                <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                <div className="projects-shadow">
                     <div className="font-outfit text-4xl ">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {talemBuiltWith.map((technology, index) => (
@@ -367,8 +367,8 @@ export function Projects() {
                 />
         
                 <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                    <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
-                    <div className="font-outfit text-4xl">Summary:</div>
+                    <div className="projects-shadow">
+                    <div className="text-3xl font-poppins font-semibold tracking-tight">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         Stella™ is an up and coming SaaS that focuses on connecting students with available businesses for 
                         volunteering opportunities. It's currently a Work-In-Progress, but will be finished and shipped in the 
@@ -376,8 +376,8 @@ export function Projects() {
                     </div>
                     </div>
         
-                    <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
-                    <div className="font-outfit text-4xl ">Technologies Used:</div>
+                    <div className="projects-shadow">
+                    <div className="font-poppins font-semibold tracking-tight text-3xl ">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {stellaBuiltWith.map((technology, index) => (
                             <a
@@ -432,7 +432,7 @@ export function Projects() {
                 />
         
                 <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                    <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
+                    <div className="projects-shadow">
                     <div className="font-outfit text-4xl">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                         learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
@@ -442,7 +442,7 @@ export function Projects() {
                     </div>
                     </div>
         
-                    <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
+                    <div className="projects-shadow">
                     <div className="font-outfit text-4xl ">Technologies Used:</div>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {learnthewebBuiltWith.map((technology, index) => (
