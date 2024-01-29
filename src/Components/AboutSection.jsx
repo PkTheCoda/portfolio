@@ -6,7 +6,7 @@ import mePicture from '../Images/mepicture.jpg'
 export default function AboutMe() {
   return (
     <>
-        <div class="relative overflow-hidden bg-orange-400 pt-16 space-y-24 my-10">
+        <div class="relative overflow-hidden bg-orange-400 px-4 xl:px-0 pt-16 space-y-24 my-10">
 
 
             <div class="relative">
@@ -46,7 +46,7 @@ export default function AboutMe() {
                             </div>
                         </div>
                         <div class="w-full flex items-center justify-center">
-                            <div class="p-8 lg:p-0">
+                            <div class="py-8 lg:p-0">
                                 <img loading="lazy"
                                     class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
                                     src={mePicture}/>
@@ -55,7 +55,7 @@ export default function AboutMe() {
                         
                     </div>
                     
-                    <div className="md:mt-16 mb-[7rem] h-[8rem] w-full flex items-center justify-center relative flex-col">
+                    <div className="md:mt-16 mb-[7rem] w-full px-4 xl:px-0 flex items-center justify-center relative flex-col">
                       
 
                       <div className="flex flex-col gap-4 p-4 rounded-lg shadow-md bg-orange-200 text-white">
