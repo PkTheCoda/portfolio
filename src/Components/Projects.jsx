@@ -4,13 +4,9 @@ import talem1 from '../Images/talem1.png'
 import talem2 from '../Images/talem2.png'
 import talem3 from '../Images/talem3.png'
 
-import ltw1 from '../Images/ltw1.png'
-import ltw2 from '../Images/ltw2.png'
-import ltw3 from '../Images/ltw3.png'
-
-import ue1 from '../Images/ue1.png'
-import ue2 from '../Images/ue2.png'
-import ue3 from '../Images/ue3.png'
+import ecoeats1 from '../Images/ecoeats1.png'
+import ecoeats2 from '../Images/ecoeats2.png'
+import ecoeats3 from '../Images/ecoeats3.png'
 
 import stella1 from '../Images/stellapic1.png'
 import stella2 from '../Images/stellapic2.png'
@@ -246,7 +242,7 @@ const learnthewebBuiltWith = [
     },
 ];
 
-const urbanescapeBuiltWith = [
+const ecoeatsbuiltwith = [
     {
       name: "HTML",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -264,12 +260,20 @@ const urbanescapeBuiltWith = [
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
     {
-      name: "React Router",
-      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", // Use React icon for React Router
-    },
-    {
       name: "Firebase",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    },
+    {
+      name: "TailwindCSS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    },
+    {
+      name: "Flutter",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    },
+    {
+      name: "NextJS",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
 ];
   
@@ -401,7 +405,74 @@ export function Projects() {
                 </div>
                 
                 <div className="flex justify-center space-x-4 mt-4 cursor-auto">
-                    <button className="project-button">Coming Soon</button>
+                    <button className="project-button">Launching Mid-Feb!</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        {/* Project #3 */}
+        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+
+            <div className="rounded-xl flex items-center flex-col relative">
+                <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+                    <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03 </span>EcoEats</h2>
+                    <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                        <TooltipCustomStyles 
+                            title="About EcoEats"
+                            description="EcoEats is a novel app that aims to help solve food waste. The actual was mainly built with the help of friends, but the website was created + programmed by me!"
+                        />
+                        Nonprofit Application + Website
+                    </h4>
+                </div>
+
+                    <div className="flex flex-col w-4/5 justify-around">
+                    <CarouselCustomNavigation 
+                        image1={ecoeats1}
+                        image2={ecoeats2}
+                        image3={ecoeats3}
+                    />
+
+                    <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                    <div className="projects-shadow">
+                    <div className="projects-font">Summary:</div>
+                    <div className="font-outfit text-gray-700 text-xl mt-2">
+                      EcoEats is a revolutionary food donation app streamlining the process of connecting donors with surplus food to recipients in need. It makes donating and receiving food easy, addressing both food waste and hunger challenges in communities.
+                      This is the first project that was really more on the app-dev side. The website was made by me, but the actual app was built with a group of friends.
+                    </div>
+                    </div>
+        
+                    <div className="projects-shadow">
+                    <div className="projects-font">Technologies Used:</div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {ecoeatsbuiltwith.map((technology, index) => (
+                            <a
+                            key={index}
+                            href={technology.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                            >
+                            <img
+                                src={technology.link}
+                                alt={technology.name}
+                                className="w-6 h-6 mr-2"
+                            />
+                            {technology.name}
+                            </a>
+                        ))}
+                    </div>
+
+                    </div>
+                </div>
+                
+                <div className="flex justify-center space-x-4 mt-4 cursor-auto">
+                    <a href="#" className="project-button">Coming Soon Enough 😉 
+                      {/* <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/>  */}
+                    </a>
                 </div>
 
                 </div>
@@ -409,7 +480,7 @@ export function Projects() {
         </div>
 
         {/* Project #3 */}
-        <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+        {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
 
 
             <div className="rounded-xl flex items-center flex-col relative">
@@ -469,71 +540,6 @@ export function Projects() {
                 <div className="flex justify-center space-x-4 mt-4">
                     <a href="https://learntheweb.org/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
                 </div>
-
-                </div>
-            </div>
-        </div>
-
-        {/* Project #4 */}
-        {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
-
-            <div className="rounded-xl flex items-center flex-col relative">
-                <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                    <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">04</span> Urban Escape</h2>
-                    <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
-                        <TooltipCustomStyles 
-                            title="About Urban Escape"
-                            description="Urban Escape was Pranav's attempt at mimicking a mock ecommerce platform. The entire site will later be rebuilt with filters, payment backend, and much more!"
-                        />
-                        Mock Ecommerce Platform
-                    </h4>
-                </div>
-
-                    <div className="flex flex-col w-4/5 justify-around">
-                    <CarouselCustomNavigation 
-                        image1={ue1}
-                        image2={ue2}
-                        image3={ue3}
-                    />
-
-                    <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                        <div className="w-full md:w-1/2 p-4 bg-white relative boxgrad rounded-xl">
-                        <div className="font-outfit text-4xl">Summary:</div>
-                        <div className="font-outfit text-gray-700 text-xl mt-2">
-                            Urban Escape is a mock front-end furniture store built primarily with React, React Router, and CSS. 
-                            The website uses Firebase as a back-end allowing users to sign in and save their preferences/data. 
-                            The store allows users to browse, add, and remove items from their cart.
-                        </div>
-                        </div>
-
-                        <div className="flex flex-col gap-y-2 p-4 bg-white relative boxgrad rounded-xl w-full md:w-1/2">
-                        <div className="font-outfit text-4xl ">Technologies Used:</div>
-                        <div className="flex flex-wrap gap-2 mt-2">
-                            {urbanescapeBuiltWith.map((technology, index) => (
-                                <a
-                                key={index}
-                                href={technology.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
-                                >
-                                <img
-                                    src={technology.link}
-                                    alt={technology.name}
-                                    className="w-6 h-6 mr-2"
-                                />
-                                {technology.name}
-                                </a>
-                            ))}
-                        </div>
-
-                        </div>
-                    </div>
-                    
-                    <div className="flex justify-center space-x-4 mt-4">
-                        <a href="https://ecommerce-app-git-master-pkthecoda.vercel.app/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
-                        <a href="https://github.com/PkTheCoda/ecommerce-app" target="_blank" className="project-button">View Code <CodeBracketIcon className="h-8 w-8 ml-2" /></a>
-                    </div>
 
                 </div>
             </div>
