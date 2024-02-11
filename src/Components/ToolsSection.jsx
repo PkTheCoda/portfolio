@@ -7,7 +7,7 @@ const projectStarterPack = [
     text: "ReactJS",
   },
   {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg", 
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", 
     text: "TailwindCSS",
   },
   {
@@ -61,7 +61,7 @@ const technologies = [
         text: "Redux",
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         text: "TailwindCSS"
     }
 ];
