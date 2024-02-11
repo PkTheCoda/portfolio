@@ -1,5 +1,6 @@
 import React from "react";
 import { WrenchScrewdriverIcon } from '@heroicons/react/24/outline'
+import { IoChatboxEllipses } from "react-icons/io5";
 
 const projectStarterPack = [
   {
@@ -169,7 +170,12 @@ export default function ToolsSection() {
     <>
     
       <div className="h-max my-20 relative">
-        <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-bold text-gray-800 flex  justify-center">
+        <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-bold text-gray-800 flex items-center gap-x-5 justify-center">
+          <div>
+            <span class="flex h-16 w-16 items-center justify-center rounded-full bg-orange-900">
+                <IoChatboxEllipses className='h-8 w-8 text-white'/>
+            </span>
+          </div>
           <div>My <div className="main-gradient" id="tools">Toolbox</div> </div>
         </div>
       </div>
