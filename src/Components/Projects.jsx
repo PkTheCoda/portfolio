@@ -172,7 +172,7 @@ const talemBuiltWith = [
     },
     {
       name: "TailwindCSS",
-      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     },
     {
       name: "Radix UI",
@@ -203,7 +203,7 @@ const stellaBuiltWith = [
   },
   {
     name: "TailwindCSS",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
     name: "Daisy UI",
@@ -265,7 +265,7 @@ const ecoeatsbuiltwith = [
     },
     {
       name: "TailwindCSS",
-      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     },
     {
       name: "Flutter",
@@ -441,7 +441,7 @@ export function Projects() {
                     <div className="projects-font">Summary:</div>
                     <div className="font-outfit text-gray-700 text-xl mt-2">
                       EcoEats is a revolutionary food donation app streamlining the process of connecting donors with surplus food to recipients in need. It makes donating and receiving food easy, addressing both food waste and hunger challenges in communities.
-                      This is the first project that was really more on the app-dev side. The website was made by me, but the actual app was built with a group of friends.
+                      This is the first project that was really more on the app-dev side. The website was made by me, but the actual app was built by a group of my friends!
                     </div>
                     </div>
         

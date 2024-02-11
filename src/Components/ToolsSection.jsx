@@ -108,7 +108,7 @@ const miscellaneous = [
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       text: "TailwindCSS",
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
     },
@@ -145,7 +145,7 @@ function Column({tools }) {
         <>
           <div className="flex flex-wrap justify-center gap-6 lg:gap-10 ">
             {tools.map((tool, index) => (
-                <div className="flex transition transform duration-300 hover:scale-105 flex-wrap p-1 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 rounded-xl items-center justify-center">
+                <div className="flex transition transform duration-300 hover:scale-[1.01] flex-wrap p-1 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 rounded-xl items-center justify-center">
                   <div
                       key={index}
                       className={`bg-white border p-10 rounded-lg text-center`}

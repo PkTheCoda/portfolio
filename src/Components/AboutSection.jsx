@@ -22,10 +22,10 @@ export default function AboutMe() {
 
                                 <div class="mt-3 font-outfit ">
                                     <h2 class="text-4xl mb-1 font-bold tracking-wide text-white">
-                                        A Bit <span className="text-orange-900">About Me.</span>
+                                        A Bit <span className="text-orange-900 ">About Me.</span>
                                     </h2>
-                                    <p className="text-xl leading-relaxed font-outfit text-white">
-                                      <span className="text-black">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
+                                    <p className="pl-4 border-l-4 border-orange-700 text-xl leading-relaxed font-outfit text-white my-4">
+                                      <span className="text-orange-900 font-bold">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
                                       <br />
                                       <br />
                                       I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. It really is awesome because I can take anything that I imagine <span className="text-orange-900 font-bold">and turn it into a reality.</span>
