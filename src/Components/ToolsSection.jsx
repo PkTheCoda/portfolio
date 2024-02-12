@@ -173,7 +173,7 @@ export default function ToolsSection() {
         <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-bold text-gray-800 flex items-center gap-x-5 justify-center">
           <div>
             <span class="flex h-16 w-16 items-center justify-center rounded-full bg-orange-900">
-                <IoChatboxEllipses className='h-8 w-8 text-white'/>
+                <WrenchScrewdriverIcon className='h-8 w-8 text-white'/>
             </span>
           </div>
           <div>My <div className="main-gradient" id="tools">Toolbox</div> </div>
