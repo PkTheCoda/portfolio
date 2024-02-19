@@ -45,7 +45,7 @@ export default function AboutMe() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full flex items-center justify-center">
+                        <div class="w-full flex items-center justify-center xl:px-20">
                             <div class="py-8 lg:p-0">
                                 <img loading="lazy"
                                     class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
