@@ -50,7 +50,7 @@ export default function AboutMe() {
                                 <img loading="lazy"
                                     class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
                                     src={mePicture}/>
-                                    <p className='text-center font-outfit pt-2 text-white'>If you couldn't tell, this was taken randomly in my bedroom 😭</p>
+                                    <p className='text-center font-outfit pt-2 text-white'>If you couldn't tell, this was taken randomly in my backyard 😭</p>
                             </div>
                         </div>
                         
