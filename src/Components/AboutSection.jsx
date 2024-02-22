@@ -74,7 +74,7 @@ export default function AboutMe() {
                                         <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
                                             <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500" id="item-1">
-                                                Views Overall (Yes, millions)
+                                                Views (Yes, in millions)
                                             </dt>
                                             <dd class="order-1 text-5xl font-extrabold leading-none text-amber-900" aria-describedby="item-1">
                                                 3M+
