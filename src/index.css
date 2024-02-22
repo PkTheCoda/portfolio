@@ -35,6 +35,32 @@
     @apply p-2 bg-red-500 text-base md:text-2xl text-white font-outfit rounded-xl px-4 shadow-lg shadow-red-500/50 transition transform hover:scale-105 cursor-pointer flex justify-center items-center
   }
 
+  .three-title {
+    @apply md:text-3xl text-2xl
+  }
+
+
+  .four-title {
+      @apply lg:text-4xl text-3xl
+  }
+
+  .five-title {
+      @apply xl:text-5xl lg:text-4xl text-3xl
+  }
+
+  .six-title {
+      @apply xl:text-6xl lg:text-5xl md:text-4xl text-3xl
+  }
+
+  .seven-title {
+      @apply xl:text-7xl lg:text-6xl md:text-5xl text-3xl
+  }
+
+  .eight-title {
+      @apply xl:text-8xl lg:text-6xl md:text-5xl text-3xl
+  }
+
+
   .text-gradient-full {
     @apply bg-[linear-gradient(55deg,#fa0,#fd66cb_25%,#9f6eff_50%,#0af_75%,#0fa)];
     -webkit-text-fill-color: transparent;

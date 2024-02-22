@@ -11,6 +11,10 @@ import ecoeats3 from '../Images/ecoeats3.png'
 import stella1 from '../Images/stellapic1.png'
 import stella2 from '../Images/stellapic2.png'
 
+import score1 from '../Images/score1.png'
+import score2 from '../Images/score2.png'
+import score3 from '../Images/score3.png'
+
 import MoreProjectsBox from "./MoreProjectsBox";
 
 import { Carousel, IconButton, Tooltip, Typography } from "@material-tailwind/react";
@@ -218,6 +222,33 @@ const stellaBuiltWith = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
   }
 ];
+
+const scoreBuiltWith = [
+  {
+    name: "HTML",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "JavaScript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "ReactJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "TailwindCSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "NextJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+  },
+];
   
 const learnthewebBuiltWith = [
     {
@@ -350,6 +381,71 @@ export function Projects() {
 
         {/* Project #2 */}
         <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+          <div className="rounded-xl flex items-center flex-col relative">
+              <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+                  <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02 </span> Score1600 - <span className="text-amber-800">Ace your Digital SAT</span></h2>
+                  <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+                      <TooltipCustomStyles 
+                          title="About Learntheweb"
+                          description="Score1600 is an SAT Tutoring website that I started with a group of friends! We're all (almost) near perfect-scores, so we decided to help out others and created this tutoring platform!"
+                      />
+                      An SAT Tutoring Platform
+                  </h4>
+              </div>
+
+                <div className="flex flex-col w-4/5 justify-around">
+                <CarouselCustomNavigation 
+                    image1={score1}
+                    image2={score2}
+                    image3={score3}
+                />
+
+                <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
+                    <div className="projects-shadow">
+                    <div className="projects-font">Summary:</div>
+                    <div className="font-outfit text-gray-700 text-xl mt-2">
+                        Score1600 is an SAT tutoring service started up by me and a few of my close friends. We're all (almost) perfect-scorers 
+                        and though that it would benefit others to learn from us! We offer a few free sessions before taking paid tutoring. 
+                        I personally <b>love this website</b> because I use a lot of design techniques I learned from looking at other sites {':)'}
+                    </div>
+                    </div>
+
+                    <div className="projects-shadow">
+                    <div className="projects-font">Technologies Used:</div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {scoreBuiltWith.map((technology, index) => (
+                            <a
+                            key={index}
+                            href={technology.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
+                            >
+                            <img
+                                src={technology.link}
+                                alt={technology.name}
+                                className="w-6 h-6 mr-2"
+                            />
+                            {technology.name}
+                            </a>
+                        ))}
+                    </div>
+
+                    </div>
+                </div>
+                
+                <div className="flex justify-center space-x-4 mt-4 cursor-auto">
+                  <a href="/" className="project-button" target="_blank">Coming Soon Enough 😉
+                      {/* <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/>  */}
+                    </a>
+                </div>
+
+                </div>
+            </div>
+          </div>
+
+        {/* This is stella */}
+        {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
 
 
             <div className="rounded-xl flex items-center flex-col relative">
@@ -410,7 +506,7 @@ export function Projects() {
 
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
 
