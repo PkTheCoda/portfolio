@@ -71,7 +71,7 @@ export default function AboutMe() {
                                     <div class="absolute inset-0 h-1/2"></div>
                                     <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
                                         <div class="max-w-4xl mx-auto">
-                                        <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
+                                        <dl class="bg-white rounded-lg shadow-lg md:grid md:grid-cols-3">
                                             <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500" id="item-1">
                                                 Views (Yes, in millions)
