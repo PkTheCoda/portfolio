@@ -9,7 +9,7 @@ function MoreProjectsBox() {
 
             <p className="text-lg font-outfit">
                 What you see above are not the only project's I've built! I'm currently working on a website
-                to help students with AP Exams. Think of it like Khan-Academy, but targetted towards Highschoolers and AP classes. Personally, 
+                to help students with AP Exams - think of it like Khan-Academy, but targetted towards Highschoolers and AP classes. Personally, 
                 I think it'll be the next big thing! 
                 Check out my Github or drop me an email to learn more!
 
