@@ -470,8 +470,8 @@ export function Projects() {
                 </div>
                 
                 <div className="flex justify-center space-x-4 mt-4 cursor-auto">
-                    <a href="#" className="project-button">Coming Soon Enough 😉 
-                      {/* <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/>  */}
+                    <a href="https://ecoeats.us" className="project-button" target="_blank">Visit Live 
+                      <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/> 
                     </a>
                 </div>
 
