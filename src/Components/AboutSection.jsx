@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaMailBulk, FaGithub, FaVolleyballBall, FaTableTennis, FaMusic, FaCamera } from 'react-icons/fa';
 import { IoChatboxEllipses } from "react-icons/io5";
-import mePicture from '../Images/mepicture.jpg'
+import mePicture from '../Images/mepicturebackup.jpg'
 
 export default function AboutMe() {
   return (
@@ -50,7 +50,7 @@ export default function AboutMe() {
                                 <img loading="lazy"
                                     class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
                                     src={mePicture}/>
-                                    <p className='text-center font-outfit pt-2 text-white'>If you couldn't tell, this was taken randomly in my backyard 😭</p>
+                                    
                             </div>
                         </div>
                         
