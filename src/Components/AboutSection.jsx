@@ -6,7 +6,7 @@ import mePicture from '../Images/mepicturebackup.jpg'
 export default function AboutMe() {
   return (
     <>
-        <div class="relative overflow-hidden bg-orange-400 px-4 xl:px-0 pt-16 space-y-24 my-10">
+        <div class="relative overflow-hidden bg-orange-400 px-4 xl:px-0 pt-16 space-y-24 my-10" id='about'>
 
 
             <div class="relative">
