@@ -6,10 +6,10 @@ import mePicture from '../Images/mepicturebackup.jpg'
 export default function AboutMe() {
   return (
     <>
-        <div class="relative overflow-hidden bg-orange-400 px-4 xl:px-0 pt-16 space-y-24" id='about'>
+        <div class="relative overflow-hidden bg-orange-400 -skew-y-2 px-4 xl:px-0 pt-16 space-y-24" id='about'>
 
 
-            <div class="relative">
+            <div class="relative skew-y-2">
                     <div class="lg:mx-auto lg:grid lg:max-w-8xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
                         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
 
@@ -58,11 +58,11 @@ export default function AboutMe() {
                     
                     <div className="md:mt-16 mb-[7rem] font-outfit w-full px-4 xl:px-0 flex items-center justify-center relative flex-col">
 
-                        <div class="pt-12 sm:pt-16 flex flex-col gap-y-8">
+                        <div class="pt-12 sm:pt-16 flex flex-col gap-y-8 bg-gray-900 px-10 rounded-xl ">
                             <div class="w-full px-4 mx-auto sm:px-6 lg:px-8">
                                 <div class="max-w-4xl mx-auto text-center">
-                                <h2 class="five-title font-extrabold leading-9 text-[#7c2d12] sm:leading-10">
-                                    My Websites make <span className="underline">Real Impacts</span>
+                                <h2 class="six-title font-extrabold leading-9 text-white sm:leading-10">
+                                    My Websites make <span className="underline main-gradient">Real Impacts</span>
                                 </h2>
                                 </div>
                             </div>
@@ -71,30 +71,30 @@ export default function AboutMe() {
                                     <div class="absolute inset-0 h-1/2"></div>
                                     <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
                                         <div class="max-w-4xl mx-auto">
-                                        <dl class="bg-white rounded-lg shadow-lg md:grid md:grid-cols-3">
-                                            <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500" id="item-1">
-                                                Views (Yes, in millions)
+                                        <dl class="rounded-lg md:grid md:grid-cols-3">
+                                            <div class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-r">
+                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200" id="item-1">
+                                                Views (Millions)
                                             </dt>
-                                            <dd class="order-1 text-5xl font-extrabold leading-none text-amber-900" aria-describedby="item-1">
-                                                3M+
+                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white" aria-describedby="item-1">
+                                                3<span className="main-gradient">M+</span>
                                             </dd>
                                             </div>
                                             <div
-                                            class="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                                            class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l sm:border-r">
+                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 Unique Visitors
                                             </dt>
-                                            <dd class="order-1 text-5xl font-extrabold leading-none text-amber-900">
-                                                300k+
+                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white">
+                                                300<span className="main-gradient">k+</span>
                                             </dd>
                                             </div>
-                                            <div class="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                                            <div class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l">
+                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 In Total Funding
                                             </dt>
-                                            <dd class="order-1 text-5xl font-extrabold leading-none text-amber-900">
-                                                $4,000
+                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white">
+                                                <span className="main-gradient">$</span>4,000
                                             </dd>
                                             </div>
                                         </dl>

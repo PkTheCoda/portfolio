@@ -342,7 +342,7 @@ export function Projects() {
             <a
               href="https://github.com/PkTheCoda"
               target="_blank"
-              class="relative w-full lg:w-1/3 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
+              class="relative w-full sm:w-1/2 md:w-1/3 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
             >
               <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-700 group-hover:translate-x-0 ease">
                 <svg
