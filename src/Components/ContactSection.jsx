@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaCoffee} from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaCoffee, FaYoutube} from "react-icons/fa";
 
 function ContactSection() {
   return (
@@ -38,6 +38,15 @@ function ContactSection() {
             LinkedIn
           </a>
           <a
+            href="https://youtube.com/@pranavkonjeti"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-red-900 text-white px-6 py-3 rounded-md text-lg font-outfit flex items-center gap-2 transition transform hover:scale-110"
+          >
+            <FaYoutube />
+            Youtube
+          </a>
+          {/* <a
             href="https://ko-fi.com/pranavk"
             target="_blank"
             rel="noopener noreferrer"
@@ -45,7 +54,7 @@ function ContactSection() {
           >
             <FaCoffee />
             Donate!
-          </a>
+          </a> */}
         </div>
       </div>
 
