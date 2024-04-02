@@ -3,6 +3,7 @@ import HireFirst from "./HireComponents/HireFirst"
 import HireTimeline from "./HireComponents/HireTimeline"
 import HireFeatures from "./HireComponents/HireFeatures"
 import HireFinalCTA from "./HireComponents/HireFinalCTA"
+import HireBottomFeatures from "./HireComponents/HireBottomFeatures"
 import ContactSection from "./Components/ContactSection"
 import WavyLine from "./Components/WavyLine"
 
@@ -14,7 +15,7 @@ export default function Hire() {
             <HireFirst />
             <HireTimeline />
             <HireFeatures />
-            <HireFinalCTA />
+            <HireBottomFeatures />
             <WavyLine />
             <ContactSection />
         </>

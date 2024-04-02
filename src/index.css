@@ -68,6 +68,13 @@
   }
 }
 
+.background-pattern-square {
+  background-color: rgb(255, 255, 255);
+  background-image:  linear-gradient(rgb(208, 208, 208) 1px, transparent 1px), linear-gradient(to right, #cbcbcb 1px, #ffffff 1px);
+  background-size: 120px 120px;
+}
+
+
 
 .boxgrad:before {
   content: "";
