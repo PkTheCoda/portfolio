@@ -334,7 +334,7 @@ export function Projects() {
           </div> */}
 
         <div className="py-4 w-4/5 grid xl:grid-cols-2 mb-10">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-800">
+          <h1 className="text-5xl md:text-7xl font-semibold text-gray-800">
             Let's have a look at{" "}
             <span className="main-gradient">My Projects</span>
           </h1>
@@ -370,7 +370,7 @@ export function Projects() {
 
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-            <h2 className="text-3xl md:text-5xl font-bold">
+            <h2 className="text-3xl md:text-5xl font-semibold">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 01
               </span>
@@ -511,7 +511,7 @@ export function Projects() {
       <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-            <h2 className="text-3xl md:text-5xl font-bold font-outfit ">
+            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 02{" "}
               </span>{" "}
@@ -653,7 +653,7 @@ export function Projects() {
 
               <div className="rounded-xl flex items-center flex-col relative">
               <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                  <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02 </span> Stella - <span className="text-gradient-full">Volunteering made Easy</span></h2>
+                  <h2 className="text-3xl md:text-5xl font-semibold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02 </span> Stella - <span className="text-gradient-full">Volunteering made Easy</span></h2>
                   <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
                       <TooltipCustomStyles 
                           title="About Learntheweb"
@@ -715,7 +715,7 @@ export function Projects() {
       <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-            <h2 className="text-3xl md:text-5xl font-bold font-outfit ">
+            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 03{" "}
               </span>
@@ -858,7 +858,7 @@ export function Projects() {
 
             <div className="rounded-xl flex items-center flex-col relative">
             <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                <h2 className="text-3xl md:text-5xl font-bold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> learntheweb.org</h2>
+                <h2 className="text-3xl md:text-5xl font-semibold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> learntheweb.org</h2>
                 <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
                     <TooltipCustomStyles 
                         title="About Learntheweb"

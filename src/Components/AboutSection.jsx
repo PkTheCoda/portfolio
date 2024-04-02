@@ -61,7 +61,7 @@ export default function AboutMe() {
                         <div class="pt-12 sm:pt-16 flex flex-col gap-y-8 bg-gray-900 px-10 rounded-xl ">
                             <div class="w-full px-4 mx-auto sm:px-6 lg:px-8">
                                 <div class="max-w-4xl mx-auto text-center">
-                                <h2 class="six-title font-extrabold leading-9 text-white sm:leading-10">
+                                <h2 class="six-title font-semibold leading-9 text-white sm:leading-10">
                                     My Websites make <span className="underline main-gradient">Real Impacts</span>
                                 </h2>
                                 </div>
@@ -76,7 +76,7 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200" id="item-1">
                                                 Views (Millions)
                                             </dt>
-                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white" aria-describedby="item-1">
+                                            <dd class="order-1 text-7xl font-bold leading-none text-white" aria-describedby="item-1">
                                                 3<span className="main-gradient">M+</span>
                                             </dd>
                                             </div>
@@ -85,7 +85,7 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 Unique Visitors
                                             </dt>
-                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white">
+                                            <dd class="order-1 text-7xl font-bold leading-none text-white">
                                                 300<span className="main-gradient">k+</span>
                                             </dd>
                                             </div>
@@ -93,7 +93,7 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 In Total Funding
                                             </dt>
-                                            <dd class="order-1 text-7xl font-extrabold leading-none text-white">
+                                            <dd class="order-1 text-7xl font-bold leading-none text-white">
                                                 <span className="main-gradient">$</span>4,000
                                             </dd>
                                             </div>

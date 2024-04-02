@@ -5,7 +5,7 @@ function MoreProjectsBox() {
   return (
     <div className="flex justify-center">
         <div className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-300 via-blue-500 to-purple-600 text-white p-8 rounded-lg shadow-md w-full mx-4 lg:mx-0 lg:w-3/5">
-            <h2 className="text-3xl font-bold mb-4 font-outfit">Too many more to count 😵‍💫</h2>
+            <h2 className="text-3xl font-semibold mb-4 font-outfit">Too many more to count 😵‍💫</h2>
 
             <p className="text-lg font-outfit">
                 What you see above are not the only project's I've built! I'm currently working on a website
