@@ -41,7 +41,7 @@ export default function HireHeader() {
               <h1 className="text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit leading-normal z-40">
                 Let's create
               </h1>
-              <div className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-700 inline text-transparent bg-clip-text text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit my-10 leading-normal z-40'>
+              <div className='main-gradient font-outfit inline text-transparent bg-clip-text text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit my-10 leading-normal z-40'>
                 <TypeAnimation
                         sequence={[
                             'Intuitive User Interfaces', // Types 'One'
