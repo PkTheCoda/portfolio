@@ -38,10 +38,10 @@ export default function HireHeader() {
           </div>
           <div className="mx-auto max-w-7xl pb-32 sm:pb-48 lg:pb-56 lg:pt-16 sm:pt-8">
             <div className="text-center">
-              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit leading-normal z-40">
+              <h1 className="text-5xl tracking-tight font-semibold text-black sm:text-8xl font-outfit leading-normal z-40">
                 Let's create
               </h1>
-              <div className='main-gradient font-outfit inline text-transparent bg-clip-text text-5xl tracking-tight font-bold text-black sm:text-8xl font-outfit my-10 leading-normal z-40'>
+              <div className='main-gradient inline text-transparent bg-clip-text text-5xl tracking-tight font-semibold text-black sm:text-8xl font-outfit my-10 leading-normal z-40'>
                 <TypeAnimation
                         sequence={[
                             'Intuitive User Interfaces', // Types 'One'
@@ -65,7 +65,7 @@ export default function HireHeader() {
                     />
                 </div>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                Let's turn your dreams <span className='main-gradient font-bold'>into realities, together.</span>
+                Let's turn your dreams <span className='main-gradient font-semibold'>into realities, together.</span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

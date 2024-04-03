@@ -16,11 +16,11 @@ export default function HeroMain() {
           </div>
           <div className="mx-auto max-w-5xl pb-32 sm:pb-48 lg:pb-56 lg:pt-16 sm:pt-8">
             <div className="text-center">
-              <h1 className="text-5xl tracking-tight font-bold text-black sm:text-9xl font-outfit">
+              <h1 className="text-5xl tracking-tight font-semibold text-black sm:text-9xl font-outfit">
                 Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler with a <span className='main-gradient font-bold'>passion for web development.</span>
+                I'm a highschooler with a <span className='main-gradient font-semibold'>passion for web development.</span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

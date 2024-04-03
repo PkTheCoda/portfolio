@@ -6,11 +6,18 @@ import HireNavbar from "./HireComponents/HireNavbar"
 import HireBottomFeatures from "./HireComponents/HireBottomFeatures"
 import ContactSection from "./Components/ContactSection"
 import WavyLine from "./Components/WavyLine"
+import { Helmet } from 'react-helmet';
 
 
 export default function Hire() {
     return (
         <>
+            <Helmet>
+                <html lang='en'></html>
+                <title>Pranav Konjeti - Web Developer & Freelancer</title>
+                <meta charSet='utf-8'/>
+                <meta name="description" content="Hi, I'm Pranav, a web developer. Let's craft your dream website together. Contact me for flawless solutions."/>
+            </Helmet>
             <HireNavbar />
             <HireHeader />
             <HireFirst />

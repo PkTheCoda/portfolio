@@ -7,7 +7,7 @@ export default function HireFirst() {
       <div className="container mx-auto flex lg:flex-row flex-col items-center justify-center px-2 lg:px-20">
         {/* Left Side */}
         <div className="w-full lg:w-1/2 lg:pr-8 flex flex-col justify-center font-outfit text-center lg:text-start">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4 font-outfit">I tackle web-development a bit differently...</h2>
+          <h2 className="text-4xl font-semibold text-gray-800 mb-4 font-outfit">I tackle web-development a bit differently...</h2>
           <p className="text-lg text-gray-600 mb-4">
             To me, a good website is more than one that "looks nice". It has to have the perfect color scheme, the perfect fonts, be accessible to users, load fast, etc..
           </p>
