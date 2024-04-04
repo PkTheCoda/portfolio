@@ -21,14 +21,14 @@ export default function AboutMe() {
                                 </div>
 
                                 <div class="mt-3 font-outfit ">
-                                    <h2 class="text-4xl mb-1 font-bold tracking-wide text-white">
+                                    <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
                                         A Bit <span className="text-[#7c2d12] underline">About Me.</span>
                                     </h2>
                                     <p className="pl-4 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-white my-4">
-                                      <span className="text-[#7c2d12] font-bold">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
+                                      <span className="text-[#7c2d12] font-semibold">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
                                       <br />
                                       <br />
-                                      I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. It really is awesome because I can take anything that I imagine <span className="text-[#7c2d12] font-bold">and turn it into a reality.</span>
+                                      I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. It really is awesome because I can take anything that I imagine <span className="text-[#7c2d12] font-semibold">and turn it into a reality.</span>
                                     </p>
 
                                     <div className="flex mt-6 space-x-4 items-center  gap-x-2">
@@ -76,7 +76,7 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200" id="item-1">
                                                 Views (Millions)
                                             </dt>
-                                            <dd class="order-1 text-7xl font-bold leading-none text-white" aria-describedby="item-1">
+                                            <dd class="order-1 text-7xl font-semibold leading-none text-white" aria-describedby="item-1">
                                                 3<span className="main-gradient">M+</span>
                                             </dd>
                                             </div>
@@ -85,7 +85,7 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 Unique Visitors
                                             </dt>
-                                            <dd class="order-1 text-7xl font-bold leading-none text-white">
+                                            <dd class="order-1 text-7xl font-semibold leading-none text-white">
                                                 300<span className="main-gradient">k+</span>
                                             </dd>
                                             </div>
@@ -93,20 +93,20 @@ export default function AboutMe() {
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
                                                 In Total Funding
                                             </dt>
-                                            <dd class="order-1 text-7xl font-bold leading-none text-white">
+                                            <dd class="order-1 text-7xl font-semibold leading-none text-white">
                                                 <span className="main-gradient">$</span>4,000
                                             </dd>
                                             </div>
                                         </dl>
                                         </div>
-                                        <p className='text-white text-center mt-2 italic'>**I got this data by combining the lifetime analytics on <b>all my websites</b></p>
+                                        <p className='text-white text-center mt-2 italic'>**I got this data by combining the lifetime analytics on <b className='underline'>all my websites</b></p>
                                     </div>
                                     </div>
                             </div>
                         </div>                     
 
                       {/* <div className="flex flex-col gap-4 p-4 rounded-lg shadow-md bg-orange-200 text-white">
-                          <div className='text-3xl md:text-3xl font-outfit font-bold text-white text-start '>Hobbies/Extracurriculars</div>
+                          <div className='text-3xl md:text-3xl font-outfit font-semibold text-white text-start '>Hobbies/Extracurriculars</div>
                             <div className="flex-col flex gap-4 md:flex-row font-outfit">
                               
 

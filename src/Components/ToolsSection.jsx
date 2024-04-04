@@ -25,48 +25,6 @@ const projectStarterPack = [
   }
 ];
 
-const languages = [
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
-      text: "HTML",
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", 
-      text: "Vanilla CSS",
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
-      text: "JavaScript ",
-    },
-    {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        text: "Java"
-    },
-];
-
-const technologies = [
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
-      text: "ReactJS",
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", 
-      text: "NodeJS",
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", 
-      text: "Bootstrap",
-    },
-    {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg", 
-        text: "Redux",
-    },
-    {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-        text: "TailwindCSS"
-    }
-];
-
 const miscellaneous = [
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
@@ -169,7 +127,7 @@ export default function ToolsSection() {
   return (
     <>
     
-      <div className="h-max my-20 relative">
+      <div className="h-max mt-20 relative">
         <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-semibold text-gray-800 flex items-center gap-x-5 justify-center">
           <div>
             <span class="flex h-16 w-16 items-center justify-center rounded-full bg-orange-900">
@@ -180,20 +138,20 @@ export default function ToolsSection() {
         </div>
       </div>
 
-      <div className="my-10 flex items-center justify-center flex-col mx-2 lg:mx-10">
-        <h3 className="text-3xl md:text-4xl text-center font-outfit font-bold">My <span className="text-orange-600 underline">Current</span> Project Starterpack:</h3>
-        <div className="flex justify-around gap-4 flex-wrap  py-10 px-4 md:px-20 w-full rounded-lg">
+      <div className="my-10 flex items-center justify-center flex-col container mx-auto rounded-xl bg-orange-400 py-10">
+        <h3 className="four-title text-center font-outfit font-semibold text-white">My <span className="underline">Current</span> Project Starterpack:</h3>
+        <div className="flex justify-center gap-8 flex-wrap  py-10 px-4 md:px-20 w-full rounded-lg">
           {projectStarterPack.map((tool, index) => (
             <div
               key={index}
-              className="bg-white relative boxgradlight z-[30] p-6 rounded-lg text-center w-max"
+              className="bg-white shadow-sm relative z-[30] p-6 rounded-lg text-center w-max"
             >
               <img
                 src={tool.image}
                 alt={tool.text}
                 className="w-max px-4 h-20 mx-auto mb-4"
               />
-              <p className="text-lg font-semibold font-outfit">{tool.text}</p>
+              <p className="text-lg font-semibold font-outfit text-gray-800">{tool.text}</p>
             </div>
           ))}
         </div>

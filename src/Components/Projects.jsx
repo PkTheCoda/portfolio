@@ -328,7 +328,7 @@ export function Projects() {
   return (
     <>
       {/* Project #1 */}
-      <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 md:mx-10 font-outfit">
+      <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 md:mx-10 font-outfit" id="work">
         {/* <div className="text-4xl md:text-7xl font-bold text-center py-4 mb-10" id="work">
             My <span className="main-gradient">Projects:</span>
           </div> */}
