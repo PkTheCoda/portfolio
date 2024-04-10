@@ -3,7 +3,6 @@ import AboutMe from './Components/AboutSection'
 import ToolsSection from './Components/ToolsSection'
 import { Projects } from './Components/Projects'
 import ContactSection from './Components/ContactSection'
-import { Analytics } from '@vercel/analytics/react';
 import WavyLine from './Components/WavyLine'
 import Header from './Components/Header'
 import { Helmet } from 'react-helmet';
