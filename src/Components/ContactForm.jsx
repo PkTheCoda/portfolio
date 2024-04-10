@@ -9,7 +9,7 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-gray-900 w-full md:w-5/6 lg:w-1/2 py-10 rounded-md font-outfit flex flex-col items-center justify-center">
+    <form onSubmit={handleSubmit} id='contact' className="bg-gray-900 w-full md:w-5/6 lg:w-1/2 py-10 rounded-md font-outfit flex flex-col items-center justify-center">
 
       <div className='flex flex-col gap-y-2 gap-8 py-4 '>
           <div className='grid md:grid-cols-2 w-full gap-8'>

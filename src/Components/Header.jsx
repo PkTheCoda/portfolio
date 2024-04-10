@@ -9,6 +9,7 @@ const navigation = [
   { name: 'About', href: '#about' },
   { name: 'My Work', href: '#work' },
   { name: 'Skills/Tools', href: '#tools' },
+  { name: 'Reach Out', href: '#contact' },
 ]
 
 export default function Navbar() {
@@ -25,7 +26,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-white/40 rounded-2xl z-50 sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
+      <div className="bg-white/40 rounded-2xl z-50 sm:sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
         <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-50">
           <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
