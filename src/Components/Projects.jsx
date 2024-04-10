@@ -334,7 +334,7 @@ const ecoeatsbuiltwith = [
 export function Projects() {
   return (
     <>
-      {/* Project #1 */}
+      {/* P1: Talem */}
       <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 md:mx-10 font-outfit" id="work">
         {/* <div className="text-4xl md:text-7xl font-bold text-center py-4 mb-10" id="work">
             My <span className="main-gradient">Projects:</span>
@@ -514,146 +514,6 @@ export function Projects() {
         </div>
       </div>
 
-      {/* Project #2 */}
-      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
-        <div className="rounded-xl flex items-center flex-col relative">
-          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
-              <span className="text-blue-500 drop-shadow-2xl text-base">
-                02{" "}
-              </span>{" "}
-              Score1600 -{" "}
-              <span className="text-amber-800">Ace your Digital SAT</span>
-            </h2>
-            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
-              <TooltipCustomStyles
-                title="About Learntheweb"
-                description="Score1600 is an SAT Tutoring website that I started with a group of friends! We're all (almost) near perfect-scores, so we decided to help out others and created this tutoring platform!"
-              />
-              An SAT Tutoring Platform
-            </h4>
-          </div>
-
-          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
-            <CarouselCustomNavigation
-              image1={score1}
-              image2={score2}
-              image3={score3}
-            />
-
-            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
-              <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
-                <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  Score1600 is an SAT tutoring service started up by me and a
-                  few of my close friends. We're all (almost) perfect-scorers
-                  and though that it would benefit others to learn from us! We
-                  offer a few free sessions before taking paid tutoring. I
-                  personally <b>love this website</b> because I use a lot of
-                  design techniques I learned from looking at other sites {":)"}
-                </div>
-                <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
-                  {scoreBuiltWith.map((technology, index) => (
-                    <a
-                      key={index}
-                      href={technology.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 bg-gray-900 rounded-md font-normal text-xl text-gray-300 font-outfit flex flex-row lg:flex-col xl:flex-row justify-center items-center"
-                    >
-                      <img
-                        src={technology.link}
-                        alt={technology.name}
-                        className="w-6 h-6 mr-2"
-                      />
-                      {technology.name}
-                    </a>
-                  ))}
-                </div>
-              </div>
-
-              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaEye className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">No Stats</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaUser className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">No Stats</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaMoneyBill className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">No Stats</h2>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <a
-                    href="https://score1600.com"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaExternalLinkAlt /> Visit Website
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                  <a
-                    href="#"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaCode /> Repo Coming Soon!
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* This is stella */}
       {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
 
@@ -716,9 +576,9 @@ export function Projects() {
 
                   </div>
               </div>
-          </div> */}
+      </div> */}
 
-      {/* Project #3 */}
+      {/* This is ecoeats */}
       {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
@@ -859,12 +719,13 @@ export function Projects() {
         </div>
       </div> */}
 
-<div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+      {/* P2: learntheweb */}
+      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
             <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
-                03{" "}
+                02{" "}
               </span>
               Learntheweb
             </h2>
@@ -888,9 +749,8 @@ export function Projects() {
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
                   learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
-                  ages and backgrounds. Learntheweb uses features like content-rich lessons, live workshops, and interactive 
-                  projects to help you better understand how to program! The website is built with a wordpress front-end, along 
-                  with PHP and CSS
+                  ages and backgrounds. To date, we've conducted over 6 workshops, taught over 200+ students, over 300 hours of active teaching, and more.
+                  Additionally, you can self-learn with our 80+ in-built lessons
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
                   {learnthewebBuiltWith.map((technology, index) => (
@@ -996,71 +856,145 @@ export function Projects() {
         </div>
       </div>
 
-      {/* Project #3 */}
-      {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+      {/* Project #3: Score1600 */}
+      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+        <div className="rounded-xl flex items-center flex-col relative">
+          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+              <span className="text-blue-500 drop-shadow-2xl text-base">
+                03{" "}
+              </span>{" "}
+              Score1600 -{" "}
+              <span className="text-amber-800">Ace your Digital SAT</span>
+            </h2>
+            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+              <TooltipCustomStyles
+                title="About Learntheweb"
+                description="Score1600 is an SAT Tutoring website that I started with a group of friends! We're all (almost) near perfect-scores, so we decided to help out others and created this tutoring platform!"
+              />
+              An SAT Tutoring Platform
+            </h4>
+          </div>
 
+          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+            <CarouselCustomNavigation
+              image1={score1}
+              image2={score2}
+              image3={score3}
+            />
 
-            <div className="rounded-xl flex items-center flex-col relative">
-            <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                <h2 className="text-3xl md:text-5xl font-semibold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">03</span> learntheweb.org</h2>
-                <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
-                    <TooltipCustomStyles 
-                        title="About Learntheweb"
-                        description="Learntheweb was created by Pranav when he realized how lacking basic computer science education was throughout the standardized school system."
-                    />
-                    Online Programming Nonprofit
-                </h4>
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+              <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
+                <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
+                  Score1600 is an SAT tutoring service started up by me and a
+                  few of my close friends. We're all (almost) perfect-scorers
+                  and though that it would benefit others to learn from us! We
+                  offer a few free sessions before taking paid tutoring. I
+                  personally <b>love this website</b> because I use a lot of
+                  design techniques I learned from looking at other sites {":)"}
+                </div>
+                <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
+                  {scoreBuiltWith.map((technology, index) => (
+                    <a
+                      key={index}
+                      href={technology.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 bg-gray-900 rounded-md font-normal text-xl text-gray-300 font-outfit flex flex-row lg:flex-col xl:flex-row justify-center items-center"
+                    >
+                      <img
+                        src={technology.link}
+                        alt={technology.name}
+                        className="w-6 h-6 mr-2"
+                      />
+                      {technology.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaEye className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">No Stats</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaUser className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">No Stats</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaMoneyBill className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">No Stats</h2>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <a
+                    href="https://score1600.com"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaExternalLinkAlt /> Visit Website
+                    </span>
+                    <span class="relative invisible">Button Text</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaCode /> Repo Coming Soon!
+                    </span>
+                    <span class="relative invisible">Button Text</span>
+                  </a>
+                </div>
+              </div>
             </div>
-        
-                <div className="flex flex-col w-4/5 justify-around">
-                <CarouselCustomNavigation 
-                    image1={ltw1}
-                    image2={ltw2}
-                    image3={ltw3}
-                />
-        
-                <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                    <div className="projects-shadow">
-                    <div className="projects-font">Summary:</div>
-                    <div className="font-outfit text-gray-700 text-xl mt-2">
-                        learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
-                        ages and backgrounds. Learntheweb uses features like content-rich lessons, live workshops, and interactive 
-                        projects to help you better understand how to program! The website is built with a wordpress front-end, along 
-                        with PHP and CSS
-                    </div>
-                    </div>
-        
-                    <div className="projects-shadow">
-                    <div className="projects-font">Technologies Used:</div>
-                    <div className="flex flex-wrap gap-2 mt-2">
-                        {learnthewebBuiltWith.map((technology, index) => (
-                            <a
-                            key={index}
-                            href={technology.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
-                            >
-                            <img
-                                src={technology.link}
-                                alt={technology.name}
-                                className="w-6 h-6 mr-2"
-                            />
-                            {technology.name}
-                            </a>
-                        ))}
-                    </div>
-
-                    </div>
-                </div>
-                
-                <div className="flex justify-center space-x-4 mt-4">
-                    <a href="https://learntheweb.org/" target="_blank" className="project-button">Visit Live <ArrowTopRightOnSquareIcon className="h-8 w-8 ml-2"/></a>
-                </div>
-
-                </div>
-            </div>
-        </div> */}
+          </div>
+        </div>
+      </div>
 
       <MoreProjectsBox />
     </>
