@@ -60,7 +60,7 @@ function ContactSection() {
 
         </p>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 rounded-b-md w-5/6 md:w-1/2 mx-auto pt-4 justify-center gap-4">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-4 rounded-b-md w-5/6 md:w-1/2 mx-auto pt-4 justify-center gap-4">
           <a
             href="mailto:pranavkonjeti@gmail.com"
             className="bg-blue-500 text-white justify-center px-6 py-3 rounded-md font-outfit flex items-center gap-2 transition transform hover:scale-110"
@@ -95,36 +95,37 @@ function ContactSection() {
             <FaYoutube />
             Youtube
           </a>
-          {/* <a
-            href="https://ko-fi.com/pranavk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-purple-500 text-white px-6 py-3 rounded-md text-lg font-outfit flex items-center gap-2 transition transform hover:scale-110"
-          >
-            <FaCoffee />
-            Donate!
-          </a> */}
-        </div>
+        </div> */}
 
         <div className="mt-4 flex justify-center gap-4">
           <a
             href="https://github.com/pkthecoda"
             target="_blank"
+              className="p-3 bg-purple-100 rounded-full transition transform hover:scale-105"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-purple-500 text-2xl hover:text-purple-800 transition transform hover:scale-125" />
+            <FaGithub className="text-purple-500 text-2xl hover:text-purple-800" />
           </a>
           <a
             href="https://www.linkedin.com/in/pranav-konjeti"
             target="_blank"
+              className="p-3 bg-purple-100 rounded-full transition transform hover:scale-105"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-purple-500 text-2xl hover:text-purple-800 transition transform hover:scale-125" />
+            <FaLinkedin className="text-purple-500 text-2xl hover:text-purple-800" />
           </a>
           <a
+            className="p-3 bg-purple-100 rounded-full transition transform hover:scale-105"
             href="mailto:pranavkonjeti@gmail.com"
           >
-            <FaEnvelope className="text-purple-500 text-2xl hover:text-purple-800 transition transform hover:scale-125" />
+            <FaEnvelope className="text-purple-500 text-2xl hover:text-purple-800" />
+          </a>
+          <a
+            href="https://www.youtube.com/@pranavkonjeti"
+              className="p-3 bg-purple-100 rounded-full transition transform hover:scale-105"
+            target="_blank"
+          >
+            <FaYoutube className="text-purple-500 text-2xl hover:text-purple-800" />
           </a>
         </div>
       </footer>
