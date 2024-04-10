@@ -4,6 +4,10 @@ import talem1 from "../Images/talem1.png";
 import talem2 from "../Images/talem2.png";
 import talem3 from "../Images/talem3.png";
 
+import ltw1 from '../Images/ltw1.png'
+import ltw2 from '../Images/ltw2.png'
+import ltw3 from '../Images/ltw3.png'
+
 import ecoeats1 from "../Images/ecoeats1.png";
 import ecoeats2 from "../Images/ecoeats2.png";
 import ecoeats3 from "../Images/ecoeats3.png";
@@ -22,6 +26,9 @@ import {
   FaExternalLinkAlt,
   FaCode,
 } from "react-icons/fa";
+
+import { GrWorkshop } from "react-icons/gr";
+import { PiStudentDuotone } from "react-icons/pi";
 
 import MoreProjectsBox from "./MoreProjectsBox";
 
@@ -712,7 +719,7 @@ export function Projects() {
           </div> */}
 
       {/* Project #3 */}
-      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+      {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-4/5">
             <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
@@ -821,6 +828,143 @@ export function Projects() {
                   </a>
                   <a
                     href="https://github.com/pkthecoda/ecoeats"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaCode /> Visit Repo
+                    </span>
+                    <span class="relative invisible">Button Text</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+<div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+        <div className="rounded-xl flex items-center flex-col relative">
+          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+              <span className="text-blue-500 drop-shadow-2xl text-base">
+                03{" "}
+              </span>
+              Learntheweb
+            </h2>
+            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+              <TooltipCustomStyles
+                title="About Learntheweb"
+                description="Learntheweb was created by Pranav when he realized how lacking basic computer science education was throughout the standardized school system."
+              />
+              Online Programming Initative
+            </h4>
+          </div>
+
+          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+            <CarouselCustomNavigation
+              image1={ltw1}
+              image2={ltw2}
+              image3={ltw3}
+            />
+
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+              <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
+                <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
+                  learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
+                  ages and backgrounds. Learntheweb uses features like content-rich lessons, live workshops, and interactive 
+                  projects to help you better understand how to program! The website is built with a wordpress front-end, along 
+                  with PHP and CSS
+                </div>
+                <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
+                  {learnthewebBuiltWith.map((technology, index) => (
+                    <a
+                      key={index}
+                      href={technology.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 bg-gray-900 rounded-md font-normal text-xl text-gray-300 font-outfit flex flex-row lg:flex-col xl:flex-row justify-center items-center"
+                    >
+                      <img
+                        src={technology.link}
+                        alt={technology.name}
+                        className="w-6 h-6 mr-2"
+                      />
+                      {technology.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaEye className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">300k visits</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <GrWorkshop className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">6 Workshops</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <PiStudentDuotone className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">200+ Taught</h2>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <a
+                    href="https://learntheweb.org"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaExternalLinkAlt /> Visit Website
+                    </span>
+                    <span class="relative invisible">Button Text</span>
+                  </a>
+                  <a
+                    href="https://learntheweb.org"
                     target="_blank"
                     class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
                   >
