@@ -77,16 +77,16 @@ export default function AboutMe() {
                                                 Views (Millions)
                                             </dt>
                                             <dd class="order-1 text-7xl font-semibold leading-none text-white" aria-describedby="item-1">
-                                                3<span className="main-gradient">M+</span>
+                                                2<span className="main-gradient">M+</span>
                                             </dd>
                                             </div>
                                             <div
                                             class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l sm:border-r">
                                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
-                                                Unique Visitors
+                                                Visitors (Lifetime)
                                             </dt>
                                             <dd class="order-1 text-7xl font-semibold leading-none text-white">
-                                                300<span className="main-gradient">k+</span>
+                                                300<span className="main-gradient">k</span>
                                             </dd>
                                             </div>
                                             <div class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l">
