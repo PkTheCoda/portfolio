@@ -2,6 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaMailBulk, FaGithub, FaVolleyballBall, FaTableTennis, FaMusic, FaCamera } from 'react-icons/fa';
 import { IoChatboxEllipses } from "react-icons/io5";
 import mePicture from '../Images/mepicturebackup.jpg'
+import mePicturenew from '../Images/pranavlatest.jpg'
 
 export default function AboutMe() {
   return (
@@ -10,10 +11,10 @@ export default function AboutMe() {
 
 
             <div class="relative skew-y-2">
-                    <div class="lg:mx-auto lg:grid lg:max-w-8xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-                        <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                    <div class="lg:mx-auto lg:max-w-7xl flex flex-col lg:flex-row lg:gap-12 lg:px-8">
+                        <div class="w-full lg:w-1/2 lg:my-0 my-12 mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:order-1 order-2">
 
-                            <div className='pl-0 lg:pl-10 xl:pl-40'>
+                            <div className='pl-0'>
                                 <div>
                                     <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
                                         <IoChatboxEllipses className='h-8 w-8 text-orange-900'/>
@@ -45,13 +46,10 @@ export default function AboutMe() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full flex items-center justify-center xl:px-20">
-                            <div class="py-8 lg:p-0">
-                                <img loading="lazy"
-                                    class="rounded-xl lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5"
-                                    src={mePicture}/>
-                                    
-                            </div>
+                        <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
+                            <img loading="lazy"
+                                class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
+                            src={mePicturenew}/>
                         </div>
                         
                     </div>
