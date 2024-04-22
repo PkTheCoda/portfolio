@@ -5,6 +5,7 @@ import { Projects } from './Components/Projects'
 import ContactSection from './Components/ContactSection'
 import WavyLine from './Components/WavyLine'
 import Header from './Components/Header'
+import ExtraProjectBottom from './Components/ExtraProjectsBottom'
 import { Helmet } from 'react-helmet';
 
 function Homepage() {
@@ -23,6 +24,7 @@ function Homepage() {
         <AboutMe />
         <ToolsSection />
         <Projects />
+        <ExtraProjectBottom />
         <WavyLine />
         <ContactSection />
     </div>

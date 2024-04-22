@@ -333,23 +333,23 @@ const ecoeatsbuiltwith = [
 
 export function Projects() {
   return (
-    <>
+    <div className="">
       {/* P1: Talem */}
-      <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 md:mx-10 font-outfit" id="work">
+      <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 font-outfit" id="work">
         {/* <div className="text-4xl md:text-7xl font-bold text-center py-4 mb-10" id="work">
             My <span className="main-gradient">Projects:</span>
           </div> */}
 
-        <div className="py-4 w-4/5 grid xl:grid-cols-2 mb-10">
-          <h1 className="text-5xl md:text-7xl font-semibold text-gray-800">
+        <div className="py-4 w-4/5 flex mb-10">
+          <h1 className="text-5xl md:text-7xl w-7/12 font-semibold text-gray-800">
             Let's have a look at{" "}
             <span className="main-gradient">My Projects</span>
           </h1>
-          <div className="flex items-center xl:mt-0 mt-6 xl:justify-end text-lg lg:text-xl">
+          <div className="flex items-center w-5/12 xl:mt-0 mt-6 xl:justify-end text-lg lg:text-xl">
             <a
               href="https://github.com/PkTheCoda"
               target="_blank"
-              class="relative w-full sm:w-1/2 md:w-1/3 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
+              class="relative w-full w-5/6 md:w-2/3 lg:w-1/2 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
             >
               <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-700 group-hover:translate-x-0 ease">
                 <svg
@@ -376,7 +376,7 @@ export function Projects() {
         </div>
 
         <div className="rounded-xl flex items-center flex-col relative">
-          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+          <div className="flex flex-col gap-y-1 mb-4 w-5/6">
             <h2 className="text-3xl md:text-5xl font-semibold">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 01
@@ -392,7 +392,7 @@ export function Projects() {
             </h4>
           </div>
 
-          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+          <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
             <CarouselCustomNavigation
               image1={talem1}
               image2={talem2}
@@ -514,215 +514,10 @@ export function Projects() {
         </div>
       </div>
 
-      {/* This is stella */}
-      {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
-
-
-              <div className="rounded-xl flex items-center flex-col relative">
-              <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-                  <h2 className="text-3xl md:text-5xl font-semibold font-outfit "><span className="text-blue-500 drop-shadow-2xl text-base">02 </span> Stella - <span className="text-gradient-full">Volunteering made Easy</span></h2>
-                  <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
-                      <TooltipCustomStyles 
-                          title="About Learntheweb"
-                          description="Stella is a SaaS that aims to connect students with volunteer opportunities in their area. It's currently a work in progress. Contact Pranav for more information."
-                      />
-                      SaaS App - Currently a Work In Progress
-                  </h4>
-              </div>
-          
-                  <div className="flex flex-col w-4/5 justify-around">
-                  <CarouselCustomNavigation 
-                      image1={stella1}
-                      image2={stella2}
-                  />
-          
-                  <div className="w-full mt-4 flex md:flex-row flex-col lg:px-8 justify-between items-center py-4 gap-y-4 md:gap-y-0 gap-x-10">
-                      <div className="projects-shadow">
-                      <div className="projects-font">Summary:</div>
-                      <div className="font-outfit text-gray-700 text-xl mt-2">
-                          Stella™ is an up and coming SaaS that focuses on connecting students with available businesses for 
-                          volunteering opportunities. It's currently a Work-In-Progress, but will be finished and shipped in the 
-                          coming weeks! The website is built with a React frontend coupled with PrismaDB and PostgreSQL for the backend.
-                      </div>
-                      </div>
-          
-                      <div className="projects-shadow">
-                      <div className="projects-font">Technologies Used:</div>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                          {stellaBuiltWith.map((technology, index) => (
-                              <a
-                              key={index}
-                              href={technology.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="p-2 bg-gray-200 rounded-md font-normal text-xl text-gray-600 font-outfit flex items-center"
-                              >
-                              <img
-                                  src={technology.link}
-                                  alt={technology.name}
-                                  className="w-6 h-6 mr-2"
-                              />
-                              {technology.name}
-                              </a>
-                          ))}
-                      </div>
-
-                      </div>
-                  </div>
-                  
-                  <div className="flex justify-center space-x-4 mt-4 cursor-auto">
-                      <button className="project-button">Launching Mid-Feb!</button>
-                  </div>
-
-                  </div>
-              </div>
-      </div> */}
-
-      {/* This is ecoeats */}
-      {/* <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
-        <div className="rounded-xl flex items-center flex-col relative">
-          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
-            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
-              <span className="text-blue-500 drop-shadow-2xl text-base">
-                03{" "}
-              </span>
-              EcoEats
-            </h2>
-            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
-              <TooltipCustomStyles
-                title="About EcoEats"
-                description="EcoEats is a novel app that aims to help solve food waste. The actual was mainly built with the help of friends, but the website was created + programmed by me!"
-              />
-              Nonprofit Application + Website
-            </h4>
-          </div>
-
-          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
-            <CarouselCustomNavigation
-              image1={ecoeats1}
-              image2={ecoeats2}
-              image3={ecoeats3}
-            />
-
-            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
-              <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
-                <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  EcoEats is a revolutionary food donation app streamlining the
-                  process of connecting donors with surplus food to recipients
-                  in need. It makes donating and receiving food easy, addressing
-                  both food waste and hunger challenges in communities. This is
-                  the first project that was really more on the app-dev side.
-                  The website was made by me, but the actual app was built with a
-                  group of my friends!
-                </div>
-                <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
-                  {ecoeatsbuiltwith.map((technology, index) => (
-                    <a
-                      key={index}
-                      href={technology.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 bg-gray-900 rounded-md font-normal text-xl text-gray-300 font-outfit flex flex-row lg:flex-col xl:flex-row justify-center items-center"
-                    >
-                      <img
-                        src={technology.link}
-                        alt={technology.name}
-                        className="w-6 h-6 mr-2"
-                      />
-                      {technology.name}
-                    </a>
-                  ))}
-                </div>
-              </div>
-
-              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaEye className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">60k Visits</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaUser className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">26k~ Uniques</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaMoneyBill className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">$500 Raised</h2>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <a
-                    href="https://ecoeats.us"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaExternalLinkAlt /> Visit Website
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                  <a
-                    href="https://github.com/pkthecoda/ecoeats"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaCode /> Visit Repo
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       {/* P2: learntheweb */}
-      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+      <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
-          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+          <div className="flex flex-col gap-y-1 mb-4 w-5/6">
             <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 02{" "}
@@ -738,7 +533,7 @@ export function Projects() {
             </h4>
           </div>
 
-          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+          <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
             <CarouselCustomNavigation
               image1={ltw1}
               image2={ltw2}
@@ -857,9 +652,9 @@ export function Projects() {
       </div>
 
       {/* Project #3: Score1600 */}
-      <div className="rounded-xl flex flex-col my-20 mx-0 md:mx-10 relative">
+      <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
-          <div className="flex flex-col gap-y-1 mb-4 w-4/5">
+          <div className="flex flex-col gap-y-1 mb-4 w-5/6">
             <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 03{" "}
@@ -876,7 +671,7 @@ export function Projects() {
             </h4>
           </div>
 
-          <div className="flex flex-col w-11/12 lg:w-4/5 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+          <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
             <CarouselCustomNavigation
               image1={score1}
               image2={score2}
@@ -996,7 +791,7 @@ export function Projects() {
         </div>
       </div>
 
-      <MoreProjectsBox />
-    </>
+      {/* <MoreProjectsBox /> */}
+    </div>
   );
 }

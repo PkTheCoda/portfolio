@@ -66,6 +66,10 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
+
+  .transition300scale {
+    @apply transition transform hover:scale-105
+  }
 }
 
 .background-pattern-square {

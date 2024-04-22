@@ -7,9 +7,10 @@ import hirefeature4 from '../Images/hirefeature4.svg'
 
 const HireFeatures = () => {
     return (
-      <div id="features" className='flex flex-col items-center gap-y-20 px-5 xl:px-20 py-20 bg-black'>
+      <div id="features" className='flex flex-col items-center gap-y-20 px-4 py-20 bg-black'>
           <div className="text-5xl xl:text-7xl font-semibold font-outfit text-center text-white">
-              What you'll get <span className="block main-gradient">Working With Me</span>
+              <div>What you'll get </div>
+              <div className="main-gradient">Working With Me</div>
           </div>
 
           <div className="lg:w-11/12 xl:w-5/6 grid grid-cols-1 lg:grid-cols-2 font-outfit text-white rounded-xl overflow-hidden"> {/* Add overflow-hidden here */}
@@ -69,7 +70,7 @@ const HireFeatures = () => {
                             Responsiveness is required for a website to run properly! 
                         </span>
                         <span className="text-white">
-                            For every website I build, I make sure to make it responsive on all devices: phones, tablets, computers, etc. {' '}
+                            {' '}For every website I build, I make sure to make it responsive on all devices: phones, tablets, computers, etc. {' '}
                         </span>
                         <span className="text-gray-500">
                             Whether someone is loading the website on a triple-monitor or
@@ -84,7 +85,7 @@ const HireFeatures = () => {
                 </div>
           </div>
 
-          <div className="lg:w-5/6 grid grid-cols-1 lg:grid-cols-2 font-outfit text-white rounded-xl overflow-hidden">
+          <div className="lg:w-5/6 grid grid-cols-1 lg:grid-cols-2 mb-10 font-outfit text-white rounded-xl overflow-hidden">
 
                 <div className='justify-end flex'>
                     <img src={hirefeature4} alt="" className="w-full relative" />
