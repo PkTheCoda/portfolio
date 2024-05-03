@@ -19,10 +19,6 @@ const projectStarterPack = [
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     text: "TypeScript"
   },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-    text: "Firebase"
-  }
 ];
 
 const miscellaneous = [
@@ -40,11 +36,6 @@ const miscellaneous = [
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
       text: "JavaScript ",
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
-    },
-    {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        text: "Java",
-        color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-blue-400 bg-blue-100/20"
     },
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
@@ -154,6 +145,25 @@ export default function ToolsSection() {
               <p className="text-lg font-semibold font-outfit text-gray-800">{tool.text}</p>
             </div>
           ))}
+
+          <div
+            className="bg-white shadow-sm relative z-[30] p-6 rounded-lg text-center w-max"
+          >
+            <div className="p-4 hidden sm:block bg-white shadow-md rounded-md gap-y-2 absolute text-white -top-6 -right-24">
+              <img 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" 
+                alt="Supabase" 
+                className="w-20"
+              />
+              <p className="text-md font-semibold font-outfit text-gray-800">Or Supabase</p>
+            </div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+              className="w-max px-4 h-20 mx-auto mb-4"
+            />
+            <p className="text-lg font-semibold font-outfit text-gray-800">Firebase</p>
+          </div>
+
         </div>
       </div>
 
@@ -161,7 +171,7 @@ export default function ToolsSection() {
 
       <h3 class="flex items-center w-full p-20">
         <span class="flex-grow bg-orange-300 rounded h-1"></span>
-        <button class="mx-3 text-md font-medium text-2xl font-outfit tracking-tight md:text-3xl lg:text-6xl rounded-full">My Skills/Technologies</button>
+        <button class="font-outfit mx-4 five-title">My Skills/Technologies</button>
         <span class="flex-grow bg-orange-300 rounded h-1"></span>
     </h3>
       <div className="flex mx-2 lg:mx-10">
