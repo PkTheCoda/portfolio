@@ -340,16 +340,16 @@ export function Projects() {
             My <span className="main-gradient">Projects:</span>
           </div> */}
 
-        <div className="py-4 w-4/5 flex mb-10">
-          <h1 className="text-5xl md:text-7xl w-7/12 font-semibold text-gray-800">
+        <div className="py-4 w-4/5 flex md:flex-row flex-col mb-10">
+          <h1 className="text-5xl md:text-7xl md:w-7/12 font-semibold text-gray-800">
             Let's have a look at{" "}
             <span className="main-gradient">My Projects</span>
           </h1>
-          <div className="flex items-center w-5/12 xl:mt-0 mt-6 xl:justify-end text-lg lg:text-xl">
+          <div className="flex items-center md:w-5/12 xl:mt-0 mt-6 xl:justify-end text-lg lg:text-xl">
             <a
               href="https://github.com/PkTheCoda"
               target="_blank"
-              class="relative w-full w-5/6 md:w-2/3 lg:w-1/2 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
+              class="relative w-full md:w-2/3 lg:w-1/2 inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-400 rounded-md shadow-md group"
             >
               <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-700 group-hover:translate-x-0 ease">
                 <svg
