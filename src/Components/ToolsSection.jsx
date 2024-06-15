@@ -101,9 +101,9 @@ function Column({tools }) {
                       className={`bg-white border p-10 rounded-lg text-center`}
                   >
                       <img
-                      src={tool.image}
-                      alt={tool.text}
-                      className="w-[8rem] h-20 mx-auto mb-4"
+                        src={tool.image}
+                        alt={tool.text}
+                        className="w-[8rem] h-20 mx-auto mb-4"
                       />
                       <p className="text-lg font-semibold font-outfit">{tool.text}</p>
                   </div>

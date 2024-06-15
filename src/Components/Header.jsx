@@ -26,8 +26,8 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-white/40 rounded-2xl z-50 md:sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
-        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-50">
+      <div className="bg-white/40 rounded-2xl z-40 md:sticky top-10 backdrop-blur-xl m-6 flex items-center mx-10 sm:mx-20 lg:mx-40">
+        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40">
           <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
-                href="/hire" 
+                href="https://thryvedesign.com" 
                 target='_blank'
                 className="text-md leading-6 text-black font-outfit"
               >
@@ -72,8 +72,8 @@ export default function Navbar() {
             </div>
           </nav>
           <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-            <div className="fixed inset-0 z-50" />
-            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="fixed inset-0 z-40" />
+            <Dialog.Panel className="fixed inset-y-0 right-0 z-40 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="/" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
@@ -108,7 +108,8 @@ export default function Navbar() {
                   </div>
                   <div className="py-6">
                     <a
-                      href="/hire"
+                      href="https://thryvedesign.com"
+                      target='_blank'
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Hire Me 

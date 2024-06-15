@@ -31,7 +31,7 @@ export default function HeroMain() {
                   About Me
                 </a>
                 <a 
-                  href="/hire" 
+                  href="https://thryvedesign.com" 
                   target="_blank"
                   className="text-xl leading-6 text-black font-outfit transform transition hover:scale-105"
                   onClick={(event) => handleNavigationClick(event, "#work")}
