@@ -14,7 +14,7 @@ export default function ExtraProjectBottom() {
 
             <div className="py-10 max-w-6xl px-2 gap-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full items-center">
 
-                <a target='_blank' href='https://ecoeats.us' className="bg-gray-400 rounded-md p-1 bg-black h-full flex flex-col transition300scale cursor-pointer">
+                <a target='_blank' href='#' className="bg-gray-400 rounded-md p-1 bg-black h-full flex flex-col transition300scale cursor-pointer">
                     <div className="rounded-t-lg">
                         <img src={sample2} alt="Image of another project of mine" className='rounded-t-md' />
                     </div>
