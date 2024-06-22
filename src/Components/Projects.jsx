@@ -368,7 +368,7 @@ const ecoeatsbuiltwith = [
 
 export function Projects() {
   return (
-    <div className="">
+    <div className="max-w-[100rem] mx-auto">
       {/* P1: Talem */}
       <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 font-outfit" id="work">
         {/* <div className="text-4xl md:text-7xl font-bold text-center py-4 mb-10" id="work">
