@@ -19,6 +19,10 @@ import score1 from "../Images/score1.png";
 import score2 from "../Images/score2.png";
 import score3 from "../Images/score3.png";
 
+import desource1 from '../Images/desource1.png'
+import desource2 from '../Images/desource2.png'
+import desource3 from '../Images/desource3.png'
+
 import {
   FaEye,
   FaUser,
@@ -273,6 +277,37 @@ const scoreBuiltWith = [
   },
 ];
 
+const desourceBuiltWith = [
+  {
+    name: "HTML",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "JavaScript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "ReactJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "TailwindCSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "NextJS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: 'Supabase',
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
+  }
+];
+
 const learnthewebBuiltWith = [
   {
     name: "Wordpress",
@@ -515,7 +550,7 @@ export function Projects() {
       </div>
 
       {/* P2: learntheweb */}
-      <div className="rounded-xl flex flex-col my-20 mx-0 relative">
+      {/* <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-5/6">
             <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
@@ -643,6 +678,144 @@ export function Projects() {
                       <FaCode /> Visit Repo
                     </span>
                     <span class="relative invisible">Button Text</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      {/* Project #2: Desource */}
+      <div className="rounded-xl flex flex-col my-20 mx-0 relative">
+        <div className="rounded-xl flex items-center flex-col relative">
+          <div className="flex flex-col gap-y-1 mb-4 w-5/6">
+            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+              <span className="text-blue-500 drop-shadow-2xl text-base">
+                02{" "}
+              </span>{" "}
+              Desource -{" "}
+              <span className="opacity-70">Resources for Web-Developers</span>
+            </h2>
+            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+              <TooltipCustomStyles
+                title="About Desource"
+                description="Desource is one my newest web-development projects that serves as a collection of resources for web-development and web-designers alike!"
+              />
+              A Massive Database of Web-development Resources
+            </h4>
+          </div>
+
+          <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
+            <CarouselCustomNavigation
+              image1={desource2}
+              image2={desource1}
+              image3={desource3}
+            />
+
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+              <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
+                <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
+                  Desource is one of my newest projects. It's a massive collection of resources for 
+                  web-designers and web-developers. Users can access the site and bookmark resources 
+                  useful for them, submit their own resources, and even leave ratings of reviews along 
+                  with over 20+ different filters from gradients to colors to graphics and more!
+                </div>
+                <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
+                  {desourceBuiltWith.map((technology, index) => (
+                    <a
+                      key={index}
+                      href={technology.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 bg-gray-900 rounded-md font-normal text-xl text-gray-300 font-outfit flex flex-row lg:flex-col xl:flex-row justify-center items-center"
+                    >
+                      <img
+                        src={technology.link}
+                        alt={technology.name}
+                        className="w-6 h-6 mr-2"
+                      />
+                      {technology.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaEye className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">10k visits</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaUser className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">No Stats</h2>
+                  </div>
+
+                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
+                    <div className="p-2 bg-orange-100 rounded-full">
+                      <FaMoneyBill className="text-orange-800" />
+                    </div>
+                    <h2 className="text-lg">No Stats</h2>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <a
+                    href="https://desource.app"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaExternalLinkAlt /> Visit Website
+                    </span>
+                    <span class="relative invisible">Button Text</span>
+                  </a>
+                  <a
+                    href="https://github.com/pkthecoda/desource"
+                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
+                  >
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
+                      <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
+                      <FaCode /> Visit Repo
+                    </span>
+                    <span class="relative invisible">Visit Repo</span>
                   </a>
                 </div>
               </div>
@@ -790,6 +963,7 @@ export function Projects() {
           </div>
         </div>
       </div>
+
 
       {/* <MoreProjectsBox /> */}
     </div>
