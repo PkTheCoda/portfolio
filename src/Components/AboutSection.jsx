@@ -21,11 +21,11 @@ export default function AboutMe() {
                                     </span>
                                 </div>
 
-                                <div class="mt-3 font-outfit ">
+                                <div class="mt-3 font-outfit">
                                     <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
                                         A Bit <span className="text-[#7c2d12] underline">About Me.</span>
                                     </h2>
-                                    <p className="pl-4 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-white my-4">
+                                    <p className="p-4 shadow-md rounded-md border-l-4 border-[#9d4d32] bg-white/80 text-xl leading-relaxed font-outfit text-slate-900 my-4">
                                       <span className="text-[#7c2d12] font-semibold">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
                                       <br />
                                       <br />
