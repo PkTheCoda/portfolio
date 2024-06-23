@@ -19,9 +19,9 @@ function ContactForm() {
                   id="name"
                   type="name"
                   name="name"
-                  placeholder='random name'
+                  placeholder='your name'
                   required
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow flex text-center appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 />
                 <ValidationError
                   prefix="Name"
@@ -38,7 +38,7 @@ function ContactForm() {
                   name="email"
                   required
                   placeholder='sample@gmail.com'
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow text-center appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 />
                 <ValidationError
                   prefix="Email"
