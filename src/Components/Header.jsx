@@ -7,8 +7,8 @@ import pranavtextlogo from '../Images/pranavlogotext.png'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '#about' },
-  { name: 'My Work', href: '#work' },
   { name: 'Skills/Tools', href: '#tools' },
+  { name: 'My Work', href: '#work' },
   { name: 'Reach Out', href: '#contact' },
 ]
 
