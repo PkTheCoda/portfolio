@@ -25,11 +25,36 @@ export default function AboutMe() {
                                     <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
                                         A Bit <span className="text-[#7c2d12] underline">About Me.</span>
                                     </h2>
-                                    <p className="p-4 shadow-md rounded-md border-l-4 border-[#9d4d32] bg-white/80 text-xl leading-relaxed font-outfit text-slate-900 my-4">
-                                      <span className="text-[#7c2d12] font-semibold">Hi there!</span> I'm Pranav, a 16 year old and junior in highschool based out of Richmond, Virginia. Ever since I was a kid, I have always been fascinated with how diverse the web was -- and that passion has led me to pursue web development.
+                                    <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-slate-900 my-4">
+                                      <span className="text-[#7c2d12] font-semibold">Hi there!</span>{' '} 
+                                        I'm Pranav, a 16 year old junior in highschool based out of Richmond, Virginia. 
+                                        I started building simple websites in my sophomore year of highschool. 
+                                        Ever since then, I absolute fell in love with web-development and have built + 
+                                        shipped many different apps that have a focus on helping others {':)'}
                                       <br />
                                       <br />
-                                      I love web development since it allows me to not only harness my creativity, but also because I'm able to make an impact in my local and global community. It really is awesome because I can take anything that I imagine <span className="text-[#7c2d12] font-semibold">and turn it into a reality.</span>
+                                      Here's a quick rundown of what I've done. I built{' '} 
+                                      <a href="https://talem.org" target='_blank' className="underline text-[#7c2d12]">talem.org</a>, 
+                                      a website that helps highschoolers find extracurriculars and internships. I created{' '}
+                                      <a href="https://learntheweb.org" target='_blank' className="underline text-[#7c2d12]">learntheweb.org</a>,
+                                      a website that teaches web-dev through self-paced courses + projects. 
+                                      <br />
+                                      <br />
+                                      
+                                      Nowadays, I'm working on my latest app 
+                                      which helps web developers:{' '}
+                                      <a href="https://desource.app" target='_blank' className="underline text-[#7c2d12]">desource.app</a>{' '}
+                                      and I'm running{' '}
+                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#7c2d12]">my own web-dev agency</a>. 
+                                      If you want to help out/connect, just{' '}
+                                      <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#7c2d12]">shoot me an email</a>!
+
+                                      
+
+                                      {/* I love web development since it allows me to not only harness my creativity, but also 
+                                      because I'm able to make an impact in my local and global community. It really is awesome
+                                      because I can take anything that I imagine <span className="text-[#7c2d12] font-semibold">and turn 
+                                      it into a reality.</span> */}
                                     </p>
 
                                     <div className="flex mt-6 space-x-4 items-center  gap-x-2">

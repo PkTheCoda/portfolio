@@ -8,7 +8,7 @@ export default function ExtraProjectBottom() {
     return (
         <div className='flex flex-col font-outfit bg-[#e3c091] py-16'>
             
-            <div className='text-6xl font-semibold tracking-tight text-center text-[#704421]'>
+            <div className='six-title font-semibold tracking-tight text-center text-[#704421]'>
                 <h1 className=''>Some Other Projects </h1>
                 <h1 className="block">I've Built/Working On:</h1>
             </div>
