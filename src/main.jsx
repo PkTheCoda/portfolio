@@ -10,10 +10,10 @@ const options = {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PostHogProvider 
+    {/* <PostHogProvider 
       apiKey={process.env.REACT_APP_PUBLIC_POSTHOG_KEY}
       options={options}
-    >
+    > */}
       <App />
     </PostHogProvider>
   </React.StrictMode>,
