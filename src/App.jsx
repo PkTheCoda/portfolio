@@ -6,7 +6,7 @@ import Hire from './Hire';
 import TallyFormEmbed from './TallyForm';
 import { Analytics } from '@vercel/analytics/react';
 import { MdClose } from "react-icons/md";
-
+import Learn from './Components/Learn';
 
 function App() {
 
@@ -30,6 +30,12 @@ function App() {
             path="/form"
             element={<TallyFormEmbed />}
           />
+
+          <Route 
+            path="/learn"
+            element={<Learn />}
+          />
+
 
           
         </Routes>
