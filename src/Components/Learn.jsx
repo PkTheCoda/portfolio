@@ -36,7 +36,7 @@ const Learn = () => {
                   <div className='text-xl font-light leading-8 whitespace-pre-line'>
                     Alright, I'll start with a quick background about myself since{' '} 
                     <span className="bh">who doesn't love talking about themselves? {' '}</span>
-                    My name is Pranav Konjeti. I'm currently 16 years old and a rising Senior based out of Richmond, Virginia. 
+                    I'm Pranav Konjeti. I'm currently 16 years old and a rising Senior based out of Richmond, Virginia. 
                     <br />
                     <br />
                     In the past year, I've built multiple web-apps and applications. One of my largest ones is <a href="https://talem.org" target='_blank' className="bhl">Talem</a>, 
@@ -50,14 +50,14 @@ const Learn = () => {
                     for mainly small businesses. We've generated over $10,000 in profit!
                     <br />
                     <br />
-                    In the recent months, I've been posting about all my projects and initiatives on platforms like Linkedin, Reddit, etc. and I always 
+                    In the recent months, I've been posting about all my projects and initiatives on platforms like Linkedin, Reddit, Discord, etc. and I always 
                     get the same question:
                     <blockquote class="border-l-4 border-gray-500 my-8 ml-4 px-4 max-w-md">
                         <p class="text-xl font-medium text-gray-800">
                           How do I start learning web-development?
                         </p>
                     </blockquote>
-                    In the rest of this post, I'll go over <span className="bh">exactly how I learned, what mistakes I made while learning, and the best way for <span className="underline">you</span> to learn.</span>
+                    In the rest of this post, I'll go over <span className="bh">exactly what I learned, what mistakes I made while learning, and the best way for <span className="underline">you</span> to learn.</span>
                   </div>
                 </div>
 
@@ -210,7 +210,7 @@ const Learn = () => {
                   </h3>
                   <div className='text-xl font-light leading-8 whitespace-pre-line'>
                     Yeah, I lied. The title of this blog post 
-                    is <span className="bh">How I learned web-development in one year.</span> But the truth is, 
+                    is <span className="bh">How I learned web-development.</span> But the truth is, 
                     I didn't actually <span className="bh">"fully" learn web-development.</span> I don't even think that's possible. The thing I love about 
                     this niche of programming is that the ecosystem is <span className="bh">just massive.</span>
                     <br />
@@ -458,7 +458,7 @@ const Learn = () => {
                     back from the project for a day or two, relax or work on something else, and come back with a fresh mind.
                     <br />
                     <br />
-                    It was a lot of fun writing this post. I'm normally not the extroverted "sharing" type of person, so praciting 
+                    It was a lot of fun writing this post. I'm normally not the extroverted "sharing" type of person, so practicing 
                     writing stuff like this has helped me out a lot, and I hope the actual post helps you too!
                     <br />
                     <br />
