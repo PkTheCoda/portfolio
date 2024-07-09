@@ -7,6 +7,7 @@ import WavyLine from './Components/WavyLine'
 import Header from './Components/Header'
 import ExtraProjectBottom from './Components/ExtraProjectsBottom'
 import { Helmet } from 'react-helmet';
+import BlogHome from './Components/BlogHome'
 
 function Homepage() {
 

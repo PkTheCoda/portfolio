@@ -6,10 +6,8 @@ import pranavtextlogo from '../Images/pranavlogotext.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '#about' },
-  { name: 'Skills/Tools', href: '#tools' },
-  { name: 'My Work', href: '#work' },
-  { name: 'Reach Out', href: '#contact' },
+  { name: 'Email', href: 'mailto:pranavkonjeti@gmail.com' },
+  { name: 'Linkedin', href: 'https://www.linkedin.com/in/pranav-konjeti/' },
 ]
 
 export default function NavbarStatic() {
@@ -26,7 +24,7 @@ export default function NavbarStatic() {
 
   return (
     <>
-      <div className="z-40 backdrop-blur-xl py-2 flex items-center mx-auto bg-[#f9dba6]">
+      <div className="z-40 backdrop-blur-xl py-2 flex items-center mx-auto bg-[#f6efd8]">
         <header className="w-full z-40 mx-auto max-w-[90rem]">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
@@ -54,8 +52,8 @@ export default function NavbarStatic() {
                 <a 
                   key={item.name} 
                   href={item.href} 
-                  className="text-lg leading-6 text-black font-outfit font-light transition transform hover:scale-110"
-                  onClick={(event) => handleNavigationClick(event, item.href)}
+                  target='_blank'
+                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
                 >
                   {item.name}
                 </a>

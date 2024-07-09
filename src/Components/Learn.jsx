@@ -15,7 +15,7 @@ const Learn = () => {
             <div className="py-10 space-y-6 bg-[#faf6e8] px-4 pb-20">
               <div className='space-y-4 max-w-3xl mx-auto'>
                 <h1 className='five-title font-semibold'>
-                  How I learned Web-Development in <span className="main-gradient">Less than a Year</span>: a full step-by-step account.
+                  How I learned Web-Development: <span className="main-gradient">a full step-by-step account.</span>
                 </h1>
                 <div className="flex gap-x-4 py-4 items-center">
                   <img src={pranav} alt="A pic of me!"  className='h-14 w-14 object-cover rounded-full'/>
@@ -45,9 +45,9 @@ const Learn = () => {
                     <br />
                     <br />
                     I also built <a href="https://desource.app" target='_blank' className="bhl">Desource</a>, a way for web-developers and web-designers to find 
-                    programming resources. This is a newer project, but it's been gaining a ton of traction recently. Finall, I also run my 
+                    programming resources. This is a newer project, but it's been gaining a ton of traction recently. Finally, I also run my 
                     own <a href="https://thryvedesign.com" target='_blank' className="bhl">Web-Develompent Agency.</a> We build custom websites 
-                    for mainly small-businesses. We've generated over $10,000 in profit!
+                    for mainly small businesses. We've generated over $10,000 in profit!
                     <br />
                     <br />
                     In the recent months, I've been posting about all my projects and initiatives on platforms like Linkedin, Reddit, etc. and I always 
