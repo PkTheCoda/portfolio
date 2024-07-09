@@ -25,7 +25,6 @@ function Homepage() {
         <ToolsSection />
         <Projects />
         <ExtraProjectBottom />
-        <WavyLine />
         <ContactSection />
     </div>
   )
