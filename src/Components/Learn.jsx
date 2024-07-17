@@ -139,6 +139,11 @@ const Learn = () => {
                     managing data to image sliders are all done with JavaScript.
                     <br />
                     <br />
+                    So what's after this? Well, most people move onto learning frameworks which just make making interactive websites 
+                    easier and simplify the process. You can take a look at <a href="https://roadmap.sh/frontend" className="bhl">this roadmap</a> for 
+                    a better visualization of what to learn
+                    <br />
+                    <br />
                     <span className="bh3">Thoughts</span>
                     Alright so now you have an idea of what to learn. So how do we actually <span className="bh">learn it?</span>{' '}
                     Let's get into <span className="bh">how to learn and a major mistake to avoid while learning!</span>
