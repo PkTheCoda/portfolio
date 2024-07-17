@@ -129,7 +129,7 @@ const Learn = () => {
                     <br />
                     Below is the homepage of one of my web-apps, <a href="https://talem.org" target='_blank' className="bhl">Talem</a>. I made it with CSS.
                     Everything from the colors to the font-size to the cool gradient blur - all done with CSS. 
-                    <img src="https://firebasestorage.googleapis.com/v0/b/easyap-71722.appspot.com/o/ogimage.png?alt=media&token=3be4e8ec-57ad-404f-a339-485996059c9b" alt="Talem Homepage Example" className="bimage" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/talem-app.appspot.com/o/TalemHomepage%20(1).png?alt=media&token=aa07a1bd-e39e-4161-9ae1-5e51e3a3b717" alt="Talem Homepage Example" className="bimage" />
                     <br />
                     <br />
                     <span className="bh3">JavaScript</span>
