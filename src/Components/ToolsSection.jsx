@@ -169,11 +169,9 @@ export default function ToolsSection() {
 
 
 
-    <div className="max-w-[100rem] mx-auto">
-      <h3 class="flex items-center w-full p-20">
-        <span class="flex-grow bg-orange-300 rounded h-1"></span>
-        <button class="font-outfit mx-4 five-title">My Skills/Technologies</button>
-        <span class="flex-grow bg-orange-300 rounded h-1"></span>
+    <div className="max-w-[100rem] mx-auto space-y-10">
+      <h3 class="flex items-center justify-center w-full text-center five-title font-outfit font-medium tracking-tight">
+        My Skills & Technologies
       </h3>
       <div className="flex mx-2 lg:mx-10">
           <Column title="Miscellaneous" tools={miscellaneous} />

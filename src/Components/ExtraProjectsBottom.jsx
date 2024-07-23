@@ -3,6 +3,7 @@ import sample2 from '../Images/ecoeats1.png'
 import sample3 from '../Images/acely1.png'
 import sample4 from '../Images/score1.png'
 import desource1 from '../Images/desource2.png'
+import { FaPlusCircle } from "react-icons/fa";
 
 export default function ExtraProjectBottom() {
     return (
@@ -15,12 +16,12 @@ export default function ExtraProjectBottom() {
 
             <div className="py-10 max-w-5xl px-2 gap-6 mx-auto flex flex-col gap-y-14 h-full items-center">
 
-                <a target='_blank' href='https://score1600.com' className="grid md:grid-cols-2 gap-8 p-8 rounded-xl h-full shadow-md cursor-pointer bg-[#ffedd5]">
+                <div target='_blank' href='https://score1600.com' className="grid md:grid-cols-2 gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
                     <div className="p-4 gap-y-2 flex flex-col text-black justify-center">
-                        <h1 className="five-title text-blue-700 underline">
-                            Score1600.com
+                        <h1 className="five-title text-blue-700 underline text-wrap">
+                            Score1600
                         </h1>
-                        <h3 className='paragraph-responsive text-balance leading-6 font-light text-gray-800'>
+                        <h3 className='text-sm sm:text-lg text-balance leading-6 font-light text-gray-800'>
                             Score1600 is an SAT tutoring service started with a group of friends. I personally LOVE 
                             this website - I focused heavily on design + color theme while making it. 
                             <br />
@@ -32,9 +33,9 @@ export default function ExtraProjectBottom() {
                     <div className="flex items-center">
                         <img src={sample4} alt="Image of another project of mine" className='rounded-md shadow-lg' />
                     </div>
-                </a>
+                </div>
 
-                <a target='_blank' href='#' className=" grid md:grid-cols-2 gap-8 h-full shadow-md cursor-pointer bg-[#ffedd5] p-8 rounded-xl">
+                <a target='_blank' href='#' className=" grid md:grid-cols-2 gap-8 shadow-md cursor-pointer bg-[#ffedd5] p-8 rounded-xl">
                     <div className="flex items-center">
                         <img src={sample2} alt="Image of another project of mine" className='rounded-md shadow-lg' />
                     </div>
@@ -42,7 +43,7 @@ export default function ExtraProjectBottom() {
                         <h1 className="five-title">
                             EcoEats
                         </h1>
-                        <h3 className='paragraph-responsive text-balance leading-6 font-light text-gray-800'>
+                        <h3 className='text-sm sm:text-lg text-balance leading-6 font-light text-gray-800'>
                             EcoEats is a revolutionary app that connects food banks and charities with food. The App 
                             was created with a group of friends, however, I built the showcase website for the app! It 
                             was a pretty fun project and I did learn quite a bit! Currently the website is not up, but will 
@@ -52,12 +53,12 @@ export default function ExtraProjectBottom() {
                 </a>
 
 
-                <a target='_blank' href='#' className=" grid md:grid-cols-2 gap-8 p-8 rounded-xl h-full shadow-md cursor-pointer bg-[#ffedd5]">
+                <a target='_blank' href='#' className=" grid md:grid-cols-2 gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
                     <div className="p-4 gap-y-2 flex flex-col text-black justify-center">
                         <h1 className="five-title">
                             Acely
                         </h1>
-                        <h3 className='paragraph-responsive text-balance leading-6 font-light text-gray-800'>
+                        <h3 className='text-sm sm:text-lg text-balance leading-6 font-light text-gray-800'>
                             Acely is (kind of) an older project (2~ months in the works). You can think of it as 
                             a questionbank of AP-exam style questions + AI-powered answers. (yes, AI. You can be shocked now)
                             Anyways, I'm super excited about this project! We'll be releasing it by the end of the summer with 

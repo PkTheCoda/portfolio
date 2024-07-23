@@ -4,9 +4,9 @@ import talem1 from "../Images/talem1.png";
 import talem2 from "../Images/talem2.png";
 import talem3 from "../Images/talem3.png";
 
-import ltw1 from '../Images/ltw1.png'
-import ltw2 from '../Images/ltw2.png'
-import ltw3 from '../Images/ltw3.png'
+import ltw1 from "../Images/ltw1.png";
+import ltw2 from "../Images/ltw2.png";
+import ltw3 from "../Images/ltw3.png";
 
 import ecoeats1 from "../Images/ecoeats1.png";
 import ecoeats2 from "../Images/ecoeats2.png";
@@ -19,9 +19,9 @@ import score1 from "../Images/score1.png";
 import score2 from "../Images/score2.png";
 import score3 from "../Images/score3.png";
 
-import desource1 from '../Images/desource1.png'
-import desource2 from '../Images/desource2.png'
-import desource3 from '../Images/desource3.png'
+import desource1 from "../Images/desource1.png";
+import desource2 from "../Images/desource2.png";
+import desource3 from "../Images/desource3.png";
 
 import {
   FaEye,
@@ -303,9 +303,9 @@ const desourceBuiltWith = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
-    name: 'Supabase',
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
-  }
+    name: "Supabase",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+  },
 ];
 
 const learnthewebBuiltWith = [
@@ -370,7 +370,10 @@ export function Projects() {
   return (
     <div className="max-w-[100rem] mx-auto">
       {/* P1: Talem */}
-      <div className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 font-outfit" id="work">
+      <div
+        className="rounded-xl flex flex-col justify-center items-center my-20 mx-0 font-outfit"
+        id="work"
+      >
         {/* <div className="text-4xl md:text-7xl font-bold text-center py-4 mb-10" id="work">
             My <span className="main-gradient">Projects:</span>
           </div> */}
@@ -412,7 +415,7 @@ export function Projects() {
 
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-5/6">
-            <h2 className="text-3xl md:text-5xl font-semibold">
+            <h2 className="five-title font-semibold">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 01
               </span>
@@ -434,8 +437,7 @@ export function Projects() {
               image3={talem3}
             />
 
-            <div className="rounded-b-lg bg-[#e17948ee] px-4 md:px-10 items-center justify-center flex flex-col">
-              
+            <div className="rounded-b-lg bg-[#e17948ee] px-4 md:px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
                   Talem is an advanced platform enabling high school students to
@@ -466,7 +468,7 @@ export function Projects() {
               </div>
 
               <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
                     <div className="p-2 bg-orange-100 rounded-full">
                       <FaEye className="text-orange-800" />
@@ -553,14 +555,14 @@ export function Projects() {
       <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-5/6">
-            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+            <h2 className="five-title font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 02{" "}
               </span>{" "}
               Desource -{" "}
               <span className="opacity-70">Resources for Web-Developers</span>
             </h2>
-            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+            <h4 className="text-gray-700 two-title font-outfit flex">
               <TooltipCustomStyles
                 title="About Desource"
                 description="Desource is one my newest web-development projects that serves as a collection of resources for web-development and web-designers alike!"
@@ -576,13 +578,15 @@ export function Projects() {
               image3={desource3}
             />
 
-            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  Desource is one of my newest projects. It's a massive collection of resources for 
-                  web-designers and web-developers. Users can access the site and bookmark resources 
-                  useful for them, submit their own resources, and even leave ratings of reviews along 
-                  with over 20+ different filters from gradients to colors to graphics and more!
+                  Desource is one of my newest projects. It's a massive
+                  collection of resources for web-designers and web-developers.
+                  Users can access the site and bookmark resources useful for
+                  them, submit their own resources, and even leave ratings of
+                  reviews along with over 20+ different filters from gradients
+                  to colors to graphics and more!
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
                   {desourceBuiltWith.map((technology, index) => (
@@ -605,7 +609,7 @@ export function Projects() {
               </div>
 
               <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
                     <div className="p-2 bg-orange-100 rounded-full">
                       <FaEye className="text-orange-800" />
@@ -687,17 +691,17 @@ export function Projects() {
         </div>
       </div>
 
-            {/* P2: learntheweb */}
-            <div className="rounded-xl flex flex-col my-20 mx-0 relative">
+      {/* P2: learntheweb */}
+      <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-5/6">
-            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+            <h2 className="five-title font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 03{" "}
               </span>
               Learntheweb
             </h2>
-            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+            <h4 className="text-gray-700 two-title font-outfit flex">
               <TooltipCustomStyles
                 title="About Learntheweb"
                 description="Learntheweb was created by Pranav when he realized how lacking basic computer science education was throughout the standardized school system."
@@ -713,12 +717,15 @@ export function Projects() {
               image3={ltw3}
             />
 
-            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  learntheweb.org is a free online learning platform designed to make coding easy and accessible to people of all 
-                  ages and backgrounds. To date, we've conducted over 6 workshops, taught over 200+ students, over 300 hours of active teaching, and more.
-                  Additionally, you can self-learn with our 80+ in-built lessons
+                  learntheweb.org is a free online learning platform designed to
+                  make coding easy and accessible to people of all ages and
+                  backgrounds. To date, we've conducted over 6 workshops, taught
+                  over 200+ students, over 300 hours of active teaching, and
+                  more. Additionally, you can self-learn with our 80+ in-built
+                  lessons
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
                   {learnthewebBuiltWith.map((technology, index) => (
@@ -741,7 +748,7 @@ export function Projects() {
               </div>
 
               <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
                     <div className="p-2 bg-orange-100 rounded-full">
                       <FaEye className="text-orange-800" />
@@ -828,14 +835,14 @@ export function Projects() {
       {/* <div className="rounded-xl flex flex-col my-20 mx-0 relative">
         <div className="rounded-xl flex items-center flex-col relative">
           <div className="flex flex-col gap-y-1 mb-4 w-5/6">
-            <h2 className="text-3xl md:text-5xl font-semibold font-outfit ">
+            <h2 className="five-title font-semibold font-outfit ">
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 03{" "}
               </span>{" "}
               Score1600 -{" "}
               <span className="text-amber-800">Ace your Digital SAT</span>
             </h2>
-            <h4 className="text-gray-700 text-xl md:text-2xl font-outfit flex">
+            <h4 className="text-gray-700 two-title font-outfit flex">
               <TooltipCustomStyles
                 title="About Learntheweb"
                 description="Score1600 is an SAT Tutoring website that I started with a group of friends! We're all (almost) near perfect-scores, so we decided to help out others and created this tutoring platform!"
@@ -851,7 +858,7 @@ export function Projects() {
               image3={score3}
             />
 
-            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-10 items-center justify-center flex flex-col">
+            <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
                   Score1600 is an SAT tutoring service started up by me and a
@@ -882,7 +889,7 @@ export function Projects() {
               </div>
 
               <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
                     <div className="p-2 bg-orange-100 rounded-full">
                       <FaEye className="text-orange-800" />
@@ -963,7 +970,6 @@ export function Projects() {
           </div>
         </div>
       </div> */}
-
 
       {/* <MoreProjectsBox /> */}
     </div>
