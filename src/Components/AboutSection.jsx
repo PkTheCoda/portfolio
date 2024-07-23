@@ -45,7 +45,7 @@ export default function AboutMe() {
                                       which helps web developers:{' '}
                                       <a href="https://desource.app" target='_blank' className="underline text-[#67230d]">desource.app</a>{' '}
                                       and I'm running{' '}
-                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a>. 
+                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a> with revenue! 
                                       If you want to help out/connect, just{' '}
                                       <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#67230d]">shoot me an email</a>!
 

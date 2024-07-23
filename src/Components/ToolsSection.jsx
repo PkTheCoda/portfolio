@@ -43,6 +43,11 @@ const miscellaneous = [
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
     },
     {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg", 
+      text: "NextJS",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
+    },
+    {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", 
       text: "NodeJS",
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
@@ -105,7 +110,7 @@ function Column({tools }) {
                         alt={tool.text}
                         className="w-[8rem] h-20 mx-auto mb-4"
                       />
-                      <p className="text-lg font-semibold font-outfit">{tool.text}</p>
+                      <p className="text-lg font-medium font-outfit tracking-tight">{tool.text}</p>
                   </div>
                 </div>
             ))}
@@ -149,7 +154,7 @@ export default function ToolsSection() {
           <div
             className="bg-white shadow-sm relative z-[30] p-6 rounded-lg text-center w-max"
           >
-            <div className="p-4 hidden sm:block bg-white shadow-md rounded-md gap-y-2 absolute text-white -top-6 -right-24">
+            <div className="p-4 hidden sm:block bg-white shadow-sm rounded-md gap-y-2 absolute text-white -top-6 -right-24">
               <img 
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" 
                 alt="Supabase" 
