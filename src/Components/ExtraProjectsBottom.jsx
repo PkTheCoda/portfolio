@@ -16,7 +16,7 @@ export default function ExtraProjectBottom() {
 
             <div className="py-10 max-w-5xl px-2 gap-6 mx-auto flex flex-col gap-y-14 h-full items-center">
 
-                <div target='_blank' href='https://score1600.com' className="grid md:grid-cols-2 gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
+                <a target='_blank' href='https://score1600.com' className="grid md:grid-cols-2 gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
                     <div className="p-4 gap-y-2 flex flex-col text-black justify-center">
                         <h1 className="five-title text-blue-700 underline text-wrap">
                             Score1600
@@ -33,7 +33,7 @@ export default function ExtraProjectBottom() {
                     <div className="flex items-center">
                         <img src={sample4} alt="Image of another project of mine" className='rounded-md shadow-lg' />
                     </div>
-                </div>
+                </a>
 
                 <a target='_blank' href='#' className=" grid md:grid-cols-2 gap-8 shadow-md cursor-pointer bg-[#ffedd5] p-8 rounded-xl">
                     <div className="flex items-center">
