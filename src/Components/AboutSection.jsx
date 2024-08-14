@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaMailBulk, FaGithub, FaVolleyballBall, FaTableTennis, FaMusic, FaCamera } from 'react-icons/fa';
 import { IoChatboxEllipses } from "react-icons/io5";
-import mePicture from '../Images/mepicturebackup.jpg'
+import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from '../Images/pranavlatest.jpg'
 
 export default function AboutMe() {
@@ -45,7 +45,7 @@ export default function AboutMe() {
                                       which helps web developers:{' '}
                                       <a href="https://desource.app" target='_blank' className="underline text-[#67230d]">desource.app</a>{' '}
                                       and I'm running{' '}
-                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a> with revenue! 
+                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a> with ~10k in revenue! 
                                       If you want to help out/connect, just{' '}
                                       <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#67230d]">shoot me an email</a>!
 
@@ -66,6 +66,9 @@ export default function AboutMe() {
                                       </a>
                                       <a href="https://github.com/PkTheCoda" target='_blank' className="contact-buttons-about">
                                         <FaGithub className="text-2xl" />
+                                      </a>
+                                      <a href="https://thryvedesign.com" target='_blank' className="contact-buttons-about">
+                                        <MdOutlineBusinessCenter className="text-2xl" />
                                       </a>
                                     </div>
                                 </div>
