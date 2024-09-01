@@ -4,6 +4,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../Images/pklogo.png'
 import pranavtextlogo from '../Images/pranavlogotext.png'
 
+import { SiBuymeacoffee } from "react-icons/si";
+
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '#about' },
@@ -31,7 +33,7 @@ export default function Navbar() {
           <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Pranav Konjeti</span>
                 <img
                     className="h-8 w-auto"
                     src={pranavtextlogo}
@@ -60,8 +62,15 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
+                <a 
+                  href="https://buymeacoffee.com/pranavkonjeti"
+                  className="text-md leading-6 text-black flex items-center gap-x-1 font-outfit transition transform hover:scale-110"
+                >
+                  <SiBuymeacoffee />
+                  Support 
+                </a>
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4">
               <a 
                 href="https://thryvedesign.com" 
                 target='_blank'

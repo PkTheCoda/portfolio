@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaMailBulk, FaGithub, FaVolleyballBall, FaTableTennis, FaMusic, FaCamera } from 'react-icons/fa';
+import { BiSolidCoffeeAlt } from "react-icons/bi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from '../Images/pranavlatest.jpg'
@@ -70,6 +71,9 @@ export default function AboutMe() {
                                       <a href="https://thryvedesign.com" target='_blank' className="contact-buttons-about">
                                         <MdOutlineBusinessCenter className="text-2xl" />
                                       </a>
+                                      <a href="https://buymeacoffee.com/pranavkonjeti" target='_blank' className="contact-buttons-about">
+                                        <BiSolidCoffeeAlt className="text-2xl" />
+                                      </a>
                                     </div>
                                 </div>
                             </div>
@@ -81,6 +85,8 @@ export default function AboutMe() {
                         </div>
                         
                     </div>
+
+                    
                     
                     <div className="md:mt-16 mb-[7rem] font-outfit w-full px-4 xl:px-0 flex items-center justify-center relative flex-col">
 
@@ -90,6 +96,7 @@ export default function AboutMe() {
                                 <h2 class="six-title font-semibold leading-9 text-white sm:leading-10">
                                     My Websites make <span className="underline main-gradient">Real Impacts</span>
                                 </h2>
+                                
                                 </div>
                             </div>
                             <div class=" sm:pb-16">

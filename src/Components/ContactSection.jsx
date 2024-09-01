@@ -1,6 +1,7 @@
 import React from "react";
 import { FaEnvelope, FaGithub, FaLinkedin, FaCoffee, FaYoutube} from "react-icons/fa";
 import ContactForm from './ContactForm'
+import { BiSolidCoffeeAlt } from "react-icons/bi";
 
 function ContactSection() {
   return (
@@ -134,6 +135,13 @@ function ContactSection() {
               target="_blank"
             >
               <FaYoutube className="text-purple-500 text-2xl hover:text-purple-800" />
+            </a>
+            <a
+              href="https://buymeacoffee.com/pranavkonjeti"
+                className="p-3 bg-purple-100 rounded-full transition transform hover:scale-105"
+              target="_blank"
+            >
+              <BiSolidCoffeeAlt className="text-purple-500 text-2xl hover:text-purple-800" />
             </a>
           </div>
         </footer>

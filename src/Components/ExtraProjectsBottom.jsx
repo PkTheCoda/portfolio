@@ -5,6 +5,7 @@ import sample4 from '../Images/score1.png'
 import languify from '../Images/languifymain.png'
 import desource1 from '../Images/desource2.png'
 import { FaPlusCircle } from "react-icons/fa";
+import { SiBuymeacoffee } from "react-icons/si";
 
 export default function ExtraProjectBottom() {
     return (
@@ -94,6 +95,18 @@ export default function ExtraProjectBottom() {
                     </div>
                 </a>
 
+            </div>
+
+            
+            <div className='text-center two-title font-medium tracking-tight flex flex-col gap-2 justify-center items-center'>
+                <p>Want to support my projects? Buy me a coffee!</p> 
+                <a 
+                    className='flex items-center gap-x-2 px-4 py-2 bg-white rounded-lg text-xl transition300scale'
+                    target='_blank'
+                    href='https://buymeacoffee.com/pranavkonjeti'
+                >
+                    <SiBuymeacoffee /> Support Me
+                </a>
             </div>
 
         </div>
