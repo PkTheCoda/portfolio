@@ -1,44 +1,43 @@
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../Images/pklogo.png'
-import pranavtextlogo from '../Images/pranavlogotext.png'
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../Images/pklogo.png";
+import pranavtextlogo from "../Images/pranavlogotext.png";
 
 import { SiBuymeacoffee } from "react-icons/si";
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '#about' },
-  { name: 'Skills/Tools', href: '#tools' },
-  { name: 'My Work', href: '#work' },
-  { name: 'Reach Out', href: '#contact' },
-]
+  { name: "Home", href: "/" },
+  { name: "About", href: "#about" },
+  { name: "Skills/Tools", href: "#tools" },
+  { name: "My Work", href: "#work" },
+  { name: "Reach Out", href: "#contact" },
+];
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavigationClick = (event, href) => {
     event.preventDefault();
     const target = document.querySelector(href);
     if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
+      target.scrollIntoView({ behavior: "smooth" });
     }
-    setMobileMenuOpen(false); 
+    setMobileMenuOpen(false);
   };
 
   return (
     <>
       <div className="bg-white/40 max-w-[85rem] rounded-2xl md:sticky z-40 top-10 backdrop-blur-xl m-6 flex items-center mx-4 lg:mx-auto">
         <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40 mx-auto">
-          <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <nav
+            className="flex  rounded-2xl items-center justify-between p-6 lg:px-8"
+            aria-label="Global"
+          >
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Pranav Konjeti</span>
-                <img
-                    className="h-8 w-auto"
-                    src={pranavtextlogo}
-                    alt=""
-                  />
+                <img className="h-8 w-auto" src={pranavtextlogo} alt="" />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -53,44 +52,45 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                <a 
-                  key={item.name} 
-                  href={item.href} 
+                <a
+                  key={item.name}
+                  href={item.href}
                   className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
                   onClick={(event) => handleNavigationClick(event, item.href)}
                 >
                   {item.name}
                 </a>
               ))}
-                <a 
-                  href="https://buymeacoffee.com/pranavkonjeti"
-                  className="text-md leading-6 text-black flex items-center gap-x-1 font-outfit transition transform hover:scale-110"
-                >
-                  <SiBuymeacoffee />
-                  Support 
-                </a>
+              <a
+                href="https://buymeacoffee.com/pranavkonjeti"
+                className="text-md leading-6 text-black flex items-center gap-x-1 font-outfit transition transform hover:scale-110"
+              >
+                <SiBuymeacoffee />
+                Support
+              </a>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4">
-              <a 
-                href="https://thryvedesign.com" 
-                target='_blank'
+              <a
+                href="https://thryvedesign.com"
+                target="_blank"
                 className="text-md leading-6 text-black font-outfit"
               >
                 Hire Me <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
-          <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <Dialog
+            as="div"
+            className="lg:hidden font-outfit"
+            open={mobileMenuOpen}
+            onClose={setMobileMenuOpen}
+          >
             <div className="fixed inset-0 z-40" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-40 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="/" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
-                  <img
-                    className="h-8 w-auto"
-                    src={pranavtextlogo}
-                    alt=""
-                  />
+                  <img className="h-8 w-auto" src={pranavtextlogo} alt="" />
                 </a>
                 <button
                   type="button"
@@ -109,19 +109,28 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
-                        onClick={(event) => handleNavigationClick(event, item.href)}
+                        onClick={(event) =>
+                          handleNavigationClick(event, item.href)
+                        }
                       >
                         {item.name}
                       </a>
                     ))}
+                    <a
+                      href="https://buymeacoffee.com/pranavkonjeti"
+                      className="-mx-3 flex items-center gap-x-1 rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
+                    >
+                      <SiBuymeacoffee />
+                      Support
+                    </a>
                   </div>
                   <div className="py-6">
                     <a
                       href="https://thryvedesign.com"
-                      target='_blank'
+                      target="_blank"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Hire Me 
+                      Hire Me
                     </a>
                   </div>
                 </div>
@@ -131,5 +140,5 @@ export default function Navbar() {
         </header>
       </div>
     </>
-  )
+  );
 }
