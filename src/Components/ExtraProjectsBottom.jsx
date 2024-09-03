@@ -76,13 +76,13 @@ export default function ExtraProjectBottom() {
                     </div>
                 </a>
 
-                <a target='_blank' href='https://www.youtube.com/watch?v=cTbdYp8ZMkc' className="gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
+                <a target='_blank' href='https://www.youtube.com/watch?v=ZjpzYi6aBa8' className="gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
                     <div className="p-4 space-y-4 flex flex-col text-black justify-center">
                         <div className="flex items-center">
                             <img src={languify} alt="Image of another project of mine" className='rounded-md shadow-lg' />
                         </div>
                         <div className='space-y-2'>
-                            <a href="https://www.youtube.com/watch?v=cTbdYp8ZMkc" className='text-blue-500 underline' target='_blank'>Demo Video</a>
+                            <a href="https://www.youtube.com/watch?v=ZjpzYi6aBa8" className='text-blue-500 underline' target='_blank'>Demo Video</a>
                             <h1 className="five-title">
                                 Languify
                             </h1>
