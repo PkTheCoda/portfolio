@@ -5,6 +5,7 @@ import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from '../Images/pranavlatest.jpg'
 import mepic2 from '../Images/mepic2.jpg'
+import mepic3 from '../Images/mepic3.jpg'
 
 export default function AboutMe() {
   return (
@@ -82,7 +83,7 @@ export default function AboutMe() {
                         <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
                             <img loading="lazy"
                                 class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
-                            src={mepic2}/>
+                            src={mepic3}/>
                         </div>
                         
                     </div>
