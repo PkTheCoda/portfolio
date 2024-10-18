@@ -83,7 +83,7 @@ export default function AboutMe() {
                         <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
                             <img loading="lazy"
                                 class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
-                            src={mepic3}/>
+                            src={mePicturenew}/>
                         </div>
                         
                     </div>
