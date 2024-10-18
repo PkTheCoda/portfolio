@@ -4,6 +4,7 @@ import { BiSolidCoffeeAlt } from "react-icons/bi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from '../Images/pranavlatest.jpg'
+import mepic2 from '../Images/mepic2.jpg'
 
 export default function AboutMe() {
   return (
@@ -28,7 +29,7 @@ export default function AboutMe() {
                                     </h2>
                                     <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-slate-900 my-4">
                                       <span className="text-[#67230d] font-semibold">Hi there!</span>{' '} 
-                                        I'm Pranav. I'm 16 years old and a rising senior in highschool based out of Richmond, Virginia. 
+                                        I'm Pranav. I'm 16 years old and a current senior in highschool based out of Richmond, Virginia. 
                                         I started building simple websites in my sophomore year of highschool. 
                                         Ever since then, I absolutely fell in love with web-development and have built + 
                                         shipped many different apps that have a focus on helping others {':)'}
@@ -81,7 +82,7 @@ export default function AboutMe() {
                         <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
                             <img loading="lazy"
                                 class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
-                            src={mePicturenew}/>
+                            src={mepic2}/>
                         </div>
                         
                     </div>
