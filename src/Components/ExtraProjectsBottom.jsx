@@ -112,9 +112,9 @@ export default function ExtraProjectBottom() {
                 </a>
             </div> */}
 
-            <div className="pb-10 px-10 pt-0 w-full max-w-[70rem] mx-auto bg-[#ffedd5] rounded-xl shadow-md">
-                        hi
-            </div>
+            {/* <div className="pb-10 px-10 pt-0 w-full max-w-[70rem] mx-auto bg-[#ffedd5] rounded-xl shadow-md">
+                hi
+            </div> */}
 
         </div>
     )
