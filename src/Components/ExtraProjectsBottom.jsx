@@ -9,14 +9,17 @@ import { SiBuymeacoffee } from "react-icons/si";
 
 export default function ExtraProjectBottom() {
     return (
-        <div className='flex flex-col font-outfit bg-[#e3c091] py-16'>
+        <div className='flex flex-col font-outfit bg-orange-100 py-16'>
             
-            <div className='six-title font-semibold tracking-tight text-center text-[#704421]'>
-                <h1 className=''>Some Other Projects </h1>
-                <h1 className="block">I've Built/Working On:</h1>
+            <div className='seven-title font-medium text-center text-[#704421] space-y-2'>
+                <h1 className='seven-title tracking-tighter'>Other <span className="underline">Side Projects</span> </h1>
+                <h4 className="text-xl max-w-xl mx-auto">
+                    These are some of my favorite side-projects I've built. Check out <a href="https://github.com/pkthecoda" target="_blank" className="underline">my github</a> {' '}
+                    for the 30+ web-projects I've built.
+                </h4>
             </div>
 
-            <div className="py-10 max-w-[70rem] grid grid-cols-1 md:grid-cols-2 px-2 gap-6 mx-auto gap-y-14">
+            <div className="py-10 max-w-[70rem] grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto">
 
                 <a target='_blank' href='https://score1600.com' className="h-full gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]">
                     <div className="flex items-center">
@@ -98,7 +101,7 @@ export default function ExtraProjectBottom() {
             </div>
 
             
-            <div className='text-center two-title font-medium tracking-tight flex flex-col gap-2 justify-center items-center'>
+            {/* <div className='text-center two-title font-medium tracking-tight flex flex-col gap-2 justify-center items-center'>
                 <p>Want to support my projects? Buy me a coffee!</p> 
                 <a 
                     className='flex items-center gap-x-2 px-4 py-2 bg-white rounded-lg text-xl transition300scale'
@@ -107,6 +110,10 @@ export default function ExtraProjectBottom() {
                 >
                     <SiBuymeacoffee /> Support Me
                 </a>
+            </div> */}
+
+            <div className="pb-10 px-10 pt-0 w-full max-w-[70rem] mx-auto bg-[#ffedd5] rounded-xl shadow-md">
+                        hi
             </div>
 
         </div>
