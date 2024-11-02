@@ -30,7 +30,7 @@ export default function AboutMe() {
                                     </h2>
                                     <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-slate-900 my-4">
                                       <span className="text-[#67230d] font-semibold">Hi there!</span>{' '} 
-                                        I'm Pranav. I'm 16 years old and a current senior in highschool based out of Richmond, Virginia. 
+                                        I'm Pranav. I'm a current senior in highschool based out of Richmond, Virginia. 
                                         I started building simple websites in my sophomore year of highschool. 
                                         Ever since then, I absolutely fell in love with web-development and have built + 
                                         shipped many different apps that have a focus on helping others {':)'}
@@ -48,9 +48,9 @@ export default function AboutMe() {
                                       which helps web developers:{' '}
                                       <a href="https://desource.app" target='_blank' className="underline text-[#67230d]">desource.app</a>{' '}
                                       and I'm running{' '}
-                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a> with ~10k in revenue! 
-                                      If you want to help out/connect, just{' '}
-                                      <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#67230d]">shoot me an email</a>!
+                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web-dev agency</a> with ~10k in revenue in just a year! 
+                                      If you want to reach me, {' '}
+                                      <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#67230d]">just shoot me an email</a>!
 
                                       
 
@@ -92,10 +92,10 @@ export default function AboutMe() {
                     
                     <div className="md:mt-16 mb-[7rem] font-outfit w-full px-4 xl:px-0 flex items-center justify-center relative flex-col">
 
-                        <div class="pt-12 sm:pt-16 pb-8 flex flex-col gap-y-8 bg-gray-900 px-10 rounded-xl ">
+                        <div class="pt-12 sm:pt-16 pb-8 flex flex-col gap-y-8 bg-gray-900 px-10 rounded-xl shadow-md">
                             <div class="w-full px-4 mx-auto sm:px-6 lg:px-8">
                                 <div class="max-w-4xl mx-auto text-center">
-                                <h2 class="six-title font-semibold leading-9 text-white sm:leading-10">
+                                <h2 class="six-title tracking-tight font-semibold leading-9 text-white sm:leading-10">
                                     My Websites make <span className="underline main-gradient">Real Impacts</span>
                                 </h2>
                                 
@@ -139,34 +139,6 @@ export default function AboutMe() {
                                     </div>
                             </div>
                         </div>                     
-
-                      {/* <div className="flex flex-col gap-4 p-4 rounded-lg shadow-md bg-orange-200 text-white">
-                          <div className='text-3xl md:text-3xl font-outfit font-semibold text-white text-start '>Hobbies/Extracurriculars</div>
-                            <div className="flex-col flex gap-4 md:flex-row font-outfit">
-                              
-
-                                <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
-                                    <p className="font-semibold">Freelancing</p>
-                                    <p className="text-sm">I freelance websites for a bit of money!</p>
-                                </div>
-
-                                <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
-                                    <p className="font-semibold">Playing Volleyball</p>
-                                    <p className="text-sm">I play varsity volleyball for my school team!</p>
-                                </div>
-
-                                <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
-                                    <p className="font-semibold">Hanging out with Friends</p>
-                                    <p className="text-sm">Yes, I have friends. Shocker 🙄</p>
-                                </div>
-
-                                <div className="bg-white p-4 rounded-lg shadow-md text-gray-800 transition transform hover:scale-105">
-                                    <p className="font-semibold">Listening to Music</p>
-                                    <p className="text-sm">The best way to escape reality!</p>
-                                </div>
-
-                            </div>
-                        </div> */}
 
                     </div>
 

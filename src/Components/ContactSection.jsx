@@ -14,9 +14,9 @@ function ContactSection() {
         ></path>
       </svg>
       <section className="bg-[#FFA726] pt-8" id="contact">
-        <div className="container mx-auto text-center px-2 font-outfit">
-          <h2 className="text-4xl font-semibold mb-4 text-white">Get in Touch</h2>
-          <p className="text-lg text-white mb-4 px-10 lg:px-60">
+        <div className="max-w-[80rem] mx-auto text-center px-2 font-outfit flex flex-col items-center">
+          <h2 className="six-title font-semibold mb-4 text-white">Get in Touch</h2>
+          <p className="text-lg text-white mb-4 px-2 max-w-xl text-center">
             Have a question or a project in mind? Don't hesitate to reach out! Whether it's discussing potential collaborations or 
             simply saying hello, I'm here and ready to chat.
           </p>

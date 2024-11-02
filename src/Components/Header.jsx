@@ -26,9 +26,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-white/40 max-w-[85rem] rounded-2xl md:sticky z-40 top-10 backdrop-blur-xl m-6 flex items-center mx-4 lg:mx-auto">
-        <header className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40 mx-auto">
-          <nav className="flex  rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div className="md:sticky z-40 top-10 mb-10 mt-10 flex justify-center mx-10">
+        <header className="bg-white/40 max-w-[85rem] backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40">
+          <nav className="flex rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
