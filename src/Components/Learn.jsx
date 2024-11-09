@@ -3,7 +3,7 @@ import HeaderStatic from './HeaderStatic'
 import pranav from '../Images/pranavlatest.jpg'
 import currentportfolio from '../Images/currentportfolio.png'
 import { FaLink } from "react-icons/fa6";
-import ContactSection from './ContactSection';
+import ContactSection from './Footer';
 
 const Learn = () => {
   return (

@@ -68,11 +68,6 @@ const miscellaneous = [
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-gray-400 bg-gray-100/20"
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", 
-      text: "Git",
-      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
-    },
-    {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg", 
       text: "Webpack",
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
@@ -83,14 +78,19 @@ const miscellaneous = [
       color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", 
-        text: "npm",
-        color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
-    },
-    {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
         text: "Wordpress",
         color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+      text: "PostgreSQL",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      text: "MongoDB",
+      color: "transition transform duration-300 border-2 border-transparent hover:border-2 hover:border-green-400 bg-green-100/20"
     },
     
 ];
@@ -135,7 +135,7 @@ export default function ToolsSection() {
       </div>
 
       <div className="my-10 flex items-center justify-center flex-col container mx-auto rounded-xl bg-orange-400 py-10">
-        <h3 className="four-title text-center font-outfit font-semibold text-white">My <span className="underline">Current</span> Project Starterpack:</h3>
+        <h3 className="five-title font-outfit font-medium tracking-tight text-white">My <span className="underline">Current</span> Tech Stack:</h3>
         <div className="flex justify-center gap-8 flex-wrap  py-10 px-4 md:px-20 w-full rounded-lg">
           {projectStarterPack.map((tool, index) => (
             <div

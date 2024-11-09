@@ -31,7 +31,7 @@ export default function HeroMain() {
                 Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler with a <span className='main-gradient font-semibold'>passion for web development.</span>
+                I'm a highschooler who <span className='main-gradient font-semibold'>builds impactful software.</span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

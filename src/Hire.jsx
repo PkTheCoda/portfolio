@@ -4,8 +4,6 @@ import HireTimeline from "./HireComponents/HireTimeline"
 import HireFeatures from "./HireComponents/HireFeatures"
 import HireNavbar from "./HireComponents/HireNavbar"
 import HireBottomFeatures from "./HireComponents/HireBottomFeatures"
-import ContactSection from "./Components/ContactSection"
-import HireProsCons from './HireComponents/HireProsCons'
 import WavyLine from "./Components/WavyLine"
 import { Helmet } from 'react-helmet';
 
@@ -27,7 +25,6 @@ export default function Hire() {
             <HireFeatures />
             <HireBottomFeatures />
             <WavyLine />
-            <ContactSection />
         </>
     )
 }
