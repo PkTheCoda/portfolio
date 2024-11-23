@@ -1,149 +1,191 @@
-import React from 'react';
-import { FaLinkedin, FaMailBulk, FaGithub, FaVolleyballBall, FaTableTennis, FaMusic, FaCamera } from 'react-icons/fa';
+import React from "react";
+import {
+  FaLinkedin,
+  FaMailBulk,
+  FaGithub,
+  FaVolleyballBall,
+  FaTableTennis,
+  FaMusic,
+  FaCamera,
+} from "react-icons/fa";
 import { BiSolidCoffeeAlt } from "react-icons/bi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
-import mePicturenew from '../Images/pranavlatest.jpg'
-import mepic2 from '../Images/mepic2.jpg'
-import mepic3 from '../Images/mepic3.jpg'
+import mePicturenew from "../Images/pranavlatest.jpg";
+import mepic2 from "../Images/mepic2.jpg";
+import mepic3 from "../Images/mepic3.jpg";
 
 export default function AboutMe() {
   return (
     <>
-        <div class="relative overflow-hidden bg-orange-400 -skew-y-2 px-4 xl:px-0 pt-16 space-y-24" id='about'>
-
-
-            <div class="relative skew-y-2">
-                    <div class="lg:mx-auto lg:max-w-7xl flex flex-col lg:flex-row lg:gap-12 lg:px-8">
-                        <div class="w-full lg:w-1/2 lg:my-0 my-12 mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:order-1 order-2">
-
-                            <div className='pl-0'>
-                                <div>
-                                    <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
-                                        <IoChatboxEllipses className='h-8 w-8 text-orange-900'/>
-                                    </span>
-                                </div>
-
-                                <div class="mt-3 font-outfit">
-                                    <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
-                                        A Bit <span className="text-[#67230d] underline">About Me.</span>
-                                    </h2>
-                                    <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed font-outfit text-slate-900 my-4">
-                                      <span className="text-[#67230d] font-semibold">Hi there!</span>{' '} 
-                                        I'm Pranav. I'm a current senior in highschool based out of Richmond, Virginia. 
-                                        I started building simple websites in my sophomore year of highschool. 
-                                        Ever since then, I absolutely fell in love with web-development and have built + 
-                                        shipped many different apps that have a focus on helping others {':)'}
-                                      <br />
-                                      <br />
-                                      Here's a quick rundown of what I've done. I built{' '} 
-                                      <a href="https://talem.org" target='_blank' className="underline text-[#67230d]">talem.org</a>, 
-                                      a website that helps highschoolers find extracurriculars and internships. I created{' '}
-                                      <a href="https://learntheweb.org" target='_blank' className="underline text-[#67230d]">learntheweb.org</a>,
-                                      a website that teaches web-dev through self-paced courses + projects. 
-                                      <br />
-                                      <br />
-                                      
-                                      Nowadays, I'm working on my latest app 
-                                      which helps web developers:{' '}
-                                      <a href="https://desource.app" target='_blank' className="underline text-[#67230d]">desource.app</a>{' '}
-                                      and I'm running{' '}
-                                      <a href="https://thryvedesign.com" target='_blank' className="underline text-[#67230d]">my own web development agency</a> where we've worked with 20+ clients and generated ~10k in revenue in just a year! 
-                                      If you want to reach me, {' '}
-                                      <a href="mailto:pranavkonjeti@gmail.com" target='_blank' className="underline text-[#67230d]">just shoot me an email</a>!
-
-                                      
-
-                                      {/* I love web development since it allows me to not only harness my creativity, but also 
-                                      because I'm able to make an impact in my local and global community. It really is awesome
-                                      because I can take anything that I imagine <span className="text-[#67230d] font-semibold">and turn 
-                                      it into a reality.</span> */}
-                                    </p>
-
-                                    <div className="flex mt-6 space-x-4 items-center  gap-x-2">
-                                      <a href="https://www.linkedin.com/in/pranav-konjeti/" target='_blank' className="contact-buttons-about">
-                                        <FaLinkedin className="text-2xl" />
-                                      </a>
-                                      <a href="mailto:pranavkonjeti@gmail.com" className="contact-buttons-about">
-                                        <FaMailBulk className="text-2xl" />
-                                      </a>
-                                      <a href="https://github.com/PkTheCoda" target='_blank' className="contact-buttons-about">
-                                        <FaGithub className="text-2xl" />
-                                      </a>
-                                      <a href="https://thryvedesign.com" target='_blank' className="contact-buttons-about">
-                                        <MdOutlineBusinessCenter className="text-2xl" />
-                                      </a>
-                                      <a href="https://buymeacoffee.com/pranavkonjeti" target='_blank' className="contact-buttons-about">
-                                        <BiSolidCoffeeAlt className="text-2xl" />
-                                      </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
-                            <img loading="lazy"
-                                class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
-                            src={mePicturenew}/>
-                        </div>
-                        
-                    </div>
-
-                    
-                    
-                    <div className="md:mt-16 mb-[7rem] font-outfit w-full px-4 xl:px-0 flex items-center justify-center relative flex-col">
-
-                        <div class="pt-12 sm:pt-16 pb-8 flex flex-col gap-y-8 bg-gray-900 px-10 rounded-xl shadow-md">
-                            <div class="w-full px-4 mx-auto sm:px-6 lg:px-8">
-                                <div class="max-w-4xl mx-auto text-center">
-                                <h2 class="six-title tracking-tight font-semibold leading-9 text-white sm:leading-10">
-                                    My Websites make <span className="underline main-gradient">Real Impacts</span>
-                                </h2>
-                                
-                                </div>
-                            </div>
-                            <div class=" sm:pb-16">
-                                <div class="relative">
-                                    <div class="absolute inset-0 h-1/2"></div>
-                                    <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-                                        <div class="max-w-4xl mx-auto">
-                                        <dl class="rounded-lg md:grid md:grid-cols-3">
-                                            <div class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-r">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200" id="item-1">
-                                                Views (Millions)
-                                            </dt>
-                                            <dd class="order-1 text-7xl font-semibold leading-none text-white" aria-describedby="item-1">
-                                                2<span className="main-gradient">M+</span>
-                                            </dd>
-                                            </div>
-                                            <div
-                                            class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l sm:border-r">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
-                                                Visitors (Lifetime)
-                                            </dt>
-                                            <dd class="order-1 text-7xl font-semibold leading-none text-white">
-                                                300<span className="main-gradient">k</span>
-                                            </dd>
-                                            </div>
-                                            <div class="flex flex-col p-6 text-center border-none sm:border-0 sm:border-l">
-                                            <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-200">
-                                                In Total Funding
-                                            </dt>
-                                            <dd class="order-1 text-7xl font-semibold leading-none text-white">
-                                                <span className="main-gradient">$</span>4,000
-                                            </dd>
-                                            </div>
-                                        </dl>
-                                        </div>
-                                        <p className='text-white text-center mt-2 italic'>**I got this data by combining the lifetime analytics on <b className='underline'>all my websites</b></p>
-                                    </div>
-                                    </div>
-                            </div>
-                        </div>                     
-
-                    </div>
-
+      <div
+        class="relative overflow-hidden bg-orange-400 -skew-y-2 px-4 xl:px-0 pt-16 space-y-24 font-outfit"
+        id="about"
+      >
+        <div class="relative skew-y-2">
+          <div class="lg:mx-auto lg:max-w-7xl flex flex-col lg:flex-row lg:gap-12 lg:px-8">
+            <div class="w-full lg:w-1/2 lg:my-0 my-12 mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:order-1 order-2">
+              <div className="pl-0">
+                <div>
+                  <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
+                    <IoChatboxEllipses className="h-8 w-8 text-[#704421]" />
+                  </span>
                 </div>
+
+                <div class="mt-3">
+                  <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
+                    A Bit{" "}
+                    <span className="text-[#67230d] underline">About Me.</span>
+                  </h2>
+                  <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed text-slate-900 my-4">
+                    <span className="text-[#36190f] font-semibold">
+                      Hi there!
+                    </span>{" "}
+                    I'm Pranav. I'm a current senior in highschool based out of
+                    Richmond, Virginia. I started building simple websites in my
+                    sophomore year of highschool. Ever since then, I absolutely
+                    fell in love with web-development and have built + shipped
+                    many different apps that have a focus on helping others{" "}
+                    {":)"}
+                    <br />
+                    <br />
+                    Here's a quick rundown of what I've done. I built{" "}
+                    <a
+                      href="https://talem.org"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      talem.org
+                    </a>
+                    , a website that helps highschoolers find extracurriculars
+                    and internships. I created{" "}
+                    <a
+                      href="https://learntheweb.org"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      learntheweb.org
+                    </a>
+                    , a website that teaches web-dev through self-paced courses
+                    + projects.
+                    <br />
+                    <br />
+                    Nowadays, I'm working on my latest app which helps web
+                    developers:{" "}
+                    <a
+                      href="https://desource.app"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      desource.app
+                    </a>{" "}
+                    and I'm running{" "}
+                    <a
+                      href="https://thryvedesign.com"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      my own web development agency
+                    </a>{" "}
+                    where we've worked with 20+ clients and generated ~10k in
+                    revenue in just a year! If you want to reach me,{" "}
+                    <a
+                      href="mailto:pranavkonjeti@gmail.com"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      just shoot me an email
+                    </a>
+                    !
+                  </p>
+
+                  <div className="flex mt-6 space-x-4 items-center  gap-x-2">
+                    <a
+                      href="https://www.linkedin.com/in/pranav-konjeti/"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <FaLinkedin className="text-2xl" />
+                    </a>
+                    <a
+                      href="mailto:pranavkonjeti@gmail.com"
+                      className="contact-buttons-about"
+                    >
+                      <FaMailBulk className="text-2xl" />
+                    </a>
+                    <a
+                      href="https://github.com/PkTheCoda"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <FaGithub className="text-2xl" />
+                    </a>
+                    <a
+                      href="https://thryvedesign.com"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <MdOutlineBusinessCenter className="text-2xl" />
+                    </a>
+                    <a
+                      href="https://buymeacoffee.com/pranavkonjeti"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <BiSolidCoffeeAlt className="text-2xl" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="w-full lg:w-1/2 lg:order-2 order-1 flex items-center justify-center lg:justify-end">
+              <img
+                loading="lazy"
+                class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
+                src={mePicturenew}
+              />
+            </div>
+          </div>
+
+          <div className="mt-10 mb-28 max-w-4xl mx-auto flex flex-col items-center gap-y-6 text-[#482d14]">
+            
+            <h1 className="six-title tracking-tight font-medium text-center">
+                My Websites Make A <span className="underline">Real Impact</span>
+            </h1>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-4">
+
+                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                    <h1 className="seven-title font-semibold">
+                        2<span className="main-gradient">M+</span>
+                    </h1>
+                    <p className="one-title font-medium">Views (Millions)</p>
+                </div>
+
+                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                    <h1 className="seven-title font-semibold">
+                        300<span className="main-gradient">k+</span>
+                    </h1>
+                    <p className="one-title font-medium">Visitors (Lifetime)</p>
+                </div>
+
+                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                    <h1 className="seven-title font-semibold">
+                        <span className="main-gradient">$</span>4000
+                    </h1>
+                    <p className="one-title font-medium">In Total Funding</p>
+                </div>
+
+            </div>
+
+            <p className="text-center italic">
+                **I got this data by combining the lifetime analytics across{" "}
+                <b className="underline">all my websites</b>
+            </p>
+
+          </div>
+        </div>
+      </div>
     </>
   );
 }
