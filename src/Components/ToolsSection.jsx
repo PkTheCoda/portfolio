@@ -152,7 +152,7 @@ export default function ToolsSection() {
           ))}
 
           <div
-            className="bg-white shadow-sm relative z-[30] p-6 rounded-lg text-center w-max "
+            className="bg-white shadow-sm relative p-6 rounded-lg text-center w-max "
           >
             <div className="p-4 hidden sm:block bg-white shadow-md rounded-md gap-y-2 absolute text-white -top-6 -right-24 border-2 border-orange-900">
               <img 

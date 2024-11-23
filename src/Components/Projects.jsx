@@ -34,8 +34,6 @@ import {
 import { GrWorkshop } from "react-icons/gr";
 import { PiStudentDuotone } from "react-icons/pi";
 
-import MoreProjectsBox from "./MoreProjectsBox";
-
 import {
   Carousel,
   IconButton,
@@ -970,8 +968,6 @@ export function Projects() {
           </div>
         </div>
       </div> */}
-
-      {/* <MoreProjectsBox /> */}
     </div>
   );
 }
