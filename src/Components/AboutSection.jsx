@@ -155,21 +155,21 @@ export default function AboutMe() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-4">
 
-                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
                     <h1 className="seven-title font-semibold">
                         2<span className="main-gradient">M+</span>
                     </h1>
                     <p className="one-title font-medium">Views (Millions)</p>
                 </div>
 
-                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
                     <h1 className="seven-title font-semibold">
                         300<span className="main-gradient">k+</span>
                     </h1>
                     <p className="one-title font-medium">Visitors (Lifetime)</p>
                 </div>
 
-                <div className="w-full bg-[#482d14] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
                     <h1 className="seven-title font-semibold">
                         <span className="main-gradient">$</span>4000
                     </h1>
