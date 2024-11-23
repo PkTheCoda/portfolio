@@ -124,7 +124,7 @@ export default function ToolsSection() {
     <>
     
       <div className="h-max mt-20 relative">
-        <div className="text-center text-4xl md:text-5xl lg:text-7xl font-outfit font-semibold text-gray-800 flex items-center gap-x-5 justify-center">
+        <div className="text-center seven-title font-outfit font-semibold tracking-tight flex items-center gap-x-5 justify-center">
           <div>
             <span class="flex h-16 w-16 items-center justify-center rounded-full bg-orange-900">
                 <WrenchScrewdriverIcon className='h-8 w-8 text-white'/>
@@ -147,7 +147,7 @@ export default function ToolsSection() {
                 alt={tool.text}
                 className="w-max px-4 h-20 mx-auto mb-4"
               />
-              <p className="text-lg font-semibold font-outfit text-gray-800">{tool.text}</p>
+              <p className="text-lg font-semibold font-outfit">{tool.text}</p>
             </div>
           ))}
 
@@ -160,13 +160,13 @@ export default function ToolsSection() {
                 alt="Supabase" 
                 className="w-20"
               />
-              <p className="text-md font-semibold font-outfit text-gray-800">Or Supabase</p>
+              <p className="text-md font-semibold font-outfit">Or Supabase</p>
             </div>
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
               className="w-max px-4 h-20 mx-auto mb-4"
             />
-            <p className="text-lg font-semibold font-outfit text-gray-800">Firebase</p>
+            <p className="text-lg font-semibold font-outfit">Firebase</p>
           </div>
 
         </div>

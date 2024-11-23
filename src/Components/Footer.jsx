@@ -26,8 +26,8 @@ function Footer() {
 
         <footer className="bg-[#efa237] mt-16 py-8 text-center">
           <p className="text-white text-lg font-outfit px-2">
-            Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-blue-900 underline">Pranav Konjeti</a> using <span className="text-blue-900">React, TailwindCSS, Material Tailwind</span> <br />
-            This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-blue-900 underline">old one</a>. Have Suggestions? Email me!
+            Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-[#3c2611] underline">Pranav Konjeti</a> using <span className="text-[#3c2611]">React, TailwindCSS, Material Tailwind</span> <br />
+            This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-[#3c2611] underline">old one</a>. Have Suggestions? Email me!
             
 
           </p>
@@ -39,7 +39,7 @@ function Footer() {
                 className="p-3 bg-white rounded-full transition transform hover:scale-105"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-blue-500 text-2xl hover:text-blue-800" />
+              <FaGithub className="text-[#4a2f16] text-2xl" />
             </a>
             <a
               href="https://www.linkedin.com/in/pranav-konjeti"
@@ -47,27 +47,27 @@ function Footer() {
                 className="p-3 bg-white rounded-full transition transform hover:scale-105"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-blue-500 text-2xl hover:text-blue-800" />
+              <FaLinkedin className="text-[#4a2f16] text-2xl" />
             </a>
             <a
               className="p-3 bg-white rounded-full transition transform hover:scale-105"
               href="mailto:pranavkonjeti@gmail.com"
             >
-              <FaEnvelope className="text-blue-500 text-2xl hover:text-blue-800" />
+              <FaEnvelope className="text-[#4a2f16] text-2xl" />
             </a>
             <a
               href="https://www.youtube.com/@pranavkonjeti"
                 className="p-3 bg-white rounded-full transition transform hover:scale-105"
               target="_blank"
             >
-              <FaYoutube className="text-blue-500 text-2xl hover:text-blue-800" />
+              <FaYoutube className="text-[#4a2f16] text-2xl" />
             </a>
             <a
               href="https://buymeacoffee.com/pranavkonjeti"
                 className="p-3 bg-white rounded-full transition transform hover:scale-105"
               target="_blank"
             >
-              <BiSolidCoffeeAlt className="text-blue-500 text-2xl hover:text-blue-800" />
+              <BiSolidCoffeeAlt className="text-[#4a2f16] text-2xl" />
             </a>
           </div>
         </footer>
