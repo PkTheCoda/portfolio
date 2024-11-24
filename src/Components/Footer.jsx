@@ -102,14 +102,14 @@ function Footer() {
                 <div className="text-sm uppercase text-[#553418] font-bold">
                   Quick Links
                 </div>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block hover:underline" href="https://www.linkedin.com/in/pranav-konjeti/" target="_blank">
                   Linkedin <span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block hover:underline" href="https://www.youtube.com/@pranavkonjeti" target="_blank">
                   Youtube <span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block" href="/#">
-                  Email
+                <a className="my-3 block hover:underline" href="https://github.com/PkTheCoda" target="_blank">
+                  Github
                 </a>
               </div>
 
@@ -117,27 +117,27 @@ function Footer() {
                 <div className="text-sm uppercase text-[#553418] font-bold">
                   Projects
                 </div>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block hover:underline" href="https://talem.org">
                   talem.org<span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block hover:underline" href="https://desource.app">
                   desource.app<span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block hover:underline" href="https://learntheweb.org">
                   learntheweb.org<span className="text-teal-600 text-xs p-1"></span>
                 </a>
               </div>
 
               <div className="p-5 font-light">
                 <div className="text-sm uppercase text-[#553418] font-bold">
-                  Contact us
+                  Contact Me
                 </div>
                 <a className="my-3 block" href="/#">
-                  XXX XXXX, Floor 4 San Francisco, CA
+                  pranavkonjeti@gmail.com
                   <span className="text-teal-600 text-xs p-1"></span>
                 </a>
                 <a className="my-3 block" href="/#">
-                  contact@company.com
+                  For hiring inquires, please contact me through my <a href="https://thryvedesign.com" target="_blank" className="font-medium underline">business website</a>
                   <span className="text-teal-600 text-xs p-1"></span>
                 </a>
               </div>
