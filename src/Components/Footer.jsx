@@ -89,9 +89,13 @@ function Footer() {
         <footer className="mt-10">
           <div className="bg-[#de9630] pt-10 px-10">
             <div className="max-w-screen-lg px-4 sm:px-6 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto text-[#553418]">
-              <div className="p-5 flex flex-col gap-y-2">
+
+              <div className="p-5 flex flex-col gap-y-2 items-start">
                 <h3 className="font-bold text-xl text-[#553418]">Pranav Konjeti</h3>
-                <img className="mx-auto h-14" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee"/>
+                
+                <a href="buymeacoffee.com/pranavkonjeti" target="_blank">
+                  <img className="max-w-[150px] shadow-md" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee"/>
+                </a>
               </div>
 
               <div className="p-5 font-light">
