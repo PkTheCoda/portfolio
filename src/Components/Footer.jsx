@@ -93,7 +93,7 @@ function Footer() {
               <div className="p-5 flex flex-col gap-y-2 items-start">
                 <h3 className="font-bold text-xl text-[#553418]">Pranav Konjeti</h3>
                 
-                <a href="buymeacoffee.com/pranavkonjeti" target="_blank">
+                <a href="https://buymeacoffee.com/pranavkonjeti" target="_blank">
                   <img className="max-w-[150px] shadow-md" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee"/>
                 </a>
               </div>
