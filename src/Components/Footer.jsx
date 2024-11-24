@@ -1,12 +1,23 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaCoffee, FaYoutube} from "react-icons/fa";
-import ContactForm from './ContactForm'
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaCoffee,
+  FaYoutube,
+} from "react-icons/fa";
+import ContactForm from "./ContactForm";
 import { BiSolidCoffeeAlt } from "react-icons/bi";
+import pranavbigtext from '../Images/pranavbigtext.svg'
 
 function Footer() {
   return (
-    <div className="relative">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="block w-full relative -bottom-2">
+    <div className="relative font-outfit">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        className="block w-full relative -bottom-2"
+      >
         <path
           fill="#FFA726"
           fillOpacity="1"
@@ -14,18 +25,21 @@ function Footer() {
         ></path>
       </svg>
       <section className="bg-[#FFA726] pt-8" id="contact">
-        <div className="max-w-[80rem] mx-auto text-center px-2 font-outfit flex flex-col items-center">
-          <h2 className="six-title font-semibold mb-4 text-white">Get in Touch</h2>
-          <p className="text-lg text-white mb-4 px-2 max-w-xl text-center">
-            Have a question or a project in mind? Don't hesitate to reach out! Whether it's discussing potential collaborations or 
-            simply saying hello, I'm here and ready to chat.
+        <div className="max-w-[80rem] mx-auto text-center px-2 flex flex-col gap-y-4 items-center">
+          <h2 className="six-title font-semibold text-[#553418]">
+            Get in Touch
+          </h2>
+          <p className="text-lg text-[#553418] px-2 max-w-xl text-center">
+            Have a question or a project in mind? Don't hesitate to reach out!
+            Whether it's discussing potential collaborations or simply saying
+            hello, I'm here and ready to chat.
           </p>
 
           <ContactForm />
         </div>
 
-        <footer className="bg-[#efa237] mt-16 py-8 text-center">
-          <p className="text-white text-lg font-outfit px-2">
+        {/* <footer className="bg-[#efa237] mt-16 py-8 text-center">
+          <p className="text-[#553418] text-lg font-outfit px-2">
             Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-[#3c2611] underline">Pranav Konjeti</a> using <span className="text-[#3c2611]">React, TailwindCSS, Material Tailwind</span> <br />
             This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-[#3c2611] underline">old one</a>. Have Suggestions? Email me!
             
@@ -69,6 +83,65 @@ function Footer() {
             >
               <BiSolidCoffeeAlt className="text-[#4a2f16] text-2xl" />
             </a>
+          </div>
+        </footer> */}
+
+        <footer className="mt-10">
+          <div className="bg-[#de9630] pt-10 px-10">
+            <div className="max-w-screen-lg px-4 sm:px-6 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto text-[#553418]">
+              <div className="p-5 flex flex-col gap-y-2">
+                <h3 className="font-bold text-xl text-[#553418]">Pranav Konjeti</h3>
+                <img className="mx-auto h-14" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee"/>
+              </div>
+
+              <div className="p-5 font-light">
+                <div className="text-sm uppercase text-[#553418] font-bold">
+                  Quick Links
+                </div>
+                <a className="my-3 block" href="/#">
+                  Linkedin <span className="text-teal-600 text-xs p-1"></span>
+                </a>
+                <a className="my-3 block" href="/#">
+                  Youtube <span className="text-teal-600 text-xs p-1"></span>
+                </a>
+                <a className="my-3 block" href="/#">
+                  Email
+                </a>
+              </div>
+
+              <div className="p-5 font-light">
+                <div className="text-sm uppercase text-[#553418] font-bold">
+                  Projects
+                </div>
+                <a className="my-3 block" href="/#">
+                  talem.org<span className="text-teal-600 text-xs p-1"></span>
+                </a>
+                <a className="my-3 block" href="/#">
+                  desource.app<span className="text-teal-600 text-xs p-1"></span>
+                </a>
+                <a className="my-3 block" href="/#">
+                  learntheweb.org<span className="text-teal-600 text-xs p-1"></span>
+                </a>
+              </div>
+
+              <div className="p-5 font-light">
+                <div className="text-sm uppercase text-[#553418] font-bold">
+                  Contact us
+                </div>
+                <a className="my-3 block" href="/#">
+                  XXX XXXX, Floor 4 San Francisco, CA
+                  <span className="text-teal-600 text-xs p-1"></span>
+                </a>
+                <a className="my-3 block" href="/#">
+                  contact@company.com
+                  <span className="text-teal-600 text-xs p-1"></span>
+                </a>
+              </div>
+              
+            </div>
+            <div className="max-w-screen-lg py-10 border-t-2 border-[#b1743e] mx-auto">
+              <img src={pranavbigtext} alt="" className="w-full"/>
+            </div>
           </div>
         </footer>
       </section>

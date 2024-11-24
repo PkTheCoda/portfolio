@@ -24,7 +24,7 @@ export default function ExtraProjectBottom() {
                         <div className="flex items-center">
                             <img src={sample4} alt="Image of another project of mine" className='rounded-md shadow-lg' />
                         </div>
-                        <div className="p-4 space-y-4 flex flex-col text-black justify-center space-y-2">
+                        <div className="p-4 space-y-4 flex flex-col text-black justify-center">
                             <a href="https://score1600.com" className='text-blue-500 underline' target='_blank'>Score1600.com</a>
                             <h1 className="five-title text-wrap">
                                 Score1600
