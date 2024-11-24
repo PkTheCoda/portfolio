@@ -117,13 +117,13 @@ function Footer() {
                 <div className="text-sm uppercase text-[#553418] font-bold">
                   Projects
                 </div>
-                <a className="my-3 block hover:underline" href="https://talem.org">
+                <a className="my-3 block hover:underline" href="https://talem.org" target="_blank"> 
                   talem.org<span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block hover:underline" href="https://desource.app">
+                <a className="my-3 block hover:underline" href="https://desource.app" target="_blank">
                   desource.app<span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block hover:underline" href="https://learntheweb.org">
+                <a className="my-3 block hover:underline" href="https://learntheweb.org" target="_blank">
                   learntheweb.org<span className="text-teal-600 text-xs p-1"></span>
                 </a>
               </div>
@@ -132,14 +132,14 @@ function Footer() {
                 <div className="text-sm uppercase text-[#553418] font-bold">
                   Contact Me
                 </div>
-                <a className="my-3 block" href="/#">
+                <a className="my-3 block" href="mailto:pranavkonjeti@gmail.com">
                   pranavkonjeti@gmail.com
                   <span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block" href="/#">
+                <p className="my-3 block">
                   For hiring inquires, please contact me through my <a href="https://thryvedesign.com" target="_blank" className="font-medium underline">business website</a>
                   <span className="text-teal-600 text-xs p-1"></span>
-                </a>
+                </p>
               </div>
               
             </div>
