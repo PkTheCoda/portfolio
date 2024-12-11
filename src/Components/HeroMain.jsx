@@ -1,3 +1,7 @@
+import React from "react"
+import { TypeAnimation } from 'react-type-animation';
+
+
 export default function HeroMain() {
     return (
         <>
@@ -31,8 +35,28 @@ export default function HeroMain() {
                 Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler who <span className='main-gradient font-semibold'>builds impactful software.</span>
+                I'm a highschooler who 
+                <span className='main-gradient font-semibold ml-2'>
+                <TypeAnimation
+                        sequence={[
+                            'builds Impactful Software', // Types 'One'
+                            1500, // Waits 1.5s
+                            'creates Stunning Websites', // Deletes 'One' and types 'Two'
+                            1500, // Waits 1.5s
+                            'works with Clients worldwide', // Deletes 'One' and types 'Two'
+                            1500, // Waits 1.5s
+                            () => {
+                            console.log('Sequence completed');
+                            },
+                        ]}
+                        wrapper="span"
+                        cursor={true}
+                        repeat={Infinity}
+                        style={{}}
+                    />
+                </span>
               </p>
+              
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#about"

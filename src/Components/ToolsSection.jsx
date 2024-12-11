@@ -147,26 +147,26 @@ export default function ToolsSection() {
                 alt={tool.text}
                 className="w-max px-4 h-20 mx-auto mb-4"
               />
-              <p className="text-lg font-semibold font-outfit">{tool.text}</p>
+              <p className="text-lg font-outfit">{tool.text}</p>
             </div>
           ))}
 
           <div
             className="bg-white shadow-sm relative p-6 rounded-lg text-center w-max "
           >
-            <div className="p-4 hidden sm:block bg-white shadow-md rounded-md gap-y-2 absolute text-white -top-6 -right-24 border-2 border-orange-900">
+            <div className="p-4 hidden sm:block bg-white shadow-md rounded-md gap-y-2 absolute -top-6 -right-24 border-2 border-orange-900">
               <img 
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" 
                 alt="Supabase" 
                 className="w-20"
               />
-              <p className="text-md font-semibold font-outfit">Or Supabase</p>
+              <p className="text-md font-outfit">Or Supabase</p>
             </div>
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
               className="w-max px-4 h-20 mx-auto mb-4"
             />
-            <p className="text-lg font-semibold font-outfit">Firebase</p>
+            <p className="text-lg font-outfit">Firebase</p>
           </div>
 
         </div>
