@@ -37,7 +37,7 @@ export default function HeroMain() {
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
                 I'm a highschooler who 
                 <span className='main-gradient font-semibold ml-2'>
-                <TypeAnimation
+                {/* <TypeAnimation
                         sequence={[
                             'builds Impactful Software', // Types 'One'
                             1500, // Waits 1.5s
@@ -53,7 +53,8 @@ export default function HeroMain() {
                         cursor={true}
                         repeat={Infinity}
                         style={{}}
-                    />
+                    /> */}
+                    builds Impactful Software
                 </span>
               </p>
               
