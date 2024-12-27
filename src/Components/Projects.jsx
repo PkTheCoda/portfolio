@@ -763,7 +763,7 @@ export function Projects() {
                     <div className="p-2 bg-orange-100 rounded-full">
                       <PiStudentDuotone className="text-orange-800" />
                     </div>
-                    <h2 className="text-lg">200+ Taught</h2>
+                    <h2 className="text-lg">150+ Taught</h2>
                   </div>
                 </div>
 
