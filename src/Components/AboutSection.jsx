@@ -177,9 +177,9 @@ export default function AboutMe() {
 
             </div>
 
-            <p className="text-center italic">
-                **I got this data by combining the lifetime analytics across{" "}
-                <b className="underline">all my websites</b>
+            <p className="text-center">
+                *This data is a combination of the lifetime analytics across {' '}
+                <div className="block"><b className="underline">all my websites</b> tracked through <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" className="underline font-bold">Google Analytics</a></div>
             </p>
 
           </div>
