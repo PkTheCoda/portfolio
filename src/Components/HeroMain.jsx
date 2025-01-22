@@ -35,16 +35,16 @@ export default function HeroMain() {
                 Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler who 
+                I'm a highschooler who builds
                 <span className='main-gradient font-semibold ml-2'>
-                {/* <TypeAnimation
+                <TypeAnimation
                         sequence={[
-                            'builds Impactful Software', // Types 'One'
-                            1500, // Waits 1.5s
-                            'creates Stunning Websites', // Deletes 'One' and types 'Two'
-                            1500, // Waits 1.5s
-                            'works with Clients worldwide', // Deletes 'One' and types 'Two'
-                            1500, // Waits 1.5s
+                            'impactful software.', // Types 'One'
+                            2000, // Waits 1.5s
+                            'visually-appealing websites.', // Deletes 'One' and types 'Two'
+                            2000, // Waits 1.5s
+                            'tools to democratize education', // Deletes 'One' and types 'Two'
+                            2000, // Waits 1.5s
                             () => {
                             console.log('Sequence completed');
                             },
@@ -53,8 +53,7 @@ export default function HeroMain() {
                         cursor={true}
                         repeat={Infinity}
                         style={{}}
-                    /> */}
-                    builds Impactful Software
+                    />
                 </span>
               </p>
               

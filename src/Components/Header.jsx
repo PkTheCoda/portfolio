@@ -26,9 +26,23 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="md:sticky z-40 top-10 mb-10 mt-10 flex justify-center mx-10">
+      {/* <div className='font-outfit'>
+        <div className="py-2 bg-[#58371a] text-white text-center">
+          Looking for an affordable, stunning website? I run a web development agency and have worked with over 20 clients to create impactful websites. {' '}
+          <a href="https://thryvedesign.com" target='_blank' className='underline text-blue-100'>
+            Take me there.
+          </a>
+        </div>
+      </div> */}
+
+      <div className="md:sticky z-40 top-10 mt-10 flex flex-col justify-center items-center mx-10 font-outfit">
+
+        {/* <div className='py-2 bg-orange-900 max-w-[85rem] w-full rounded-t-xl text-white text-center'>
+          Need a website built? I've worked with over 25 clients across the world
+        </div> */}
+
         <header className="bg-white/40 max-w-[85rem] backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40">
-          <nav className="flex rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
@@ -54,24 +68,26 @@ export default function Navbar() {
                 <a 
                   key={item.name} 
                   href={item.href} 
-                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
+                  className="text-md leading-6 text-black transition transform hover:scale-110 font-light"
                   onClick={(event) => handleNavigationClick(event, item.href)}
                 >
                   {item.name}
                 </a>
               ))}
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div className="hidden lg:flex lg:flex-1 lg:justify-end font-light">
               <a 
                 href="https://thryvedesign.com" 
                 target='_blank'
-                className="text-md leading-6 text-black font-outfit"
+                className="text-md leading-6 bg-orange-700 text-white px-4 py-2 rounded-lg shadow-md"
               >
                 Hire Me <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
-          <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+
+          {/* Mobile Dialog */}
+          <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <div className="fixed inset-0 z-40" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-40 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
@@ -119,7 +135,9 @@ export default function Navbar() {
               </div>
             </Dialog.Panel>
           </Dialog>
+
         </header>
+
       </div>
     </>
   )
