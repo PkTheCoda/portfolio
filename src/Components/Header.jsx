@@ -37,10 +37,6 @@ export default function Navbar() {
 
       <div className="md:sticky z-40 top-10 mt-10 flex flex-col justify-center items-center mx-10 font-outfit">
 
-        {/* <div className='py-2 bg-orange-900 max-w-[85rem] w-full rounded-t-xl text-white text-center'>
-          Need a website built? I've worked with over 25 clients across the world
-        </div> */}
-
         <header className="bg-white/40 max-w-[85rem] backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl w-full z-40">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
