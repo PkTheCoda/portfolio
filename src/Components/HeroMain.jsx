@@ -22,12 +22,12 @@ export default function HeroMain() {
             <div className="text-center">
             <div className="hidden sm:flex sm:justify-center mb-2">
               <div className="rounded-full font-outfit px-3 py-1 text-sm transition transform hover:scale-[1.05] duration-300 leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 select-none cursor-text">
-                Want to learn web-development?{' '}
+                Don't feel like scrolling?{' '}
                 <a
-                  href="/learn"
+                  href="https://brief.pranavkonjeti.com"
                   className="font-semibold text-orange-600">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  Read my new Blog Post<span aria-hidden="true">&rarr;</span>
+                  See a brief version of my portfolio instead <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
             </div>
