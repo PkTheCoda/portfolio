@@ -30,8 +30,8 @@ export default function ExtraProjectBottom() {
                                 Score1600
                             </h1>
                             <h3 className='text-sm sm:text-lg text-balance leading-6 font-light text-gray-800'>
-                                Score1600 is an SAT tutoring service started with a group of friends. I personally LOVE
-                                this website - I focused heavily on design + color theme while making it.
+                                Score1600 is an SAT tutoring service started with a group of friends. I loved 
+                                designing this website since it allowed me to further my graphic design + mockup skills.
                                 <br />
                                 <br />
                                 You can visit the site at <b className='font-bold'>Score1600.com</b>!
