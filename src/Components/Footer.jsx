@@ -144,7 +144,7 @@ function Footer() {
               
             </div>
             <div className="max-w-screen-lg py-10 border-t-2 border-[#b1743e] mx-auto flex flex-col gap-y-1 relative">
-              <div className="px-4 py-2 rounded-md text-[#553418] bg-[#f7e2ab] w-max absolute z-20 top-4 -left-4 -rotate-[3deg]">
+              <div className="px-4 py-2 rounded-md text-[#553418] bg-[#f7e2ab] w-max absolute z-20 top-4 -left-4 -rotate-[3deg] shadow-lg">
                 Built with ❤️ by:
               </div>
               <img src={pranavbigtext} alt="" className="w-full"/>
