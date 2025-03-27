@@ -177,7 +177,7 @@ export default function AboutMe() {
 
             </div>
 
-            <p className="text-center">
+            <p className="text-center italic">
                 *This data is a combination of the lifetime analytics across {' '}
                 <div className="block"><b className="underline">all my websites</b> tracked through <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" className="underline font-bold">Google Analytics</a></div>
             </p>
