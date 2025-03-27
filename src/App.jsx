@@ -60,7 +60,7 @@ function App() {
           <div className='col-span-8 text-[#50281d]'>
             <h1 className="one-title font-medium">I started my own Web Development Agency!</h1>
             <p className="text-sm w-[90%]">
-              If you're looking for an affordable, stunning website tailored to your needs, <a href="https://thryvedesign.com" target='_blank' className='underline font-medium text-blue-800'>visit my agency</a> and book a consultation call.
+              If you're looking for an affordable, stunning website tailored to your needs, <a href="https://thryvedesign.com" target='_blank' className='underline font-medium text-blue-800'>visit my agency</a> and book a consultation call!
             </p>
           </div>
 
