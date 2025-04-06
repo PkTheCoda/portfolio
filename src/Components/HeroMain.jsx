@@ -24,7 +24,7 @@ export default function HeroMain() {
               <div className="rounded-full font-outfit px-3 py-1 text-sm transition transform hover:scale-[1.05] duration-300 leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 select-none cursor-text">
                 Don't feel like scrolling?{' '}
                 <a
-                  href="https://brief.pranavkonjeti.com"
+                  href="https://me.pranavkonjeti.com"
                   className="font-semibold text-orange-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   See a brief version of my portfolio instead <span aria-hidden="true">&rarr;</span>
