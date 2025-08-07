@@ -120,7 +120,7 @@ function Footer() {
                 <a className="my-3 block hover:underline" href="https://talem.org" target="_blank"> 
                   talem.org<span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <a className="my-3 block hover:underline" href="https://desource.app" target="_blank">
+                <a className="my-3 block hover:underline" href="https://desourcedesign.vercel.app" target="_blank">
                   desource.app<span className="text-teal-600 text-xs p-1"></span>
                 </a>
                 <a className="my-3 block hover:underline" href="https://learntheweb.org" target="_blank">

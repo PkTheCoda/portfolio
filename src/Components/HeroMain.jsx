@@ -35,9 +35,9 @@ export default function HeroMain() {
                 Hi There, I'm <span className='main-gradient'>Pranav Konjeti</span> 
               </h1>
               <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-                I'm a highschooler who builds
+                I designs and develops
                 <span className='main-gradient font-semibold ml-2'>
-                <TypeAnimation
+                {/* <TypeAnimation
                         sequence={[
                             'impactful software.', // Types 'One'
                             2000, // Waits 1.5s
@@ -53,7 +53,8 @@ export default function HeroMain() {
                         cursor={true}
                         repeat={Infinity}
                         style={{}}
-                    />
+                    /> */}
+                    impactful websites.
                 </span>
               </p>
               

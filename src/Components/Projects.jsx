@@ -375,7 +375,7 @@ export function Projects() {
 
         <div className="py-4 w-4/5 flex md:flex-row flex-col mb-10">
           <h1 className="seven-title md:w-7/12 font-semibold tracking-tight">
-            Let's have a look at{" "}
+            View Some Of{" "}
             <br />
             <span className="main-gradient">My Projects</span>
           </h1>
@@ -630,7 +630,7 @@ export function Projects() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <a
-                    href="https://desource.app"
+                    href="https://desourcedesign.vercel.app"
                     target="_blank"
                     class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
                   >

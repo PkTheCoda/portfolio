@@ -44,7 +44,7 @@ const Learn = () => {
                     To date, <span className="bh">Talem has done 1.2 Million Visits, 180k lifetime users, 500~ daily users, and over $3000 raised through grants.</span>
                     <br />
                     <br />
-                    I also built <a href="https://desource.app" target='_blank' className="bhl">Desource</a>, a way for web-developers and web-designers to find 
+                    I also built <a href="https://desourcedesign.vercel.app" target='_blank' className="bhl">Desource</a>, a way for web-developers and web-designers to find 
                     programming resources. This is a newer project, but it's been gaining a ton of traction recently. Finally, I also run my 
                     own <a href="https://thryvedesign.com" target='_blank' className="bhl">Web-Develompent Agency.</a> We build custom websites 
                     for mainly small businesses. We've generated over $10,000 in profit!

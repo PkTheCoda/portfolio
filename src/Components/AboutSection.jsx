@@ -40,14 +40,11 @@ export default function AboutMe() {
                     <span className="text-[#36190f] font-semibold">
                       Hi there!
                     </span>{" "}
-                    I'm Pranav. I'm a current senior in highschool based out of
-                    Richmond, Virginia. I started building simple websites in my
-                    sophomore year of highschool. Ever since then, I absolutely
-                    fell in love with web-development and have built + shipped
-                    many different apps that have a focus on helping others{" "}
-                    {":)"}
+                    I'm Pranav. I'm 17 year old based out of Richmond, Virginia and an incoming 
+                    freshman studying Computer Science @ UIUC.
                     <br />
                     <br />
+
                     Here's a quick rundown of what I've done. I built{" "}
                     <a
                       href="https://talem.org"
@@ -56,8 +53,26 @@ export default function AboutMe() {
                     >
                       talem.org
                     </a>
-                    , a website that helps highschoolers find extracurriculars
-                    and internships. I created{" "}
+                    , a site connecting students with opportunities. I also run{" "}
+                    <a
+                      href="https://thryvedesign.com"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      thryvedesign
+                    </a>
+                    , my web dev agency where I've worked with 25+ organizations and generated low 5-figure revenue in under a year.
+                    <br />
+                    <br />
+                    I also love indie-building: I've launched{" "}
+                    <a
+                      href="https://desourcedesign.vercel.app"
+                      target="_blank"
+                      className="underline text-[#67230d]"
+                    >
+                      desource
+                    </a>
+                    {" "}and{" "}
                     <a
                       href="https://learntheweb.org"
                       target="_blank"
@@ -65,36 +80,16 @@ export default function AboutMe() {
                     >
                       learntheweb.org
                     </a>
-                    , a website that teaches web-dev through self-paced courses
-                    + projects.
-                    <br />
-                    <br />
-                    Nowadays, I'm working on my latest app which helps web
-                    developers:{" "}
-                    <a
-                      href="https://desource.app"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      desource.app
-                    </a>{" "}
-                    and I'm running{" "}
-                    <a
-                      href="https://thryvedesign.com"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      my own web development agency
-                    </a>{" "}
-                    where we've worked with 20+ clients and generated ~10k in
-                    revenue in just a year! If you want to reach me,{" "}
+                    . Right now, I'm continuing to run my agency and working on a new social networking app.
+                    Feel free to reach out at{" "}
                     <a
                       href="mailto:pranavkonjeti@gmail.com"
                       target="_blank"
                       className="underline text-[#67230d]"
                     >
-                      just shoot me an email
+                      my email
                     </a>
+                    
                     !
                   </p>
 
@@ -177,7 +172,7 @@ export default function AboutMe() {
 
             </div>
 
-            <p className="text-center italic">
+            <p className="text-center italic opacity-80">
                 *This data is a combination of the lifetime analytics across {' '}
                 <div className="block"><b className="underline">all my websites</b> tracked through <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" className="underline font-bold">Google Analytics</a></div>
             </p>
