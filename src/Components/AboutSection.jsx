@@ -40,7 +40,7 @@ export default function AboutMe() {
                     <span className="text-[#36190f] font-semibold">
                       Hi there!
                     </span>{" "}
-                    I'm Pranav. I'm 17 year old based out of Richmond, Virginia and an incoming 
+                    I'm Pranav. I'm an 18-year-old based out of Richmond, Virginia and a 
                     freshman studying Computer Science @ UIUC.
                     <br />
                     <br />
