@@ -4,6 +4,11 @@
       "source": "/portfolio",
       "destination": "/portfolio.pdf",
       "permanent": true
+    },
+    {
+      "source": "/design-portfolio",
+      "destination": "/portfolio.pdf",
+      "permanent": true
     }
   ],
   "rewrites": [
