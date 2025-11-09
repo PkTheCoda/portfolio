@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaLinkedin,
-  FaMailBulk,
   FaGithub,
   FaVolleyballBall,
   FaTableTennis,
@@ -12,7 +11,8 @@ import { BiSolidCoffeeAlt } from "react-icons/bi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from "../Images/pranavlatest.jpg";
-import pranavprofile from '../Images/pranavprofile.jpg'
+import pranavprofile from '../Images/pranavheadshot.jpg'
+import { IoMailOpen } from "react-icons/io5";
 
 export default function AboutMe() {
   return (
@@ -38,10 +38,10 @@ export default function AboutMe() {
                   </h2>
                   <p className="px-4 text-gray-900 border-l-4 border-[#9d4d32] text-xl leading-relaxed text-slate-900 my-4">
                     <span className="text-[#36190f] font-semibold">
-                      Hi there!
+                      Hey!
                     </span>{" "}
-                    I'm Pranav. I'm an 18-year-old based out of Richmond, Virginia and a 
-                    freshman studying Computer Science @ UIUC.
+                    I'm Pranav; I'm an 18-year-old based out of Richmond, Virginia studying
+                    Computer Science @ UIUC.
                     <br />
                     <br />
 
@@ -53,44 +53,19 @@ export default function AboutMe() {
                     >
                       talem.org
                     </a>
-                    , a site connecting students with opportunities. I also run{" "}
+                    , a site connecting students with opportunities which was funded by Emergent Ventures. I also run{" "}
                     <a
                       href="https://thryvedesign.com"
                       target="_blank"
                       className="underline text-[#67230d]"
                     >
-                      thryvedesign
+                      ThryveDesign
                     </a>
-                    , my web dev agency where I've worked with 25+ organizations and generated low 5-figure revenue in under a year.
+                    , my web-development agency where I've worked with 25+ businesses and generated low 5-figure revenue in under a year.
                     <br />
                     <br />
-                    I also love indie-building: I've launched{" "}
-                    <a
-                      href="https://desourcedesign.vercel.app"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      desource
-                    </a>
-                    {" "}and{" "}
-                    <a
-                      href="https://learntheweb.org"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      learntheweb.org
-                    </a>
-                    . Right now, I'm continuing to run my agency and working on a new social networking app.
-                    Feel free to reach out at{" "}
-                    <a
-                      href="mailto:pranavkonjeti@gmail.com"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      my email
-                    </a>
-                    
-                    !
+                    Right now, I'm continuing to run my agency and working on a new social networking app.
+                    Feel free to reach out at anytime!
                   </p>
 
                   <div className="flex mt-6 space-x-4 items-center  gap-x-2">
@@ -102,12 +77,6 @@ export default function AboutMe() {
                       <FaLinkedin className="text-2xl" />
                     </a>
                     <a
-                      href="mailto:pranavkonjeti@gmail.com"
-                      className="contact-buttons-about"
-                    >
-                      <FaMailBulk className="text-2xl" />
-                    </a>
-                    <a
                       href="https://github.com/PkTheCoda"
                       target="_blank"
                       className="contact-buttons-about"
@@ -115,18 +84,17 @@ export default function AboutMe() {
                       <FaGithub className="text-2xl" />
                     </a>
                     <a
+                      href="mailto:pranavkonjeti@gmail.com"
+                      className="contact-buttons-about"
+                    >
+                      <IoMailOpen className="text-2xl" />
+                    </a>
+                    <a
                       href="https://thryvedesign.com"
                       target="_blank"
                       className="contact-buttons-about"
                     >
                       <MdOutlineBusinessCenter className="text-2xl" />
-                    </a>
-                    <a
-                      href="https://buymeacoffee.com/pranavkonjeti"
-                      target="_blank"
-                      className="contact-buttons-about"
-                    >
-                      <BiSolidCoffeeAlt className="text-2xl" />
                     </a>
                   </div>
                 </div>
